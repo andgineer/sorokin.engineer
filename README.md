@@ -1,2 +1,2 @@
-# masterandrey.com
-masterandrey.com site
+My personal blog http://masterandrey.com
+
