@@ -92,20 +92,20 @@ t:
       url: "/"
     about:
       name: "About"
-      url: "/about/"
+      url: "/about.html"
     tags:
       name: "Tags"
-      url: "/tags"
+      url: "/tags.html"
   ru:
     home:
       name: "Блог"
-      url: "/index_ru/"
+      url: "/index_ru.html"
     about:
       name: "Обо мне"
-      url: "/about_ru/"
+      url: "/about_ru.html"
     tags:
       name: "Тэги"
-      url: "/tags_ru"
+      url: "/tags_ru.html"
 
 lang_names:
   en: "English"

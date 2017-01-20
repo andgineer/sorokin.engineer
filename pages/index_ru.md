@@ -2,6 +2,7 @@
 layout: default
 lang: ru
 ref: blog
+permalink: /index_ru.html
 ---
 
 <div class="posts">

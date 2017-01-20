@@ -4,7 +4,7 @@ layout: post
 ref: text_processing_from_birds_eye_view
 title: "Text processing from bird's eye view"
 categories: pascal regexp delphi
-tags: [pascal regexp delphi]
+tags: [pascal, regexp, delphi]
 ---
 
 This article was initially published on delphi3000.com, but the site had not survived..
@@ -22,7 +22,10 @@ if (p > 1) and (p < length (email))
   then ...
 {% endhighlight %}
 
-don't filter many common errors, for example, users frequently forget enter domain-part of e-mail, You'll need much more complex code (just read the big article "Extended E-mail Address Verification and Correction" on www.Delphi3000.com). Just think about writing and debugging this code.
+don't filter many common errors, for example, users frequently forget enter domain-part
+of e-mail, You'll need much more complex code (just read the big article
+[Extended E-mail Address Verification and Correction](http://delphi-kb.blogspot.ru/2005/11/extended-e-mail-address-verification.html)).
+Just think about writing and debugging this code.
 
 The second way - look at the text from bird's eye view with help of regular expressions engine. You don't write the check processing routine, You just describe how regexp engine must do it for You. Your application will be implemented very fast and will be robust and easy to change!
 

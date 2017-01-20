@@ -1,10 +1,11 @@
 ---
 lang: ru
+locale: ru_RU
 layout: post
 ref: text_processing_from_birds_eye_view
 title: "Взгляд на текст с высоты птичьего полета"
 categories: pascal regexp delphi
-tags: [pascal regexp delphi]
+tags: [pascal, regexp, delphi]
 ---
 
 Эту статью я опубликовал на delphi3000.com, но сайт прожил недолго..
@@ -26,7 +27,8 @@ if (p > 1) and (p < length (email))
   then ...
   {% endhighlight %}
 
-Чтобы просто испугаться можно посмотреть например на это: "Extended E-mail Address Verification and Correction" on www.Delphi3000.com).
+Чтобы просто испугаться можно посмотреть например на это:
+[Extended E-mail Address Verification and Correction](http://delphi-kb.blogspot.ru/2005/11/extended-e-mail-address-verification.html)).
 Представьте, что вам надо это осознать и отладить.
 
 Регулярные выражения (regular expression) позволяют нам посмотреть на текст как бы

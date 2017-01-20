@@ -37,8 +37,8 @@ tags: [PDF, web, docker, athena]
 
 Хотите сервис, который конвертирует на лету - ок
 {% highlight bash %}
-    docker pull arachnysdocker/athenapdf-service
-    http://<docker-address>:8080/convert?auth=arachnys-weaver&url=http://blog.arachnys.com/
+docker pull arachnysdocker/athenapdf-service
+http://<docker-address>:8080/convert?auth=arachnys-weaver&url=http://blog.arachnys.com/
 {% endhighlight %}
 
 Мне было рациональнее конвертировать файлы (athena работает достаточно быстро, но это
@@ -46,18 +46,23 @@ tags: [PDF, web, docker, athena]
 
 Поэтому я добавил в Makefile
 {% highlight bash %}
-    for API in docker/docs/target/*/; do docker run --rm -v ${PWD}:/converted/ arachnysdocker/athenapdf athenapdf $${API}/index.html $${API}/$$(basename $${API}).pdf; done
+for API in docker/docs/target/*/; \
+    do docker run --rm -v ${PWD}:/converted/ arachnysdocker/athenapdf athenapdf $${API}/index.html $${API}/$$(basename $${API}).pdf; \
+done
 {% endhighlight %}
 
 Немного огорчает, что из нее сыпятся ошибки
-`Xlib:  extension "RANDR" missing on display ":99".`
+{% highlight bash %}
+Xlib:  extension "RANDR" missing on display ":99".
+{% endhighlight %}
+
 но это никак не влияет на результат, поэтому я не стал разбираться, с чем это связано.
 
 И еще надо учитывать вот этот баг в electron, на котором написана athena
 [Duplication of thead, and other table related issues](https://github.com/arachnys/athenapdf/issues/68)
 Я это делаю так
 {% highlight bash %}
-    sed -i "\$athead {display:table-row-group;}" /docs/$API/main.css
+sed -i "\$athead {display:table-row-group;}" /docs/$API/main.css
 {% endhighlight %}
 
 Не устаю восхищаться docker, который сделал это возможным - одна строка (две, с учетом

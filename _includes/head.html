@@ -20,21 +20,27 @@
         <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
 
-
-    {% include assets/css/default.html %}
-    {% include assets/js/default.html %}
     <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/vendor/google-code-prettify/google-code-prettify/prettify.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/font-awesome/latest/css/font-awesome.css" rel="stylesheet">
+    <link href="/vendor/google-code-prettify/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% for post in posts %}
-    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+        <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
     {% endfor %}
     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
     {% for page in pages %}
-    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+        <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
     {% endfor %}

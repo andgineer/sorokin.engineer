@@ -3,7 +3,7 @@ layout: page
 lang: en
 ref: about
 title: Master Andrey
-permalink: /about/
+permalink: /about.html
 ---
 
 ### About me
