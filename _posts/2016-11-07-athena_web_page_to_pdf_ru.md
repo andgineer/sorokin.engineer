@@ -10,7 +10,7 @@ summary: ...Точный экспорт веб-страниц в PDF...
 tags: [PDF, web, docker, athena]
 ---
 
-![](athena.jpg)
+![](/images/athena.jpg)
 
 Мне потребовалось выдать заказчику нашу документацию по API, сгенерированную из
 [Open API](http://swagger.io/).
