@@ -9,6 +9,7 @@ tags: [pascal, regexp, delphi]
 
 This article was initially published on delphi3000.com, but the site had not survived..
 
+![](/images/bookshelves.jpg)
 Do You want to write program for extracting weather forecast or currency rates or e-mails or whatsoever You want from HTML-pages, e-mails or other unformatted source? Or do You need to import data into Your database from old DB's ugly export format? Or You want just ensure that the e-mail user entered is syntaxically correct one?
 
 There are two ways.
@@ -63,15 +64,15 @@ end;
 
 For the input text
 {% highlight html %}
-    "Hi !
-    Please call me at work (812)123-4567 or at home +7 (812) 12-345-67
-    truly yours .."
+"Hi !
+Please call me at work (812)123-4567 or at home +7 (812) 12-345-67
+truly yours .."
 {% endhighlight %}
 
 this procedure returns
 {% highlight html %}
-    APhones[0]='123-4567'
-    APhones[1]='12-345-67'
+APhones[0]='123-4567'
+APhones[1]='12-345-67'
 {% endhighlight %}
 
 ## Example 3 Extracting currency rate from Russian Bank web page.
