@@ -1,7 +1,7 @@
 ---
 layout: post
 ref: athena_web_page_to_pdf
-title: "Athena экспорт веб-страниц в PDF"
+title: "Точный экспорт веб-страниц в PDF с помощью Athena"
 categories: api, web
 comments: true
 locale: ru_RU
@@ -19,9 +19,9 @@ tags: [PDF, web, docker, athena]
 смотреть без слез - поехавшие или вообще исчезнувшие таблицы, все страницы разъехались.
 
 Ковыряться в [bootprint-openapi](https://github.com/bootprint/bootprint-openapi),
-чтобы попытаться создавать такой html, который будет конкретироваться без глюков,
+чтобы попытаться создавать такой html, который будет конвертироваться без глюков,
 казалось совершенно бесперспективным и тяжким по времени занятием
-(я [форкнул](https://github.com/masterandrey/bootprint-openapi)
+(я [форкнул bootprint-openapi](https://github.com/masterandrey/bootprint-openapi)
 для русификации, но одно дело перевести на русский handlebars, что заняло не
 более получаса, и другое ковыряться в html и css, которые я с детства
 недолюбливаю).
@@ -62,6 +62,7 @@ Xlib:  extension "RANDR" missing on display ":99".
 
 И еще надо учитывать вот этот баг в electron, на котором написана athena
 [Duplication of thead, and other table related issues](https://github.com/arachnys/athenapdf/issues/68)
+
 Я это делаю так
 {% highlight bash %}
 sed -i "\$athead {display:table-row-group;}" /docs/$API/main.css
