@@ -90,9 +90,6 @@ t:
     home:
       name: "Blog"
       url: "/"
-    about:
-      name: "About"
-      url: "/about.html"
     tags:
       name: "Tags"
       url: "/tags.html"
@@ -100,9 +97,6 @@ t:
     home:
       name: "Блог"
       url: "/index_ru.html"
-    about:
-      name: "Обо мне"
-      url: "/about_ru.html"
     tags:
       name: "Тэги"
       url: "/tags_ru.html"
