@@ -105,3 +105,5 @@ Now, then You click at the BitBtn1, programm connects to specified web-server an
 Conclusion
 "Free Your mind" ((c) The Matrix ;)) and You'll find many other tasks there regular expressions can save You incredible amount of stupid coding work !
 
+[Regular expressions syntax explained](http://regexpstudio.com/regexp_syntax/)
+
