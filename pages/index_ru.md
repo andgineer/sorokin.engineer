@@ -5,14 +5,17 @@ ref: blog
 permalink: /index_ru.html
 ---
 
-<div class="posts">
+<div class="container-fluid">
+  <ul class="list-group">
   {% assign posts=site.posts | where:"lang",page.lang %}
   {% for post in posts %}
     <article class="post">
 
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <li class="list-group-item borderless">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+  </ul>
 </div>

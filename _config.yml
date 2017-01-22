@@ -49,6 +49,30 @@ url: http:/masterandrey.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+t:
+  en:
+    home:
+      name: "Articles"
+      url: "/"
+    tags:
+      name: "Tag cloud"
+      url: "/tags.html"
+  ru:
+    home:
+      name: "Статьи"
+      url: "/index_ru.html"
+    tags:
+      name: "Облако меток"
+      url: "/tags_ru.html"
+
+lang_names:
+  en: "English"
+  ru: "Русский"
+
+search:
+  en: "Search on the site..."
+  ru: "Поиск по сайту..."
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -85,26 +109,3 @@ exclude:
   - README.md
   - CNAME
 
-t:
-  en:
-    home:
-      name: "Blog"
-      url: "/"
-    tags:
-      name: "Tags"
-      url: "/tags.html"
-  ru:
-    home:
-      name: "Блог"
-      url: "/index_ru.html"
-    tags:
-      name: "Тэги"
-      url: "/tags_ru.html"
-
-lang_names:
-  en: "English"
-  ru: "Русский"
-
-search:
-  en: "Search on the site..."
-  ru: "Поиск по сайту..."
