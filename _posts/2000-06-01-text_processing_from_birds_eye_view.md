@@ -1,7 +1,8 @@
 ---
-lang: en
 layout: post
+lang: en
 ref: text_processing_from_birds_eye_view
+comments: true
 title: "Text processing from bird's eye view"
 categories: pascal regexp delphi
 tags: [pascal, regexp, delphi]

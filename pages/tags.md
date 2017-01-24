@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Tags
-permalink: /tags.html
 lang: en
 ref: tags
+title: Tags cloud
+permalink: /tags.html
 ---
 
 {% include tagcloud.html %}

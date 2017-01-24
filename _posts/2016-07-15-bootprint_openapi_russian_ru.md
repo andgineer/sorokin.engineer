@@ -1,11 +1,10 @@
 ---
 layout: post
+lang: ru
 ref: bootprint_openapi_russian
 title: "Генерация рускоязычного описание API из OpenAPI"
 categories: api, web
 comments: true
-locale: ru_RU
-lang: ru
 summary: ...рускоязычное описание API из OpenAPI...
 tags: [api, web, swagger, bootprint]
 ---

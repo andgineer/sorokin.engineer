@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-sm-9">
                         <nav>
-                            {% for page in site.t[page.lang] %}
+                            {% for page in site.top_menu[page.lang] %}
                                 <a href="{{ page[1].url }}">{{ page[1].name }}</a>
                             {% endfor %}
                         </nav>

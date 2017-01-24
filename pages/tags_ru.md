@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Тэги
-permalink: /tags_ru.html
 lang: ru
 ref: tags
+title: Облако тэгов
+permalink: /tags_ru.html
 ---
 
 {% include tagcloud.html %}
