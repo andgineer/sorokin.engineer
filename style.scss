@@ -9,6 +9,10 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+img {
+  max-width: 100%;
+}
+
 li.borderless {
   border-top: 0 none;
   border-bottom: 0 none;
