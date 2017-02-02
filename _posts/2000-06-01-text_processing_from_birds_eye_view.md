@@ -10,7 +10,8 @@ tags: [pascal, regexp, delphi]
 
 This article was initially published on delphi3000.com, but the site had not survived..
 
-![](/images/bookshelves.jpg)
+![](/images/bookshelves.png){:.post-title}
+
 Do You want to write program for extracting weather forecast or currency rates or e-mails or whatsoever You want from HTML-pages, e-mails or other unformatted source? Or do You need to import data into Your database from old DB's ugly export format? Or You want just ensure that the e-mail user entered is syntaxically correct one?
 
 There are two ways.

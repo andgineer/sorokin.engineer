@@ -9,7 +9,7 @@ summary: ...рускоязычное описание API из OpenAPI...
 tags: [api, web, swagger, bootprint]
 ---
 
-![](/images/bootprint.jpg)
+![](/images/bootprint.png){:.post-title}
 
 Заказчик у нас - московское метро, из этого возникают странные задачи типа необходимости
 иметь фиксированное, а не живое описание API, причем на русском языке.
