@@ -3,7 +3,6 @@ layout: post
 lang: ru
 ref: swagger_openapi_documentation_ru
 title: "Swagger API документация"
-categories: api, swagger
 comments: true
 summary: ...Swagger API документация...
 tags: [api, swagger]

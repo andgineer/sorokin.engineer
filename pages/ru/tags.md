@@ -3,7 +3,7 @@ layout: default
 lang: ru
 ref: tags
 title: Облако тэгов
-permalink: /tags_ru.html
+permalink: /ru/tags.html
 ---
 
 {% include tagcloud.html %}

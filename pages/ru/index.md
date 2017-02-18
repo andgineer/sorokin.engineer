@@ -2,7 +2,7 @@
 layout: default
 lang: ru
 ref: blog
-permalink: /index_ru.html
+permalink: /ru/index.html
 ---
 
 <div class="container-fluid">

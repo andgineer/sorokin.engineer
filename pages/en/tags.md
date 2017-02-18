@@ -3,7 +3,7 @@ layout: default
 lang: en
 ref: tags
 title: Tags cloud
-permalink: /tags.html
+permalink: /en/tags.html
 ---
 
 {% include tagcloud.html %}

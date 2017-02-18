@@ -2,7 +2,7 @@
 layout: default
 lang: en
 ref: blog
-permalink: /index.html
+permalink: /en/index.html
 ---
 
 <div>

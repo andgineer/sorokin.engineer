@@ -4,7 +4,6 @@ layout: post
 comments: true
 ref: text_processing_from_birds_eye_view
 title: "Взгляд на текст с высоты птичьего полета"
-categories: pascal regexp delphi
 tags: [pascal, regexp, delphi]
 ---
 
