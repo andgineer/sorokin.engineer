@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1; url=/en/{{ page.redirect }}">
+    <title>Page Redirection</title>
+    <script type="type/javascript">
+        var language = navigator.language || navigator.browserLanguage;
+        if (language.indexOf('en') > -1) {
+                document.location.href = '/en/{{ page.redirect }}';
+            }
+        else if (language.indexOf('de') > -1) {
+                document.location.href = '/de/{{ page.redirect }}';
+            }
+        else if (language.indexOf('es') > -1) {
+                document.location.href = '/es/{{ page.redirect }}';
+            }
+        else if (language.indexOf('fr') > -1) {
+                document.location.href = '/fr/{{ page.redirect }}';
+            }
+        else if (language.indexOf('bg') > -1) {
+                document.location.href = '/bg/{{ page.redirect }}';
+            }
+        else if (language.indexOf('ru') > -1) {
+                document.location.href = '/ru/{{ page.redirect }}';
+            }
+        else {
+                document.location.href = '/en/{{ page.redirect }}';
+        }
+    </script>
+</head>
+<body>
+<!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+If you are not redirected automatically, follow this <a href="/en/{{ page.redirect }}">link</a>.
+</body>
+</html>
