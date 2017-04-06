@@ -7,3 +7,5 @@ comments: true
 summary: ...amazon button (dash) hack...
 tags: [osx, amazon button, dash, python, docker]
 ---
+
+![](/images/amazon_dash.png)

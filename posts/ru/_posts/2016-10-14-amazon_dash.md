@@ -7,3 +7,5 @@ comments: true
 summary: ...хак для amazon button (dash)...
 tags: [osx, amazon button, dash, python, docker]
 ---
+
+![](/images/amazon_dash.png)
