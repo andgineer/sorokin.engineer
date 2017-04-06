@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: ru
-ref: swagger_openapi_documentation_ru
+ref: swagger_openapi_documentation
 title: "Swagger API документация"
 comments: true
 summary: ...Swagger API документация...
