@@ -1,9 +1,9 @@
 ---
 layout: post
-lang: en
+lang: ru
 ref: amazone_dash
-title: "Amazone button hack"
+title: "Amazon button hack"
 comments: true
-summary: ...amazon button (dash) hack...
+summary: ...хак для amazon button (dash)...
 tags: [osx, amazon button, dash, python, docker]
 ---
