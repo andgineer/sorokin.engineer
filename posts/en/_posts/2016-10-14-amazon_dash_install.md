@@ -114,10 +114,11 @@ You can setup only that action types that you need.
 With [IFTTT](https://ifttt.com) you can use thousands of ready integrations with nearly everything you
 can think of.
 
-On IFTTT site choose `My applets` -> `New applet`, for `then` part select `Maker webhooks` and enter `event name`.
+On IFTTT site choose `My applets` -> `New applet`, for `then` part select `Maker webhooks` and enter 
+`event name`.
 
-The same string you should place into `summary` parameter of action with type `ifttt` for this button in
-`settings.json`.
+The same string as in `event name` you should place into `summary` parameter of action with type `ifttt` 
+for this button in `settings.json`.
 
 For `that` part on IFTTT site you choose everything you want from broad IFTTT palette. 
 Send email, sms, post to evernote,
@@ -177,5 +178,5 @@ is already closed.
 That logic helps if you forget to close event - next time app auto-close it with 
 resonable  duration.
 
-The same logic for Google Calendar, except there is no analog for 'press' sheet, 
+The same logic for Google Calendar, except there is no analog for `press` sheet, 
 just events.
