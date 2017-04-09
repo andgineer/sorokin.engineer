@@ -2,10 +2,10 @@
 layout: post
 lang: en
 ref: amazon_dash
-title: "Smart wifi button for Synology (amazon dash hack)"
+title: "Smart wifi button and Synology docker (amazon dash hack)"
 comments: true
-summary: ...amazon button (dash) hack...
-tags: [osx, amazon button, dash, python, docker, synology]
+summary: ...amazon button hack...
+tags: [osx, amazon dash, python, docker, synology]
 ---
 
 ![](/images/amazon_dash.png)
@@ -15,31 +15,32 @@ tags: [osx, amazon button, dash, python, docker, synology]
 
 ## General
 
-Place that button on wall, and event would be added into Google sheet or calendar,
-or you can use [IFTTT](https://ifttt.com).
+Place that button on wall, and after press event would be added into Google sheet 
+or calendar, or something would be done in [IFTTT](https://ifttt.com).
 
 Your children would like it and it helps to keep doing something regularily.
 
-And even for adults it is easer to press button that to search for an app in your phone.
+And even for adults it is easier to press button that to search for an app in your 
+phone.
 
 ## Solution
 
 In my opinion the
-[amazon dash](https://www.amazon.com/b/?ie=UTF8&node=10667898011)
+[amazon dash button](https://www.amazon.com/b/?ie=UTF8&node=10667898011)
 is the cheapest and simplest solution.
 
 They even sale them from time to time for $0.99.
 
 And regular $5 is very-very cheap.
 In China [aliexpress](https://www.aliexpress.com) you can buy ESP8266 for $2 or NodeMCU for $4, 
-but also you would need case, button, batter, LED, couple of hours with soldering iron
+but also you would need case, button, battery, LED, couple of hours with soldering iron
 and couple of hours to assemble and debug your firmware..
 
 To buy Amazon button you need Amazon Prime subscription, but it's free first month
 and after that this is only $10/month.
 
 To do something usefull after button press you need some constantly running application. 
-My app [приложение](https://github.com/masterandrey/docker-amazon-dash/) works in 
+My [app](https://github.com/masterandrey/docker-amazon-dash/) works in 
 [Docker container](https://hub.docker.com/r/masterandrey/amazon-dash/) 
 and can run for example on [Synology](https://www.synology.com). 
 
@@ -60,16 +61,16 @@ So I recommend to use docker, to not mess with this and to not change your syste
 Amazon button based on poweful ARM Cortex CPU, but a the moment nobody knows how to use it for
 something more useful than flashing LED.
 
-So we use button in very simple way - look for any appearance of the button in network
-and count each one as press.
+So we do not hack amazon button actually but use in very simple way - look for 
+any appearance of the button in network and count each one as press.
 
-My [application](https://github.com/masterandrey/docker-amazon-dash) to sniff
- network traffic use python library [scapy](https://github.com/phaethon/scapy).
+My [application](https://github.com/masterandrey/docker-amazon-dash) sniffs
+ network traffic using python library [scapy](https://github.com/phaethon/scapy).
 
 There are a lot of other solutions for amazon button
 but I could not find one already packed in docker and with event logic.
 
-Button can register not just presses but event duration (for that you should press
-at the beginnig and at the end).
+With my app you can not only reqister press but also event duration (for that you 
+should press button at the beginnig and at the end).
 
 [Installation manual](http://masterandrey.com/posts/en/amazon_dash_install/).

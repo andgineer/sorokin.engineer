@@ -2,10 +2,10 @@
 layout: post
 lang: ru
 ref: amazon_dash
-title: "Умная wi-fi кнопка для Synology (amazon dash hack)"
+title: "Умная wi-fi кнопка и Synology docker (amazon dash hack)"
 comments: true
-summary: ...хак для amazon button (dash)...
-tags: [osx, amazon button, dash, python, docker, synology]
+summary: ...hack для amazon button...
+tags: [osx, amazon dash, python, docker, synology]
 ---
 
 ![](/images/amazon_dash.png)
@@ -71,7 +71,8 @@ tags: [osx, amazon button, dash, python, docker, synology]
 возможности сделать с его помощью что-то более полезное, чем помигать светодиодом
 (и даже этот трюк далеко не так просто сделать).
 
-Поэтому мы ничего с кнопкой не делаем, мы используем ее достаточно тупо - обнаруживаем ее попытки
+Поэтому, строго говоря, это не взлом amazon button, мы ничего с кнопкой не делаем, 
+мы используем ее достаточно тупо - обнаруживаем ее попытки
 выйти в сеть и, если их видим, то считаем что кнопка нажата.
 
 Мое [приложение](https://github.com/masterandrey/docker-amazon-dash) для прослушивания траффика 

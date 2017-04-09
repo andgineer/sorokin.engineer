@@ -4,12 +4,12 @@ lang: ru
 ref: amazon_dash_install
 title: "Установка на Synology умной wi-fi кнопки (amazon dash hack)"
 comments: true
-summary: ...устанока amazon button (dash) hack ...
-tags: [osx, amazon button, dash, python, docker, synology]
+summary: ...устанока amazon button hack ...
+tags: [osx, amazon dash, python, docker, synology]
 ---
 
 Установка умной wifi кнопки (amazon dash hack),
-описаной в [Умная wi-fi кнопка для Synology](http://masterandrey.com/posts/ru/amazon_dash/).
+описаной в [Умная wi-fi кнопка и Synology docker](http://masterandrey.com/posts/ru/amazon_dash/).
 
 ## Установка на Synology
 
@@ -26,11 +26,11 @@ tags: [osx, amazon button, dash, python, docker, synology]
 
 В `Advanced settings` -> `Volume` подключите каталог `/amazon-dash-private` с секретами доступа к 
 таблице Google и настройками кнопок к контейнеру.
-
-Скачайте файлы [примеров](https://github.com/masterandrey/docker-amazon-dash/tree/master/amazon-dash-private) 
+Скачайте [примеры этих файлов](https://github.com/masterandrey/docker-amazon-dash/tree/master/amazon-dash-private) 
 и разместите в любом удобном вам месте на Synology.
 
-Например, у меня он размещен на основном томе Synology в каталоге `docker/amazon-dash-private`:
+Например, у меня они находятся на томе Synology в каталоге 
+`docker/amazon-dash-private`:
 
 ![](/images/dash_synology_docker_volume.png)
 
@@ -42,8 +42,8 @@ tags: [osx, amazon button, dash, python, docker, synology]
 
 ## Не Synology
 
-Вам надо положить `amazon-dash-hack.json` в каталог `amazon-dash-private` и 
-добавить в командную строку docker:
+Вам надо положить `amazon-dash-hack.json` и прочие файлы в каталог 
+`amazon-dash-private` и добавить в командную строку docker:
 
     -v $PWD/amazon-dash-private:/amazon-dash-private:ro
     
@@ -134,14 +134,14 @@ MAC-адрес кнопки надо добавить в файл `buttons.json`
 (`Your key is:`).
 
 
-## Google sheet и Google calendar
+## Google Spreadsheet и Google Calendar (Google Drive)
 
 Самая сложная часть настройки - в нечеловеческом интерфейсе google дать моему
 приложению права работать с нужными Google API.
 
 Я не буду даже пытаться описать этот экзистенциальный опыт, отправляю вас в 
-* [права для sheet API](https://console.developers.google.com/start/api?id=sheets.googleapis.com)
-* [права для calendar API](https://console.developers.google.com/start/api?id=calendar) 
+* [права для Google Sheet API](https://console.developers.google.com/start/api?id=sheets.googleapis.com)
+* [права для Google Calendar API](https://console.developers.google.com/start/api?id=calendar) 
 
 В итоге вы получите json-файл с секретами для работы приложения. 
 
