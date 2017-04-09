@@ -79,7 +79,7 @@ tags: [amazon dash button, python, docker, synology]
 в локальной сети использует python библиотеку [scapy](https://github.com/phaethon/scapy).
 
 В сети есть немало альтернативных вариантов взлома кнопки Amazon Dash Button, но я не смог найти удобной 
-интеграции с Google Drive (Google Spreadsheet и Google Calendar) и 
+интеграции с Google Drive (Google Sheets и Google Calendar) и 
 готового контейнера Docker для установки на Synology, поэтому написал все это сам.
 Контейнер я собрал на базе минималистичного Alpine Linux, он имеет минимально возможный объем
 и требует совсем немного ресурсов, практически не влияя на загрузку Synology.

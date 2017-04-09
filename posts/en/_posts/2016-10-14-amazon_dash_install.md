@@ -128,7 +128,7 @@ Before you can use IFTTT with your buttons you should place secret key into `ift
 In [Maker Webhook applet](https://ifttt.com/services/maker_webhooks/settings) get
 `URL`, open it and you will see your key at the top of the page (`Your key is:`).
 
-## Google Spreadsheet and Google Calendar (Google Drive)
+## Google Sheets and Google Calendar (Google Drive)
 
 Challenging part - to get google credentials for my app to work with Google API.
 
@@ -157,13 +157,13 @@ Calendar ID you can get from calendar settings:
 
 ![](/images/google_calendar_settings.png)
 
-(!) Do not forget to give access to the sheet and calendar to the app user 
+<i class='fa fa-exclamation-triangle'></i> Do not forget to give access to the sheet and calendar to the app user 
 (email you can see in json-file).
 
 
 ## Event logic
 
-Each amazon button press inserted into Google Spreadsheet `press` sheet.
+Each amazon button press inserted into Google Sheets `press` sheet.
 
 In `event` sheet would be inserted events with logic described below. 
 
@@ -171,7 +171,7 @@ If button pressed less then `restart` seconds after last press, the press
 would be added into `press` sheet, but change nothing in `event`.
 
 If previuos event started more than `autoclose` seconds ago and not closed yet,
-if would be auto-closed with `default` length and new event will start. 
+if would be auto-closed with `default` seconds length and new event will start. 
 In other cases app closes unclosed event or starts new one if previous event 
 is already closed.
 

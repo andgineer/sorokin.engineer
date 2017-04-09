@@ -15,7 +15,7 @@ tags: [amazon dash button, python, docker, synology]
 
 ## General
 
-Place that button on wall, press it, and event would be added into Google Spreadsheet 
+Place that button on wall, press it, and event would be added into Google Sheets 
 or Google Calendar, or something would be done in [IFTTT](https://ifttt.com).
 
 Your children would like it and it helps to keep doing something regularily.
