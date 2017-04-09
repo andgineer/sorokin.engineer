@@ -67,7 +67,7 @@ and select in amazon app `Your account` -> `Dash buttons and devices` ->
 And you go to the point where they ask you to choose the product - **do not do that**, just stop here.
 If you select a product, every button press will order for that product and I think this is not what you want.
 
-They say that you have to have wifi-password to setup a buttonbut in my case amazon app did not
+They say that you have to have wifi-password to setup a button but in my case amazon app did not
 ask it.
 
 During setup your phone communicate with button through sounds that ours ears cannot hear, that's why
@@ -78,7 +78,7 @@ you should place them close enough.
 File `buttons.json` (in the folder that we placed on Synology) describes MAC-addresses of your buttons.
 
 To get MAC-address you can use web-server inside amazon button. Connect to wifi `Button ConfigureMe`
-that is created bu button (**before you set it up**).
+that is created by button **before you set it up**.
 Open web-page `http://192.168.0.1` and on this page find MAC-address.
 
 For button that you already setup you can see MAC-address in my app logs. 
@@ -88,12 +88,12 @@ probability the MAC-adress would be last one in log.
 In Synology in window `docker` in `container` list select container with my app, press `Details` and
 open`log`.
 
-Add MAC-address to `buttons.json` use any name (you will use it later in `settings.json`).
+Add MAC-address to `buttons.json` use any name as button name (you will use it later in `settings.json`).
 
 My app loads settings only on start so you have to restart it to load new settings
 (turn off and on again switch for the container in containers list).
 
-Congratulations your button works and perform default actions.
+Congratulations! Your button works and perform default actions.
 
 Now we can customize them.
 
@@ -111,13 +111,14 @@ You can setup only that action types that you need.
 With [IFTTT](https://ifttt.com) you can use thousands of ready integrations with nearly everything you
 can think of.
 
-Choose `My applets` -> `New applet`, for `then` part select `Maker webhooks` and enter `event name`.
+On IFTTT site choose `My applets` -> `New applet`, for `then` part select `Maker webhooks` and enter `event name`.
 
-The same string you should place into `summary` param of action with type `ifttt` for this button in
+The same string you should place into `summary` parameter of action with type `ifttt` for this button in
 `settings.json`.
 
-For `that` part you choose everything you want from broad IFTTT palette. Send email, sms, post to evernote,
-turn on smart swith and so on.
+For `that` part on IFTTT site you choose everything you want from broad IFTTT palette. 
+Send email, sms, post to evernote,
+turn on smart switch and so on.
 
 Before you can use IFTTT with your buttons you should place secret key into `ifttt-key.json` file.
 In [Maker Webhook applet](https://ifttt.com/services/maker_webhooks/settings) get
@@ -125,16 +126,16 @@ In [Maker Webhook applet](https://ifttt.com/services/maker_webhooks/settings) ge
 
 ## Google sheet and Google calendar
 
-Challenging part - to get in google credentials for my app to work with Google API.
+Challenging part - to get google credentials for my app to work with Google API.
 
 I am too weak to describe that so just give you the links:
-* [права для sheet API](https://console.developers.google.com/start/api?id=sheets.googleapis.com)
-* [права для calendar API](https://console.developers.google.com/start/api?id=calendar) 
+- [sheet API](https://console.developers.google.com/start/api?id=sheets.googleapis.com)
+- [calendar API](https://console.developers.google.com/start/api?id=calendar) 
 
 As result you get json-file with credentials for my app. 
 
-Rename it into `amazon-dash-hack.json` and place in
-`/amazon-dash-private` (replace my example). 
+Rename it into `amazon-dash-hack.json` and replace with it my example in
+`/amazon-dash-private`. 
 
 The sheet you better copy from 
 [example](https://docs.google.com/spreadsheets/d/1m2NNfdKIb3JDieBZEBL5e15-6wx_BUf7rxyP2CwOekY/edit#gid=0).
@@ -144,7 +145,7 @@ If you want you can change the name in `settings.json` (parameter `name` for the
 Also you can change spreadsheet pages names
 (`press_sheet` and `event_sheet`).
 
-Calendar ID place into parameter `сalendar_id` of the action. I recommend to create new
+Place Calendar ID into parameter `сalendar_id` of the action. I recommend to create new
 separate calendar for that because button logic could mess with manualy created events.
  
 Calendar ID you can get from calendar settings
@@ -166,7 +167,7 @@ If button pressed less then `restart` seconds from last press, the press
 would be added into `press`, but change nothing in `event`.
 
 If previuos even started more than `autoclose` seconds ago and not closed yet,
-if would be auto-closed with `default` length and new ent will start. 
+if would be auto-closed with `default` length and new event will start. 
 In other cases it close unclosed event or start new one if previuos event already closed.
 
 That logic helps if you forget to close event and auto-close it with resonable duration.

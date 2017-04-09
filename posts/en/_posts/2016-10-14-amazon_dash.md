@@ -15,22 +15,22 @@ tags: [osx, amazon button, dash, python, docker, synology]
 
 ## General
 
-Place that button to wall, and event would be added into Google sheet or calendar,
-or you can use [IFTTT Maker](https://ifttt.com/maker_webhooks).
+Place that button on wall, and event would be added into Google sheet or calendar,
+or you can use [IFTTT](https://ifttt.com).
 
-Your children would like it and it helps to do something regularily.
+Your children would like it and it helps to keep doing something regularily.
 
-And even for adults is easer to press button that to search for an app in your phone.
+And even for adults it is easer to press button that to search for an app in your phone.
 
 ## Solution
 
-In my opinion tha
+In my opinion the
 [amazon dash](https://www.amazon.com/b/?ie=UTF8&node=10667898011)
 is the cheapest and simplest solution.
 
-They even sale the from time to time for $0.99.
+They even sale them from time to time for $0.99.
 
-But regular $5 is very-very cheap.
+And regular $5 is very-very cheap.
 In China [aliexpress](https://www.aliexpress.com) you can buy ESP8266 for $2 or NodeMCU for $4, 
 but also you would need case, button, batter, LED, couple of hours with soldering iron
 and couple of hours to assemble and debug your firmware..
@@ -38,7 +38,7 @@ and couple of hours to assemble and debug your firmware..
 To buy Amazon button you need Amazon Prime subscription, but it's free first month
 and after that this is only $10/month.
 
-To do something usefull after button press you need some server application. 
+To do something usefull after button press you need some constantly running application. 
 My app [приложение](https://github.com/masterandrey/docker-amazon-dash/) works in 
 [Docker container](https://hub.docker.com/r/masterandrey/amazon-dash/) 
 and can run for example on [Synology](https://www.synology.com). 
@@ -57,8 +57,8 @@ So I recommend to use docker, to not mess with this and to not change your syste
 
 ## Detail
 
-Amazon button based on poweful ARM Cortex CPU, but now nowbody knos how to use it for
-something more useful than flash LED.
+Amazon button based on poweful ARM Cortex CPU, but a the moment nobody knows how to use it for
+something more useful than flashing LED.
 
 So we use button in very simple way - look for any appearance of the button in network
 and count each one as press.
