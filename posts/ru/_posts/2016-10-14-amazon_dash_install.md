@@ -2,18 +2,18 @@
 layout: post
 lang: ru
 ref: amazon_dash_install
-title: "Установка на Synology умной wi-fi кнопки (amazon dash hack)"
+title: "Установка на Synology умной wi-fi кнопки (Amazon Dash Button hack)"
 comments: true
 summary: ...устанока amazon button hack ...
-tags: [osx, amazon dash, python, docker, synology]
+tags: [amazon dash button, python, docker, synology]
 ---
 
-Установка умной wifi кнопки (amazon dash hack),
-описаной в [Умная wi-fi кнопка и Synology docker](http://masterandrey.com/posts/ru/amazon_dash/).
+Установка умной wifi кнопки (Amazon Dash Button hack),
+описаной в [Умная wi-fi кнопка и Docker на Synology](http://masterandrey.com/posts/ru/amazon_dash/).
 
 ## Установка на Synology
 
-Добавляем в docker image с моим приложением `https://hub.docker.com/r/masterandrey/amazon-dash/`:
+Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/amazon-dash/`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)

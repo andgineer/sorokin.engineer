@@ -2,23 +2,23 @@
 layout: post
 lang: en
 ref: amazon_dash_install
-title: "Amazon dash hack installation on Synology"
+title: "Amazon Dash Button hack installation on Synology"
 comments: true
 summary: ...how to install amazon button (dash) hack ...
-tags: [osx, amazon dash, python, docker, synology]
+tags: [amazon dash button, python, docker, synology]
 ---
 
-Installation for the amazon dash hack,
-described in [Smart wifi button and Synology docker](http://masterandrey.com/posts/en/amazon_dash/).
+Installation for the Amazon Dash Button hack,
+described in [Smart wifi button and Docker on Synology](http://masterandrey.com/posts/en/amazon_dash/).
 
 ## Installation on Synology
 
-Add docker image `https://hub.docker.com/r/masterandrey/amazon-dash/`:
+Add Docker image `https://hub.docker.com/r/masterandrey/amazon-dash/`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
 
-When download finished, double-click it to create docker container.
+When download finished, double-click it to create Docker container.
 
 Give high privilidge because it sniffs network traffic:
 
@@ -44,15 +44,15 @@ Place `amazon-dash-hack.json` and other files in folder
 
     -v $PWD/amazon-dash-private:/amazon-dash-private:ro
     
-$PWD instructs docker to search `amazon-dash-private` folder in the same folder 
-where you start docker.
+$PWD instructs Docker to search `amazon-dash-private` folder in the same folder 
+where you start Docker.
 If you place folder somewhere else you should change that path.
         
 And the container should use host network:
 
     --net host 
 
-## Amazon dash setup
+## Amazon Dash Button setup
 
 Your button have to connect to your wifi to do anything useful.
 
@@ -64,8 +64,9 @@ gone, you cannot setup even already bought buttons.
 Amazon app constantly changing but the general direction - you should place the 
 button near your phone and select in amazon mobile app `Your account` -> 
 `Dash buttons and devices` ->  `Set up a new device`.
-And you go to the point where they ask you to choose the product - **do not do that**, just stop here.
-If you select a product, every button press will order for that product and I think this is not what you want.
+And you go in the set up process to the point where they ask you to choose the product - 
+**do not do that**, just stop here.
+If you select a product, every button press will order that product and I think this is not what you want.
 
 They say that you have to have wifi-password to setup a button but in my case amazon app did not
 ask it.
@@ -86,17 +87,18 @@ For button that you already setup you can see MAC-address in my app log.
 My app logs every MAC-address once (after reboot), so after you press your 
 amazon button the MAC-adress would be last one in the log. 
 
-In Synology in window `docker` in `container` list select container with my app, press `Details` and
-open`log`.
+To see the log, in Synology in window `docker` in containers list select container with my app, 
+press `Details` and open `log`.
 
-Add MAC-address to `buttons.json` use any name as button name (you will use it later in `settings.json`).
+Add MAC-address to `buttons.json` and use any name as button name (you will use it later in `settings.json`).
 
 My app loads settings only on start so you have to restart it to load new settings
-(turn off and on again switch for the container in containers list).
+(turn OFF and ON again switch for the container in containers list).
 
-Congratulations! Your button works and perform default actions.
+Congratulations! Your button works and performs default actions (in section 
+`__DEFAULT__` of the `settings.json`).
 
-Now we can customize them.
+Now we can customize it.
 
 ## Button actions
 
