@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: ru
-ref: amazon_dash_install
+ref: amazon_dash_button_install
 title: "Установка на Synology умной wi-fi кнопки (Amazon Dash Button hack)"
 comments: true
 summary: ...устанока amazon button hack ...

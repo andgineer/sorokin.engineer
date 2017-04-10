@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: ru
-ref: amazon_dash
+ref: amazon_dash_button
 title: "Умная wi-fi кнопка и Docker на Synology (Amazon Dash Button hack)"
 comments: true
 summary: ...hack для amazon button...
@@ -11,7 +11,7 @@ tags: [amazon dash button, python, docker, synology]
 ![](/images/amazon_dash.png)
 
 ## TL; DR;
-[Инструкция по настройке](http://masterandrey.com/posts/ru/amazon_dash_install/)
+[Инструкция по настройке](http://masterandrey.com/posts/ru/amazon_dash_button_install/)
 
 ## Общая идея
 
@@ -88,4 +88,4 @@ tags: [amazon dash button, python, docker, synology]
 ребенок делал упражнения).
 Для этого ее надо нажимать в начале и в конце интервала.
 
-Как настроить, описано в [Инструкции по настройке](http://masterandrey.com/posts/ru/amazon_dash_install/).
+Как настроить, описано в [Инструкции по настройке](http://masterandrey.com/posts/ru/amazon_dash_button_install/).

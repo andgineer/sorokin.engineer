@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-ref: amazon_dash_install
+ref: amazon_dash_button_install
 title: "Amazon Dash Button hack installation on Synology"
 comments: true
 summary: ...how to install amazon button (dash) hack ...
@@ -9,7 +9,7 @@ tags: [amazon dash button, python, docker, synology]
 ---
 
 Installation for the Amazon Dash Button hack,
-described in [Smart wifi button and Docker on Synology](http://masterandrey.com/posts/en/amazon_dash/).
+described in [Smart wifi button and Docker on Synology](http://masterandrey.com/posts/en/amazon_dash_button/).
 
 ## Installation on Synology
 
