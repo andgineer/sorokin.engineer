@@ -41,7 +41,7 @@ and after that this is only $10/month.
 
 To catch button press and to do something usefull after press you need constantly running application. 
 My [application](https://github.com/masterandrey/docker-amazon-dash-button/) works in 
-[Docker container](https://hub.docker.com/r/masterandrey/amazon-dash/) 
+[Docker container](https://hub.docker.com/r/masterandrey/amazon-dash-button/) 
 and can run for example on [Synology](https://www.synology.com). 
 
 In fact you can use it anywere where installed 

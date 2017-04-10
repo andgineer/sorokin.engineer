@@ -46,7 +46,7 @@ tags: [amazon dash button, python, docker, synology]
 
 Для регистрации нажатий кнопки вам нужно постоянно работающее приложение, которое 
 будет при нажатии кнопки выполнять нужные действия. Я упаковал свое [приложение](https://github.com/masterandrey/docker-amazon-dash-button/) в 
-[контейнер Docker](https://hub.docker.com/r/masterandrey/amazon-dash/) 
+[контейнер Docker](https://hub.docker.com/r/masterandrey/amazon-dash-button/) 
 и у себя использую его на дисковом массиве [Synology](https://www.synology.com). 
 
 Вы можете поставить его на любой постоянно включенный компьютер, где есть 
