@@ -20,7 +20,7 @@ or Google Calendar, or something would be done in [IFTTT](https://ifttt.com).
 
 Your children would like it and it helps to keep doing something regularily.
 
-And even for adults it is easier to press button that to search for an app in your 
+And even for adults it is easier to press button than to search for an app in your 
 smartphone.
 
 ## Solution
@@ -40,7 +40,7 @@ To buy Amazon button you need Amazon Prime subscription, but it's free first mon
 and after that this is only $10/month.
 
 To catch button press and to do something usefull after press you need constantly running application. 
-My [application](https://github.com/masterandrey/docker-amazon-dash/) works in 
+My [application](https://github.com/masterandrey/docker-amazon-dash-button/) works in 
 [Docker container](https://hub.docker.com/r/masterandrey/amazon-dash/) 
 and can run for example on [Synology](https://www.synology.com). 
 
@@ -52,7 +52,7 @@ your network.
 
 You can use my app **without** docker, but for that you should install 
 [python3](https://www.python.org/downloads/) and libraries listed in
-[pip.requirements.txt](https://github.com/masterandrey/docker-amazon-dash/blob/master/pip.requirements.txt)
+[pip.requirements.txt](https://github.com/masterandrey/docker-amazon-dash-button/blob/master/pip.requirements.txt)
 and all system dependencies for them.
 So I recommend to use Docker, to save your time and don't mess with your operating system libraries.
 
@@ -64,7 +64,7 @@ something more useful than flashing LED (and even that is very tricky).
 So we do not hack Amazon Button actually but use it in very simple way - look for 
 any appearance of the button in network and count each one as a press.
 
-My [application](https://github.com/masterandrey/docker-amazon-dash) sniffs
+My [application](https://github.com/masterandrey/docker-amazon-dash-button) sniffs
  network traffic using python library [scapy](https://github.com/phaethon/scapy).
 
 There are a lot of other solutions for Amazon Dash Button hack

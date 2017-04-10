@@ -26,7 +26,7 @@ tags: [amazon dash button, python, docker, synology]
 
 В `Advanced settings` -> `Volume` подключите каталог `/amazon-dash-private` с секретами доступа к 
 таблице Google и настройками кнопок к контейнеру.
-Скачайте [примеры этих файлов](https://github.com/masterandrey/docker-amazon-dash/tree/master/amazon-dash-private) 
+Скачайте [примеры этих файлов](https://github.com/masterandrey/docker-amazon-dash-button/tree/master/amazon-dash-private) 
 и разместите в любом удобном вам месте на Synology.
 
 Например, у меня они находятся на томе Synology в каталоге 

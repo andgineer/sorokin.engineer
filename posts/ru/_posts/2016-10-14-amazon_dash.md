@@ -45,7 +45,7 @@ tags: [amazon dash button, python, docker, synology]
 ее активации. Первый месяц она дается бесплатно, далее стоит порядка $10 в месяц.
 
 Для регистрации нажатий кнопки вам нужно постоянно работающее приложение, которое 
-будет при нажатии кнопки выполнять нужные действия. Я упаковал свое [приложение](https://github.com/masterandrey/docker-amazon-dash/) в 
+будет при нажатии кнопки выполнять нужные действия. Я упаковал свое [приложение](https://github.com/masterandrey/docker-amazon-dash-button/) в 
 [контейнер Docker](https://hub.docker.com/r/masterandrey/amazon-dash/) 
 и у себя использую его на дисковом массиве [Synology](https://www.synology.com). 
 
@@ -57,7 +57,7 @@ tags: [amazon dash button, python, docker, synology]
 
 Чтобы использовать мое приложение **вне** docker, вам надо установить [python3](https://www.python.org/downloads/) 
 и перечисленные в 
-[pip.requirements.txt](https://github.com/masterandrey/docker-amazon-dash/blob/master/pip.requirements.txt)
+[pip.requirements.txt](https://github.com/masterandrey/docker-amazon-dash-button/blob/master/pip.requirements.txt)
 библиотеки, а также и все необходимые для них системные зависимости (их довольно много и их описание
 надо искать в описании каждой библиотеки).
 Поэтому я и рекомендую вам использовать мой контейнер docker, который во-1х избавляет вас от необходимости это
@@ -75,7 +75,7 @@ tags: [amazon dash button, python, docker, synology]
 мы используем ее без изменений, обнаруживаем ее попытки
 выйти в сеть и, если их видим, то считаем что кнопка нажата.
 
-Мое [приложение](https://github.com/masterandrey/docker-amazon-dash) для прослушивания траффика 
+Мое [приложение](https://github.com/masterandrey/docker-amazon-dash-button) для прослушивания траффика 
 в локальной сети использует python библиотеку [scapy](https://github.com/phaethon/scapy).
 
 В сети есть немало альтернативных вариантов взлома кнопки Amazon Dash Button, но я не смог найти удобной 
