@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-ref: amazon_dash_button_install
+ref: amazon_dash_button_hack_install
 title: "Amazon Dash Button hack installation on Synology"
 comments: true
 summary: ...how to install amazon button (dash) hack ...
@@ -9,11 +9,11 @@ tags: [amazon dash button, python, docker, synology]
 ---
 
 Installation for the Amazon Dash Button hack,
-described in [Smart wifi button and Docker on Synology](http://masterandrey.com/posts/en/amazon_dash_button/).
+described in [Smart wifi button and Docker on Synology](http://masterandrey.com/posts/en/amazon_dash_button_hack/).
 
 ## Installation on Synology
 
-Add Docker image `https://hub.docker.com/r/masterandrey/amazon-dash/`:
+Add Docker image `https://hub.docker.com/r/masterandrey/amazon-dash-button-hack/`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
@@ -25,7 +25,7 @@ Give high privilidge because it sniffs network traffic:
 ![](/images/dash_synology_docker_general.png)
 
 In `Advanced settings` -> `Volume` add folder `/amazon-dash-private` with secrets and settings.
-Download [examples](https://github.com/masterandrey/docker-amazon-dash-button/tree/master/amazon-dash-private) 
+Download [examples](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private) 
 of this files and place them in any place on Synology. 
 
 In my case this is folder `docker/amazon-dash-private` on Synology volume:

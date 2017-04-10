@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: ru
-ref: amazon_dash_button_install
+ref: amazon_dash_button_hack_install
 title: "Установка на Synology умной wi-fi кнопки (Amazon Dash Button hack)"
 comments: true
 summary: ...устанока amazon button hack ...
@@ -9,11 +9,11 @@ tags: [amazon dash button, python, docker, synology]
 ---
 
 Установка умной wifi кнопки (Amazon Dash Button hack),
-описаной в [Умная wi-fi кнопка и Docker на Synology](http://masterandrey.com/posts/ru/amazon_dash/).
+описаной в [Умная wi-fi кнопка и Docker на Synology](http://masterandrey.com/posts/ru/amazon_dash_button_hack/).
 
 ## Установка на Synology
 
-Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/amazon-dash/`:
+Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/amazon-dash-button-hack/`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
@@ -26,7 +26,7 @@ tags: [amazon dash button, python, docker, synology]
 
 В `Advanced settings` -> `Volume` подключите каталог `/amazon-dash-private` с секретами доступа к 
 таблице Google и настройками кнопок к контейнеру.
-Скачайте [примеры этих файлов](https://github.com/masterandrey/docker-amazon-dash-button/tree/master/amazon-dash-private) 
+Скачайте [примеры этих файлов](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private) 
 и разместите в любом удобном вам месте на Synology.
 
 Например, у меня они находятся на томе Synology в каталоге 
