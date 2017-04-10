@@ -143,6 +143,7 @@ MAC-адрес кнопки надо добавить в файл `buttons.json`
 
 Я не буду даже пытаться описать этот экзистенциальный опыт, отправляю вас в 
 
+
 * [права для Google Sheet API](https://console.developers.google.com/start/api?id=sheets.googleapis.com)
 * [права для Google Calendar API](https://console.developers.google.com/start/api?id=calendar) 
 
