@@ -13,7 +13,7 @@ described in [Smart wifi button and Docker on Synology](http://masterandrey.com/
 
 ## Installation on Synology
 
-Add Docker image `https://hub.docker.com/r/masterandrey/amazon-dash-button-hack/`:
+Add Docker image `https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)

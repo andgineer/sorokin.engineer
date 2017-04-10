@@ -13,7 +13,7 @@ tags: [amazon dash button, python, docker, synology]
 
 ## Установка на Synology
 
-Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/amazon-dash-button-hack/`:
+Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
