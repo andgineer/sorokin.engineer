@@ -75,4 +75,4 @@ amount of your Synology resources.
 With my app you can not only reqister just press but also event duration (for that you 
 should press button at the beginning and at the end of the event).
 
-[Installation manual](http://masterandrey.com/posts/en/amazon_dash_button_hack_button_install/).
+[Installation manual](http://masterandrey.com/posts/en/amazon_dash_button_hack_install/).
