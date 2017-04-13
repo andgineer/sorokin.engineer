@@ -36,6 +36,14 @@ In Chinese [aliexpress](https://www.aliexpress.com) you can buy ESP8266 for $2 o
 but also you would need case, button, battery, LED, couple of hours with soldering iron
 and couple of hours to assemble and debug your firmware..
 
+If we are speaking about other buttons that do not require soldering (like Amazon Dash Button):
+
+| [AWS IoT Button](https://aws.amazon.com/iotbutton/) | $20 | 
+| [flic](https://flic.io/store/) | $35 |
+| [particle.io button](https://store.particle.io/#internet-button) &nbsp;&nbsp;| $50 |
+
+You just cannot compare that with $5 (moreother with $0.99).
+
 To buy Amazon button you need Amazon Prime subscription, but it's free first month
 and after that this is only $10/month.
 
@@ -58,19 +66,32 @@ So I recommend to use Docker, to save your time and don't mess with your operati
 
 ## Detail
 
-Amazon button based on poweful ARM Cortex CPU, but a the moment nobody knows how to use it for
-something more useful than flashing LED (and even that is very tricky).
+Amazon button based on poweful CPU (ARM Cortex-M3 STM32 in old versions of buttons,
+[Atmel ATSAMG55J19](http://www.atmel.com/images/atmel-11289-32-bit-cortex-m4-microcontroller-sam-g55_summary-datasheet.pdf) 
+in late 2016 ones), but a the moment nobody knows how to use it for
+something more useful than flashing LED (and even that is 
+[very tricky](http://key-basher.blogspot.ru/2016/09/amazon-dash-button-version-2.html)).
 
 So we do not hack Amazon Button actually but use it in very simple way - look for 
 any appearance of the button in network and count each one as a press.
 
+The button after press will flash red light because it is not configured to buy something.
+But it will do the job all the same.
+
 My [application](https://github.com/masterandrey/docker-amazon-dash-button-hack) sniffs
  network traffic using python library [scapy](https://github.com/phaethon/scapy).
+ 
+It works with old Amazon Dash Buttons (before late 2016) and with 
+[new Amazon Dash Buttons](https://mpetroff.net/2016/07/new-amazon-dash-button-teardown-jk29lp/).
 
 There are a lot of other solutions for Amazon Dash Button hack
 but I could not find one already packed in Docker and with event logic.
 My Docker container is based on Alpine Linux and has very small size, it uses close to nothing
 amount of your Synology resources.
+
+For old buttons (before end of 2016) you could fake amazon server address and
+call your script from the button, and even have nice green flash when pressed, but new buttons
+require amazon SSL-sertificate on server side and this hack does not work.
 
 With my app you can not only reqister just press but also event duration (for that you 
 should press button at the beginning and at the end of the event).

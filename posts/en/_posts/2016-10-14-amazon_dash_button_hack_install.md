@@ -68,8 +68,8 @@ And you go in the set up process to the point where they ask you to choose the p
 **do not do that**, just stop here.
 If you select a product, every button press will order that product and I think this is not what you want.
 
-They say that you have to have wifi-password to setup a button but in my case amazon app did not
-ask it.
+If you have not permited to save your wifi-passwords while installing your Amazon devices before,
+amazon app will ask for wifi-password to connect Amazon Dash Button to your wifi network.
 
 During setup your phone communicate with button through sounds that ours ears cannot hear, that's why
 you should place them close enough.
