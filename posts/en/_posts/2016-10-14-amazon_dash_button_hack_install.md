@@ -36,6 +36,11 @@ In `Network` turn on `Use the same network as Docker host`:
 
 ![](/images/dash_synology_docker_network.png)
 
+And in Synology `Package Center` switch off auto-update for Docker.
+Because it will stop all running containers after auto-update and your buttons suddenly stop to work.
+So better to update Docker package manually and start the container after that.
+
+![](/images/dash_synology_docker_volume.png)
 
 ## Not Synology
 

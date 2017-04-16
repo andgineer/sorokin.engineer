@@ -39,6 +39,11 @@ tags: [amazon dash button, python, docker, synology]
 
 ![](/images/dash_synology_docker_network.png)
 
+В `Package Center` отключите автообновление Docker.
+Поскольку после автообновления не перезапускаются контейнеры и ваши кнопки неожиданно перестанут работать.
+Лучше обновлять вручную и перезапускать нужные контейнеры.
+
+![](/images/dash_synology_docker_volume.png)
 
 ## Не Synology
 
