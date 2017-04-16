@@ -40,7 +40,7 @@ And in Synology `Package Center` switch off auto-update for Docker.
 Because it will stop all running containers after auto-update and your buttons suddenly stop to work.
 So better to update Docker package manually and start the container after that.
 
-![](/images/dash_synology_docker_volume.png)
+![](/images/dash_synology_docker_autoupdate.png)
 
 ## Not Synology
 
