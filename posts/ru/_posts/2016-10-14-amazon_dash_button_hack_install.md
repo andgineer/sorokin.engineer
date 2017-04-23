@@ -13,6 +13,13 @@ tags: [amazon dash button, python, docker, synology]
 
 ## Установка на Synology
 
+Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/`:
+
+![](/images/dash_synology_docker_image.png)
+![](/images/dash_synology_docker_url.png)
+
+Когда он скачается, можно создавать Docker контейнер из этого image.
+
 Вы можете вместо выполнения описанной ниже инструкции импортировать 
 [мои настройки контейнера](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/synology).
 Они предполагают, что [файлы с секретами и настройками](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private)
@@ -21,12 +28,7 @@ tags: [amazon dash button, python, docker, synology]
 
 Ниже же описано, как сделать все это самостоятельно.
 
-Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/`:
-
-![](/images/dash_synology_docker_image.png)
-![](/images/dash_synology_docker_url.png)
-
-Когда он скачается, чтобы создать из него контейнер, два раза кликните по нему.
+Два раза кликните по скачанному имиджу, это запустит процесс создания контейнера Docker.
 
 Даем максимальные права контейнеру, потому что приложение прослушивает сетевой трафик:
 

@@ -13,20 +13,22 @@ described in [Smart wifi button and Docker on Synology](http://masterandrey.com/
 
 ## Installation on Synology
 
-Instead of this instruction you can just import 
-[my container settings](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/synology).
-The only specific thing that they assume - that you place [secrets and settings](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private)
-in folder `docker/amazon-dash-private`.
-![](/images/synology_import_settings.png)
-
-Or you can do all that by youself - see description below.
-
 Add Docker image `https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
 
-When download finished, double-click it to create Docker container.
+When download finished, we can create Docker container.
+
+Instead of the instructions below you can just import 
+[my container settings](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/synology).
+The only specific thing that they assume - that you place [secrets and settings](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private)
+in folder `docker/amazon-dash-private`.
+![](/images/synology_import_settings.png)
+
+Or you can do all that by youself - see instructions below.
+
+Double-click on the image to create Docker container
 
 Give high privilidge because it sniffs network traffic:
 
