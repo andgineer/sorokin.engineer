@@ -197,3 +197,13 @@ resonable  duration.
 
 The same logic for Google Calendar, except there is no analog for `press` sheet, 
 just events.
+
+## Presentation
+
+## Отображение
+
+There are a huge number of possibilities what you can do with the data from
+Google Calendar or Google Sheets.
+
+If you want to use you old Amazon Kindle and place it on wall, you can use my project 
+[IoT (Internet of things) events on Kindle](http://masterandrey.com/posts/en/iot_calendar_synology/).
