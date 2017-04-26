@@ -15,6 +15,8 @@ tags: [PDF, web, docker, athena]
 Когда я попробовал экспортировать эти страницы с помощью [pandoc](http://pandoc.org/)
 или через импорт в MS Office или Libre Office, на результат нельзя было
 смотреть без слез - поехавшие или вообще исчезнувшие таблицы, все страницы разъехались.
+Возможно это было из-за бага в [bootprint-openapi](https://github.com/bootprint/bootprint-openapi)
+который я позднее нашел и поправил, теперь уже не выяснить.
 
 Ковыряться в [bootprint-openapi](https://github.com/bootprint/bootprint-openapi),
 чтобы попытаться создавать такой html, который будет конвертироваться без глюков,

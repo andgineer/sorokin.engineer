@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: ru
+lang: en
 ref: iot_calendar_synology
 title: "IoT (Internet of things) events on Kindle"
 comments: true
@@ -100,3 +100,6 @@ For example, `<your server>:4444/dashboard.png?b=<dashboard>&style=seaborn-talk`
 
 Also you can switch off handwritten sub-stype with `xkcd=0` (this style is used in combination
 with main style and change a number of visualization parameters).
+
+If you do not like icons that I ship with the application, you can get another for example from 
+[Noun Project](https://thenounproject.com).
