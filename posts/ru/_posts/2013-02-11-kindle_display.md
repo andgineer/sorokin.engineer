@@ -8,6 +8,8 @@ summary: ...Изпользование kindle как дисплея...
 tags: [osx, kindle]
 ---
 
+![](/images/kindle_dashboard.png)
+
 ## Подготовка Kindle
 
 Прежде всего получаем root (установить пакет `kindle-jailbreak`):

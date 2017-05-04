@@ -18,17 +18,17 @@ May be that was because of bug in the [bootprint-openapi](https://github.com/boo
 that I found and fixed later - I do not know.
 
 I did not want to create mine version of [bootprint-openapi](https://github.com/bootprint/bootprint-openapi),
-that produce html good enough for MS Word - too much effort for the task.
+that produces html good enough for MS Word - too much effort for the task.
 
-And I found just a beautiful project
+And I found just a beautiful project to solve my problem - 
 [Athena Elegant PDF conversion](http://www.athenapdf.com/).
 
 It has two features to be beautiful.
 
 In 1st PDF is just exact representation of what I see in web browser.
-In fact it take screen shot so no wonder but still great.
+In fact it take screen shot so no wonder here but still great.
 
-I 2nd Athena developers made their product sxtremly easy to use.
+In 2nd Athena developers made their product extremly easy to use.
 
 You want web service to convert on the fly? Ok:
 {% highlight bash %}
@@ -50,9 +50,9 @@ In logs I see a lot of errors like:
 Xlib:  extension "RANDR" missing on display ":99".
 {% endhighlight %}
 
-but everithing works fine so I did not bother to understand why I have this errors in logs.
+But everithing works fine so I did not bother to understand why I have this errors in logs.
 
-And you have to take into account this Electron's bug (athena is written with Electron):
+And you have to take into account this Electron's bug (Athena is written with Electron):
 [Duplication of thead, and other table related issues](https://github.com/arachnys/athenapdf/issues/68)
 
 My workaround:

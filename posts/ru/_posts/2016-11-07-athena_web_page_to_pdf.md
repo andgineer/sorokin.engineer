@@ -15,15 +15,15 @@ tags: [PDF, web, docker, athena]
 Когда я попробовал экспортировать эти страницы с помощью [pandoc](http://pandoc.org/)
 или через импорт в MS Office или Libre Office, на результат нельзя было
 смотреть без слез - поехавшие или вообще исчезнувшие таблицы, все страницы разъехались.
-Возможно это было из-за бага в [bootprint-openapi](https://github.com/bootprint/bootprint-openapi)
+Возможно, это было из-за бага в [bootprint-openapi](https://github.com/bootprint/bootprint-openapi)
 который я позднее нашел и поправил, теперь уже не выяснить.
 
 Ковыряться в [bootprint-openapi](https://github.com/bootprint/bootprint-openapi),
 чтобы попытаться создавать такой html, который будет конвертироваться без глюков,
 казалось совершенно бесперспективным и тяжким по времени занятием
 (я [форкнул bootprint-openapi](https://github.com/masterandrey/bootprint-openapi)
-для русификации, но одно дело перевести на русский handlebars, что заняло не
-более получаса, и другое ковыряться в html и css, которые я с детства
+для русификации, но одно дело перевести на русский handle bars, что заняло не
+более получаса, и другое - ковыряться в html и css, которые я с детства
 недолюбливаю).
 
 И тут я нашел совершенно изумительную вещь
@@ -37,7 +37,7 @@ tags: [PDF, web, docker, athena]
 
 Во-2х ребята все сделали для того, чтобы их продукт было чрезвычайно легко использовать.
 
-Хотите сервис, который конвертирует на лету - ок
+Хотите сервис, который конвертирует на лету - ок:
 {% highlight bash %}
 docker pull arachnysdocker/athenapdf-service
 http://<docker-address>:8080/convert?auth=arachnys-weaver&url=http://blog.arachnys.com/
@@ -46,7 +46,7 @@ http://<docker-address>:8080/convert?auth=arachnys-weaver&url=http://blog.arachn
 Мне было рациональнее конвертировать файлы (athena работает достаточно быстро, но это
 все-таки долгие 1-2 секунды на конвертацию каждого из моих файлов).
 
-Поэтому я добавил в Makefile
+Поэтому я добавил в Makefile:
 {% highlight bash %}
 for API in docker/docs/target/*/; \
     do docker run --rm -v ${PWD}:/converted/ arachnysdocker/athenapdf athenapdf $${API}/index.html $${API}/$$(basename $${API}).pdf; \
@@ -58,12 +58,12 @@ done
 Xlib:  extension "RANDR" missing on display ":99".
 {% endhighlight %}
 
-но это никак не влияет на результат, поэтому я не стал разбираться, с чем это связано.
+Но это никак не влияет на результат, поэтому я не стал разбираться, с чем это связано.
 
-И еще надо учитывать вот этот баг в electron, на котором написана athena
+И еще надо учитывать вот этот баг в Electron, на котором написана Athena
 [Duplication of thead, and other table related issues](https://github.com/arachnys/athenapdf/issues/68)
 
-Я это делаю так
+Я это делаю так:
 {% highlight bash %}
 sed -i "\$athead {display:table-row-group;}" /docs/$API/main.css
 {% endhighlight %}

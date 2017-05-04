@@ -8,7 +8,7 @@ summary: ... smart button calendar ...
 tags: [amazon dash button, python, docker, synology]
 ---
 
-![](/images/iot_calendar_colour1.jpg)
+![](/images/dashboard.png)
 
 If you want to see some calendar data (for example from
 [Smart wi-fi button](http://masterandrey.com/posts/en/amazon_dash_button_hack/)
@@ -16,8 +16,8 @@ you can create image of it with help of my application described below.
 
 I use old Amazon Kindle on wall to show the image.
 
-Of cause you can use just PC or tablet PC. For example Amazon Fire HD 7 or simple Chinese table PC
-is only $49 ($39 on sale).
+Of cause you can use just PC or tablet PC. For example Amazon Fire HD 7 
+is only $49 ($39 on sale), or simple Chinese table PC for the same money.
 But with tablet PC you have to solve problem how to keep it charged and do not degrade battery.
 Kindle works for weeks on one charge.
 
@@ -25,6 +25,13 @@ Kindle works for weeks on one charge.
 
 Set up `settings.json` and `buttons.json`, as described in 
 [Smart wifi button install](http://masterandrey.com/posts/en/amazon_dash_button_hack_install/).
+
+In `dashboards` describe your dashboard. This is image `empty_image` for days without event (i.e.
+mooch days). Also you can have absenties in your calendar (events described in
+`absents`).
+For example if you have in `absent` element with `summary` as `Sick`, and in your calendar
+exists event with such name, during this event instead of `empty_image` will be image from
+this element.
 
 To see weather data on the calendar (if you already have Kindle on wall, why not show weather as well),
 you should get your latitude and longitude from [Google maps](https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en).
@@ -67,7 +74,7 @@ In `Port Settings` connect port application `4444` to host.
 ![](/images/calendar_synology_docker_port.png)
 
 And in Synology `Package Center` switch off auto-update for Docker.
-Because it will stop all running containers after auto-update and your buttons suddenly stop to work.
+Because it will stop all running containers after auto-update and your Docker applications suddenly stop to work.
 So better to update Docker package manually and start the container after that.
 
 ![](/images/dash_synology_docker_autoupdate.png)
@@ -88,9 +95,10 @@ If you place folder somewhere else you should change that path.
 Open in browser `<your server>:4444` and you will see all dashboard that configured in `settings.json`
 (`dashboards`).
 
-`<your server>:4444?b=<dashboard>` - black and white version (for Kindle),
-`<your server>:4444?b=<dashboard>&style=seaborn-talk` - colour version. The page auto-updates
-image every minute.
+`<your server>:4444?b=<dashboard>` - black and white version rotated version (for Kindle),
+`<your server>:4444?b=<dashboard>&style=seaborn-talk&rotate=0` - colour unrotated version. 
+
+The page auto-updates image.
 
 The image is at `<ваш сервер>:4444/dashboard.png?b=<dashboard>`.
  
