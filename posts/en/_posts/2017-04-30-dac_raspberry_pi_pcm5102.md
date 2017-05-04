@@ -7,14 +7,14 @@ comments: true
 tags: [raspberry pi, DAC, HAT, PCM5102]
 ---
 
-To build your DIY internet radio, you can connect raspberry pi to some DAC
+To build your DIY internet radio, you can connect Raspberry Pi to some DAC
 (digital - analog converter) and add any audio speakers with amplifier.
 And use the music player you like ([volumio](https://volumio.org/),
 rune audio, max2play etc).
 You control this players from your phone, so no need in any knobs on the intenet
 radio box, you can hide it somewhere.
 
-You need DAC because raspberry pi has very-very poor sound from integrated on it
+You need DAC because Raspberry Pi has very poor sound quality from integrated
 3.5mm headphones jack.
 
 ## Alternative if you do not want to mess with I2S DAC
@@ -23,6 +23,9 @@ You can use any HDMI-Video/audio adapter (search on [aliexpress](https://www.ali
 This is a small box with HDMI input and RCA output (yellow for video, red and white
 for audio).
 With HDMI cable this is the same money as I2S DAC.
+
+In this case you connect Raspberry Pi HDMI to this adapter and select in your music player
+to output sound to HDMI.
 
 ## I2S DAC PCM5102 on aliexpress
 Search on [aliexpress](https://www.aliexpress.com) for "Raspberry Pi PCM5102".
@@ -59,7 +62,7 @@ You can check youself - on `P5-1` should be 5v, on `P5-2`
 
 On Raspberry Pi+, Raspberry Pi 2 & Raspberry Pi 3
 all needed pins are in main 40-pins HAT socket.
-It's name now `J8` and it consists of all 25 pins from old `P1`, and additional pins.
+It's name now `J8` and it consists of all 26 pins from old `P1`, and additional pins.
 
 ![](/images/raspberry-pi-p5.png)
 
