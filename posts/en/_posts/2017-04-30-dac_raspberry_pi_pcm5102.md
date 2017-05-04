@@ -2,14 +2,14 @@
 layout: post
 lang: en
 ref: raspberry-dac
-title: "Internet radio: How to connect I2S DAC to raspberry pi"
+title: "Internet radio: How to connect I2S DAC to Raspberry Pi"
 comments: true
 tags: [raspberry pi, DAC, HAT, PCM5102]
 ---
 
-To build your DIY internet radio, you can connect Raspberry Pi to some DAC
+To build your DIY internet radio, you connect Raspberry Pi to some DAC
 (digital - analog converter) and add any audio speakers with amplifier.
-And use the music player you like ([volumio](https://volumio.org/),
+To play music use any 'headless' music player you like ([volumio](https://volumio.org/),
 rune audio, max2play etc).
 You control this players from your phone, so no need in any knobs on the intenet
 radio box, you can hide it somewhere.
@@ -38,25 +38,25 @@ But aliexpress models four(!) times cheaper and based on the very same IC.
 
 
 Sellers claim that this is Raspberry Pi HAT extensions, but that is not true.
-You can connect them to HAT socket on Raspberry Pi, but you need some wiring,
+You connect them to HAT socket on Raspberry Pi, but you need some wiring,
 you cannot just insert them as HiFiBerry.
 
 ## Raspberry Pi A/B
-On the very-very old raspberry pi the pins that you need to connect I2S DAC are somethere on
-the board, not in any socket.
-I do not think that you have such a board so below I describe more modern ones.
+On the very early Raspberry Pi version the pins that you need to connect I2S DAC were somethere on
+the board, but not in any socket.
+I do not think that you have such an old board so below I describe more modern ones.
 
-Raspbery Pi before "+" version have the pins on 8-pins `P5` socket, which is below main
+Raspbery Pi before "+" version has the pins on 8-pins `P5` socket, which is below main
 HAT 26-pins socket `P1`.
 
 In many cases you have to solder `P5` for yourself:
 [video from HiFiBerry](https://www.hifiberry.com/solder-the-p5-header-to-your-raspberry-pi-model-ab/).
 
-Take into account that it is supposed to be soldered from back of the board (on the video above
-they solder it from front).
-So odd/even pins in `P5` is opposite as in `P1`.
-You can check youself - on `P5-1` should be 5v, on `P5-2`
-3.3v (and last pins of `P5`, `P5-7` & `P5-8` is ground).
+Take into account that it is supposed to be soldered on back side of the board (in the video above
+they solder it on opposite front side).
+Because of that odd/even pins in `P5` is opposite as in `P1`.
+You can check youself - on `P5-1` pin should be 5v, on `P5-2`
+3.3v, and last pins of `P5`, `P5-7` & `P5-8` are ground.
 
 ## Raspberry Pi A\+/B\+, Raspberry Pi 2, Raspberry Pi 3
 
@@ -79,8 +79,8 @@ It's name now `J8` and it consists of all 26 pins from old `P1`, and additional 
 | DATA | P5-6 | J8-40 |
 | Gnd | P5-7 | J8-39 |
 
-In the board description seller wrote that BCK & DATA marked inverse.
-But in fact I connected as marked (BCK is the last pin in DAC's socket) and everything works fine.
+In the board description aliexpress seller wrote that BCK & DATA marked inverse.
+But in fact I connected them as marked (BCK is the last pin in DAC's socket) and everything works fine.
 
 ### 2nd DAC:
 
@@ -98,8 +98,8 @@ Connect additional pins as:
 
 ## How to setup I2S DAC in Volumio
 
-* Open volumio web-interface - if you have only one volumio you can use [http://volumio.local](http://volumio.local)
-* Press on cog on top right corner of volumio window
+* Open volumio web-interface - if you have only one volumio in your network you can use [http://volumio.local](http://volumio.local)
+* Press on cog on the top right corner of volumio window
 * Select `Playback` menu item
 * Switch on I2S DAC and for I2S driver select `Generic I2S DAC`
 * Press `Apply`

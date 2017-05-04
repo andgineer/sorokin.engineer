@@ -11,8 +11,10 @@ tags: [PDF, web, docker, athena]
 ![](/images/athena.png){:.post-title}
 
 Our customer wanted APIs documentation as PDF file.
+
 We document our APIs in [Open API](http://swagger.io/).
-Attempts to export with help of [pandoc](http://pandoc.org/)
+Attempts to export [bootprint-openapi](https://github.com/bootprint/bootprint-openapi) pages
+with help of [pandoc](http://pandoc.org/)
 or MS Office / Libre Office export was a fail - broken pages.
 May be that was because of bug in the [bootprint-openapi](https://github.com/bootprint/bootprint-openapi)
 that I found and fixed later - I do not know.
@@ -25,10 +27,10 @@ And I found just a beautiful project to solve my problem -
 
 It has two features to be beautiful.
 
-In 1st PDF is just exact representation of what I see in web browser.
-In fact it take screen shot so no wonder here but still great.
+For 1st PDF is just exact representation of what I see in web browser.
+In fact it takes screen shot so no wonder here but still great.
 
-In 2nd Athena developers made their product extremly easy to use.
+For 2nd Athena developers made their product extremly easy to use.
 
 You want web service to convert on the fly? Ok:
 {% highlight bash %}

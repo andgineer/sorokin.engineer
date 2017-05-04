@@ -12,9 +12,12 @@ tags: [PDF, web, docker, athena]
 
 Мне потребовалось выдать заказчику нашу документацию по API, сгенерированную из
 [Open API](http://swagger.io/).
-Когда я попробовал экспортировать эти страницы с помощью [pandoc](http://pandoc.org/)
+
+Когда я попробовал экспортировать сгенерированные в 
+[bootprint-openapi](https://github.com/bootprint/bootprint-openapi) страницы с помощью 
+[pandoc](http://pandoc.org/)
 или через импорт в MS Office или Libre Office, на результат нельзя было
-смотреть без слез - поехавшие или вообще исчезнувшие таблицы, все страницы разъехались.
+смотреть без слез - поехавшие или вообще исчезнувшие таблицы.
 Возможно, это было из-за бага в [bootprint-openapi](https://github.com/bootprint/bootprint-openapi)
 который я позднее нашел и поправил, теперь уже не выяснить.
 
@@ -23,8 +26,7 @@ tags: [PDF, web, docker, athena]
 казалось совершенно бесперспективным и тяжким по времени занятием
 (я [форкнул bootprint-openapi](https://github.com/masterandrey/bootprint-openapi)
 для русификации, но одно дело перевести на русский handle bars, что заняло не
-более получаса, и другое - ковыряться в html и css, которые я с детства
-недолюбливаю).
+более получаса, и другое - ковыряться в html и css).
 
 И тут я нашел совершенно изумительную вещь
 [Athena Elegant PDF conversion](http://www.athenapdf.com/).
@@ -43,7 +45,7 @@ docker pull arachnysdocker/athenapdf-service
 http://<docker-address>:8080/convert?auth=arachnys-weaver&url=http://blog.arachnys.com/
 {% endhighlight %}
 
-Мне было рациональнее конвертировать файлы (athena работает достаточно быстро, но это
+Мне было рациональнее конвертировать файлы заранее (athena работает достаточно быстро, но это
 все-таки долгие 1-2 секунды на конвертацию каждого из моих файлов).
 
 Поэтому я добавил в Makefile:
