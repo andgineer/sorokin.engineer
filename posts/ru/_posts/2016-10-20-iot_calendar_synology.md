@@ -2,9 +2,8 @@
 layout: post
 lang: ru
 ref: iot_calendar_synology
-title: "Отображение на kindle событий умной wi-fi кнопки (Synology)"
+title: "Отображение на Kindle календаря IoT (wi-fi кнопки)"
 comments: true
-summary: ... календарь событий кнопки ...
 tags: [amazon dash button, python, docker, synology]
 ---
 
@@ -13,7 +12,7 @@ tags: [amazon dash button, python, docker, synology]
 В статье [Умная wi-fi кнопка и Docker на Synology](http://masterandrey.com/posts/ru/amazon_dash_button_hack/)
 описано, как вы можете регистрировать в Google Calendar события от кнопки Amazon Dash Button.
 
-Ниже рассказывается, как показать этот календарь на вашем старом Kindle, который вы можете повесить на стену.
+Ниже рассказывается, как показать этот календарь на вашем старом Amazon Kindle, который вы можете повесить на стену.
 
 Конечно, календарь можно вывести и на компьютер или планшет. Например, всего за $49 ($39 на регулярно проводимых
 распродажах) вы можете купить Amazon Fire HD 7. Или, за сравнимые деньги, недорогой китайский планшет.

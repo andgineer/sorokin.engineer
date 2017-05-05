@@ -2,9 +2,8 @@
 layout: post
 lang: ru
 ref: amazon_dash_button_hack
-title: "Умная wi-fi кнопка и Docker на Synology (Amazon Dash Button hack)"
+title: "Amazon Dash Button hack: Умная wi-fi кнопка"
 comments: true
-summary: ...hack для amazon button...
 tags: [amazon dash button, python, docker, synology]
 ---
 

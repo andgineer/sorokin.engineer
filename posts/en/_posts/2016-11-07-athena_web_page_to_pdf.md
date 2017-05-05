@@ -2,9 +2,8 @@
 layout: post
 lang: en
 ref: athena_web_page_to_pdf
-title: "Beautiful PDF with Athena"
+title: "Athena: Beautiful PDF"
 comments: true
-summary: ...Beautiful PDF with Athena...
 tags: [PDF, web, docker, athena]
 ---
 

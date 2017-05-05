@@ -4,7 +4,6 @@ lang: ru
 ref: kindle_display
 title: "Kindle keyboard as display"
 comments: true
-summary: ...Изпользование kindle как дисплея...
 tags: [osx, kindle]
 ---
 

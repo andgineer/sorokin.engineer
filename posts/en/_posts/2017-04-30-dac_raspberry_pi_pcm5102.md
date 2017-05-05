@@ -58,10 +58,9 @@ Because of that odd/even pins in `P5` is opposite as in `P1`.
 You can check youself - on `P5-1` pin should be 5v, on `P5-2`
 3.3v, and last pins of `P5`, `P5-7` & `P5-8` are ground.
 
-## Raspberry Pi A\+/B\+, Raspberry Pi 2, Raspberry Pi 3
+## Raspberry Pi A\+/B\+, Raspberry Pi 2, Raspberry Pi 3, Raspberry Pi Zero
 
-On Raspberry Pi+, Raspberry Pi 2 & Raspberry Pi 3
-all needed pins are in main 40-pins HAT socket.
+All pins you need for I2S DAC are in main 40-pins HAT socket.
 It's name now `J8` and it consists of all 26 pins from old `P1`, and additional pins.
 
 ![](/images/raspberry-pi-p5.png)
@@ -70,7 +69,7 @@ It's name now `J8` and it consists of all 26 pins from old `P1`, and additional 
 
 ### 1st DAC version (with fewer pins):
 
-| **DAC** | **Pi A/B** &nbsp;| **Pi A\+/B\+, Pi2, Pi3** |
+| **DAC** | **Pi A/B** &nbsp;| **Pi A\+/B\+, Pi2, Pi3, PiZ** |
 |-----|-----|-----|
 | Vcc (+5v) | P5-1 | J8-2 |
 | +3.3v (not used, just to check youself) &nbsp; | P5-2 | J8-1 |
@@ -86,7 +85,7 @@ But in fact I connected them as marked (BCK is the last pin in DAC's socket) and
 
 Connect additional pins as:
 
-| **DAC** | **Pi A/B** &nbsp;| **Pi A\+/B\+, Pi2, Pi3** |
+| **DAC** | **Pi A/B** &nbsp;| **Pi A\+/B\+, Pi2, Pi3, PiZ** |
 |-----|-----|-----|
 | GND |	P1-6 | J8-6 |
 | FLT (gnd) | P1-14 | J8-14 |

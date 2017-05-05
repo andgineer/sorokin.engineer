@@ -3,7 +3,7 @@ layout: post
 lang: en
 ref: text_processing_from_birds_eye_view
 comments: true
-title: "Text processing from bird's eye view"
+title: "Regular expressions: Text processing from bird's eye view"
 tags: [pascal, regexp, delphi]
 ---
 

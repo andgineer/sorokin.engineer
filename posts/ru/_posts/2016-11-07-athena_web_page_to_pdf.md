@@ -2,9 +2,8 @@
 layout: post
 lang: ru
 ref: athena_web_page_to_pdf
-title: "Точный экспорт веб-страниц в PDF с помощью Athena"
+title: "Athena: Точный экспорт веб-страниц в PDF"
 comments: true
-summary: ...Точный экспорт веб-страниц в PDF...
 tags: [PDF, web, docker, athena]
 ---
 

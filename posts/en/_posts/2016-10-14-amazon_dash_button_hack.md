@@ -2,9 +2,8 @@
 layout: post
 lang: en
 ref: amazon_dash_button_hack
-title: "Smart wifi button and Docker on Synology (Amazon Dash Button hack)"
+title: "Amazon Dash Button hack: Your DIY smart wifi button"
 comments: true
-summary: ...amazon dash button hack...
 tags: [amazon dash button, python, docker, synology]
 ---
 

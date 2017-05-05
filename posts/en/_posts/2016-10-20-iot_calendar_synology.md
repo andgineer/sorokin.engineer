@@ -2,9 +2,8 @@
 layout: post
 lang: en
 ref: iot_calendar_synology
-title: "IoT (Internet of things) events on Kindle"
+title: "IoT (Internet of things) events calendar on Kindle"
 comments: true
-summary: ... smart button calendar ...
 tags: [amazon dash button, python, docker, synology]
 ---
 

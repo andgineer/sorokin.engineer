@@ -2,10 +2,9 @@
 layout: post
 lang: en
 ref: bootprint_openapi_russian
-title: "API documentation from OpenAPI"
+title: "OpenAPI(swagger): Exportable documentation"
 categories: api, web
 comments: true
-summary: ...API documentation from OpenAPI...
 tags: [api, web, swagger, bootprint]
 ---
 
