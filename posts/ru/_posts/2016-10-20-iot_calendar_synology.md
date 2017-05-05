@@ -9,7 +9,7 @@ tags: [amazon dash button, python, docker, synology]
 
 ![](/images/dashboard.png)
 
-В статье [Умная wi-fi кнопка и Docker на Synology](http://masterandrey.com/posts/ru/amazon_dash_button_hack/)
+В статье [Умная wi-fi кнопка](http://masterandrey.com/posts/ru/amazon_dash_button_hack/)
 описано, как вы можете регистрировать в Google Calendar события от кнопки Amazon Dash Button.
 
 Ниже рассказывается, как показать этот календарь на вашем старом Amazon Kindle, который вы можете повесить на стену.

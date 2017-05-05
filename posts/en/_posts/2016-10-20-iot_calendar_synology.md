@@ -10,7 +10,7 @@ tags: [amazon dash button, python, docker, synology]
 ![](/images/dashboard.png)
 
 If you want to see some calendar data (for example from
-[Smart wi-fi button](http://masterandrey.com/posts/en/amazon_dash_button_hack/)
+[Your DIY smart wifi button](http://masterandrey.com/posts/en/amazon_dash_button_hack/)
 you can create image of it with help of my application described below.
 
 I use old Amazon Kindle on wall to show the image.

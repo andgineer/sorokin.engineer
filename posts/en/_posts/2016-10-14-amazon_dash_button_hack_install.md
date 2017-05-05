@@ -2,7 +2,7 @@
 layout: post
 lang: en
 ref: amazon_dash_button_hack_install
-title: "Amazon Dash Button hack: installation on Synology with Docker"
+title: "Amazon Dash Button hack: Installation on Synology with Docker"
 comments: true
 tags: [amazon dash button, python, docker, synology]
 ---

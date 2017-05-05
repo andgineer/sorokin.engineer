@@ -17,6 +17,9 @@ tags: [amazon dash button, python, docker, synology]
 Place that button on wall, press it, and event would be added into Google Sheets 
 or Google Calendar, or something would be done in [IFTTT](https://ifttt.com).
 
+Events you can visualize by thousands ways, 
+[for example](http://masterandrey.com/posts/en/iot_calendar_synology/).
+
 Your children would like it and it helps to keep doing something regularily.
 
 And even for adults it is easier to press button than to search for an app in your 
