@@ -42,8 +42,10 @@ If we are speaking about other buttons that do not require soldering (like Amazo
 
 | [AWS IoT Button](https://aws.amazon.com/iotbutton/) | $20 | 
 | [flic](https://flic.io/store/) | $35 |
-| [particle.io button](https://store.particle.io/#internet-button) &nbsp;&nbsp;| $50 |
+| [particle.io button](https://store.particle.io/#internet-button) | $50 |
+{:.unstripedtable}
 
+<br>
 You just cannot compare that with $5 (moreother with $0.99).
 
 To buy Amazon button you need Amazon Prime subscription, but it's free first month

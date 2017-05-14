@@ -85,6 +85,9 @@ DHCP и указать для него Mac адрес `192.168.2.1`, сеть `2
 
 [KOReader](https://github.com/koreader/koreader/wiki)
 
+[avakindle](https://snowtechblog.wordpress.com/2016/02/09/the-kindle-project/)
+[eips](https://wiki.mobileread.com/wiki/Eips)
+
 ## Настройки режимов Kindle
 
 ### Чтобы kindle не засыпала
@@ -121,6 +124,20 @@ and to restore:
     
     wmctrl -r L:C_N:titleBar_ID:system -e '0,0,0,600,30' 
     
+    
+### Забавный life hack про special offers
+
+Amazon Kindle можно купить чуть дешевле, если покупать с так называемыми Special Offers - Kindle
+будет показывать рекламу (в основном - сервисов самого amazon) на выключенном
+Kindle, вместо заставок.
+Это практически не мешает, но если вам почему-то хочется это отключить, то делается это очень просто.
+Внизу страницы [amazon.com](amazon.com) находите `Help`, отказываетесь от всех готовых советов и 
+обращаетесь в `live chat`. 
+Там пишете, что реклама на вашем Kindle бессмысленна, поскольку вы находитесь в
+России (и не важно, что сам Amazon не продает Kindle в Россию).
+Вам тут же отключают рекламу и не взимают за это никакой дополнительной платы.
+
+
 ### Много других рецептов 
 
 * [K3](https://wiki.mobileread.com/wiki/K3_Index#Screensaver.2C_Font.2C_and_Layout_Hacks)

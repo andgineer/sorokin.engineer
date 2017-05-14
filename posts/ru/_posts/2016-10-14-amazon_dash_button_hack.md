@@ -46,8 +46,10 @@ tags: [amazon dash button, python, docker, synology]
 
 | [AWS IoT Button](https://aws.amazon.com/iotbutton/) | $20 |
 | [flic](https://flic.io/store/) | $35 |
-| [кнопка particle.io](https://store.particle.io/#internet-button) &nbsp;&nbsp;| $50 |
+| [кнопка particle.io](https://store.particle.io/#internet-button) | $50 |
+{:.unstripedtable}
 
+<br>
 Даже сравнивать невозможно с $5 (тем более, с $0.99).
 
 Единственная неприятность - вам нужна подписка Amazon Prime, как для покупки кнопки Amazon Dash Button, 

@@ -33,10 +33,10 @@ Search on [aliexpress](https://www.aliexpress.com) for "Raspberry Pi PCM5102".
 Of cause you can buy [HiFiBerry](https://www.hifiberry.com/) for $35.
 But aliexpress models four(!) times cheaper and based on the very same IC.
 
-| RCA | 3.5mm headphones jack |
+| **RCA** | **3.5mm headphones jack** |
 | ![](/images/PCM5102-DAC-Decoder-I2S-Player.jpg) &nbsp;&nbsp;| ![](/images/Sound-Card-I2S-PCM5102.jpg) |
 
-
+<br>
 Sellers claim that this is Raspberry Pi HAT extensions, but that is not true.
 You connect them to HAT socket on Raspberry Pi, but you need some wiring,
 you cannot just insert them as HiFiBerry.
@@ -69,15 +69,16 @@ It's name now `J8` and it consists of all 26 pins from old `P1`, and additional 
 
 ### 1st DAC version (with fewer pins):
 
-| **DAC** | **Pi A/B** &nbsp;| **Pi A\+/B\+, Pi2, Pi3, PiZ** |
-|-----|-----|-----|
-| Vcc (+5v) | P5-1 | J8-2 |
-| +3.3v (not used, just to check youself) &nbsp; | P5-2 | J8-1 |
-| BCK | P5-3 | J8-12 |
-| LRCK | P5-4 | J8-35 |
-| DATA | P5-6 | J8-40 |
-| Gnd | P5-7 | J8-39 |
+| **DAC** | **Pi A/B** &nbsp;| **Pi A\+/B\+, Pi2, Pi3, PiZ** &nbsp;| **PCM5102** |
+|-----|-----|-----|-----|
+| Vcc (+5v) | P5-1 | J8-2 | |
+| +3.3v (not used, just to check youself) &nbsp; | P5-2 | J8-1 | |
+| BCK | P5-3 | J8-12 | Audio data bit clock input |
+| LRCK(LCK) | P5-4 | J8-35 | Audio data word clock input |
+| DATA(DIN) | P5-6 | J8-40 | Audio data input |
+| Gnd | P5-7 | J8-39 | |
 
+<br>
 In the board description aliexpress seller wrote that BCK & DATA marked inverse.
 But in fact I connected them as marked (BCK is the last pin in DAC's socket) and everything works fine.
 
@@ -85,15 +86,20 @@ But in fact I connected them as marked (BCK is the last pin in DAC's socket) and
 
 Connect additional pins as:
 
-| **DAC** | **Pi A/B** &nbsp;| **Pi A\+/B\+, Pi2, Pi3, PiZ** |
-|-----|-----|-----|
-| GND |	P1-6 | J8-6 |
-| FLT (gnd) | P1-14 | J8-14 |
-| DMP (gnd) | P5-8 | J8-20 |
-| SCL	| P1-5 | J8-5 |
-| FMT (gnd) | P1-18 | J8-18 |
-| XMT (3.3v) &nbsp; | P1-1 | J8-1 |
+| **DAC** | **Pi A/B** &nbsp;| **Pi A\+/B\+, Pi2, Pi3, PiZ** &nbsp;| **PCM5102** |
+|-----|-----|-----|-----|
+| GND |	P1-6 | J8-6 | |
+| FLT (gnd) | P1-14 | J8-14 | Filter select : Normal latency (Low) / Low latency (High) |
+| DMP (gnd) | P5-8 | J8-20 | ?De-emphasis control for 44.1kHz sampling rate(1): Off (Low) / On (High) |
+| SCL	| P1-5 | J8-5 | ?System clock input |
+| FMT (gnd) | P1-18 | J8-18 | Audio format selection : I2S (Low) / Left justified (High) |
+| XMT (3.3v) &nbsp; | P1-1 | J8-1 | |
 
+<br>
+If you want here is all pins description:
+[RPi Low-level peripherals](http://elinux.org/RPi_Low-level_peripherals).
+
+[PCM5102 datasheet](/files/pcm5102.pdf)
 
 ## How to setup I2S DAC in Volumio
 

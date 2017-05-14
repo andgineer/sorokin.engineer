@@ -141,6 +141,34 @@ footer {
   text-align: center;
 }
 
+
+table {
+  border-collapse: collapse;
+  border-radius: 3px;
+}
+
+th, td {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr:hover{background-color:#e2e2e2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.unstripedtable tr:nth-child(even){background-color: white}
+.unstripedtable tr:hover{background-color:#e2e2e2}
+.unstripedtable td, th{padding-left: 10px; padding-right: 5px}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
