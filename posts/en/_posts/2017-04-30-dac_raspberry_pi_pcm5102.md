@@ -31,7 +31,16 @@ to output sound to HDMI.
 Search on [aliexpress](https://www.aliexpress.com) for "Raspberry Pi PCM5102".
 
 Of cause you can buy [HiFiBerry](https://www.hifiberry.com/) for $35.
-But aliexpress models four(!) times cheaper and based on the very same IC.
+But aliexpress models four(!) times cheaper.
+
+## PCM5102 vs PCM5122
+
+Chinese boards are based on the same IC (PCM5102) as early HiFiBerry (`DAC`). 
+New HiFiBerry (`DAC+`) is based on PCM5122 the main difference in witch is hardware volume control.
+If you control volume from your amplifier (the best for sound quality) you do not need the option.
+If you want to control volume from your volumio or other music player you can switch on
+`software volume control`. In theory this is bad for sound quality but in practice I do not think you
+will see the difference.
 
 | **RCA** | **3.5mm headphones jack** |
 | ![](/images/PCM5102-DAC-Decoder-I2S-Player.jpg) &nbsp;&nbsp;| ![](/images/Sound-Card-I2S-PCM5102.jpg) |

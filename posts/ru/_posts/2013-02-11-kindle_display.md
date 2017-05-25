@@ -9,6 +9,16 @@ tags: [osx, kindle]
 
 ![](/images/kindle_dashboard.png)
 
+## Назначение
+
+Предположительно у вас есть старая и уже не нужная вам Amazon Kindle.
+
+Или вы хотите повесить на стену классную информационную табличку на электронных чернилах
+(кстати, некоторые магазины используют дисплеи на электронных чернилах чтобы показывать ценники,
+например mediamarkt). 
+Тогда вы можете купить подержанную Amazon Kindle - Kindle Touch обойдется вам всего в 
+[$22](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=amazon+kindle+touch+used&rh=i%3Aaps%2Ck%3Aamazon+kindle+touch+used).
+
 ## Подготовка Kindle
 
 Прежде всего получаем root (установить пакет `kindle-jailbreak`):
