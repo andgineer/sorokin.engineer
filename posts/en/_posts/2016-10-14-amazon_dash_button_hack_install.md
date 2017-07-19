@@ -138,6 +138,8 @@ For `that` part on IFTTT site you choose everything you want from broad IFTTT pa
 Send email, sms, post to evernote,
 turn on smart switch and so on.
 
+`Value1`, `Value2`, `Value3` from the button action you can use in IFTTT like ` {{Value1}}`.
+
 Before you can use IFTTT with your buttons you should place secret key into `ifttt-key.json` file.
 In [Maker Webhook applet](https://ifttt.com/services/maker_webhooks/settings) get
 `URL`, open it and you will see your key at the top of the page (`Your key is:`).
