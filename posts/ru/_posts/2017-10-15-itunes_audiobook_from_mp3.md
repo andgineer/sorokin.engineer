@@ -36,6 +36,15 @@ tags: [iOS, audiobook, python]
 В итоге я взял Python3, [eyeD3](https://eyed3.readthedocs.io/en/latest/) и написал вот такую утилитку
 [Python app](https://github.com/masterandrey/itunes-audiobook-from-mp3).
 
+Поставить программно все нужные свойства не удается - похоже, что передвинуть в аудиокниги можно 
+только в самом iTunes.
+
+После импорта файлов выберите в свойствах
+![](/images/itunes_media_kind_select)
+и укажите там, что это аудиокнига:
+![](/images/itunes_media_kind_select)
+тогда она переметится в раздел аудиокниг.
+
 
 
 
