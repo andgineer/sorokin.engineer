@@ -2,7 +2,7 @@
 layout: post
 lang: en
 ref: itunes_audiobook_from_mp3
-title: "iOS (iPhone) Audiobook from mp3"
+title: "iTunes (iPhone) Audiobook from mp3"
 comments: true
 tags: [iOS, audiobook, python]
 ---
