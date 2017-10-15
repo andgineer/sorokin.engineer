@@ -6,7 +6,7 @@ title: "iTunes (iPhone) Audiobook from mp3"
 comments: true
 tags: [iOS, audiobook, python]
 ---
-![](/images/brothers_karamazov_ardis.jpg){:.post-title}
+![](/images/brothers_karamazov_ardis.jpg)
 
 ## Audiobooks iPhone from lame mp3
 

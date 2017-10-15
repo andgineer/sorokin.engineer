@@ -6,7 +6,7 @@ title: "Аудиокниги iPhone из кривых mp3"
 comments: true
 tags: [iOS, audiobook, python]
 ---
-![](/images/brothers_karamazov_ardis.jpg){:.post-title}
+![](/images/brothers_karamazov_ardis.jpg)
 
 ## Аудиокниги iTunes из кривых mp3
 ... или чем заняться после утренней пробежки, но перед завтраком...
