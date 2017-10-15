@@ -17,7 +17,7 @@ to fix mp3 tags in the files
 
 2) In iTunes in file info select media kind 
 
-![](/images/itunes_media_kind_select.png)
+![](/images/itunes_media_kind.png)
 and set "Audiobook":
 
 ![](/images/itunes_media_kind_select.png)
