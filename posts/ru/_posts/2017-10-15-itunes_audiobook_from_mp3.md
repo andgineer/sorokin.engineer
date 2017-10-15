@@ -40,9 +40,9 @@ tags: [iOS, audiobook, python]
 только в самом iTunes.
 
 После импорта файлов выберите в свойствах
-![](/images/itunes_media_kind_select)
+![](/images/itunes_media_kind_select.png)
 и укажите там, что это аудиокнига:
-![](/images/itunes_media_kind_select)
+![](/images/itunes_media_kind_select.png)
 тогда она переметится в раздел аудиокниг.
 
 
