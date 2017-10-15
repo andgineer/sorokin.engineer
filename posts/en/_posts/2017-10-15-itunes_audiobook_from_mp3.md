@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: ru
+lang: en
 ref: itunes_audiobook_from_mp3
 title: "iOS (iPhone) Audiobook from mp3"
 comments: true
