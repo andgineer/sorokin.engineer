@@ -15,10 +15,11 @@ If you have a bunch of mp3 and want iTunes Audiobook
 1) Use my [Python app](https://github.com/masterandrey/itunes-audiobook-from-mp3)
 to fix mp3 tags in the files
 
-2) In iTunes in file info select media kind 
+2) In iTunes in select file info
 
 ![](/images/itunes_media_kind.png)
-and set "Audiobook":
+
+and set "Audiobook" as media kind:
 
 ![](/images/itunes_media_kind_select.png)
 
