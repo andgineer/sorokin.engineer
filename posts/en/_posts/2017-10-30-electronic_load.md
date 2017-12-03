@@ -31,40 +31,40 @@ Below follows my version that is better - for me at least.
 
 ## Instruction manual for Constant Current Electronic Load 9.99A 60W 30V
 
-1) Round socket - work power supply, attach to any 12V source (at least 0.3A).
+1. Round socket - work power supply, attach to any 12V source (at least 0.3A).
 
-1) Green socket with screws - to battery.
+1. Green socket with screws - to battery.
 
-1) Red micro button - `Start/Stop`.
+1. Red micro button - `Start/Stop`.
 
-1) Rotating hadle also is a button.
+1. Rotating hadle also is a button.
 
-1) Two green LEDs between digital areas - selected part of the number you are changing (before
+1. Two green LEDs between digital areas - selected part of the number you are changing (before
 or after digital point).
 To switch them - press rotatinf handle. To change selected number part - rotate the handle.
 
-1) To enter to setting - power up with `Start/Stop` pressed (and keep it pressed until
+1. To enter to setting - power up with `Start/Stop` pressed (and keep it pressed until
 you see settings). To select a setting value - rotate handle, to go to next setting - press `Start/Stop`.
-  * First setting - mode: `Fun1` - electronic load `Fun2` - battery discharge (you can select
+  * First setting - mode: `Fun1` electronic load, `Fun2` battery discharge (you can select
   min voltage to stop discharging).
-  * Second setting - buzzer on/off ("bEon"/“bEoF”)
+  * Second setting - buzzer on/off (`bEon`/`bEoF`)
     
-1) If you are not in settings, you can select discharge current, and, for `Fun2` - voltage to stop discharging.
+1. If you are not in settings, you can select discharge current, and, for `Fun2` - voltage to stop discharging.
 
-1) While charging, top digits switched continously between curren voltage, Ah, Wh.
+1. While charging, top digits switched continously between curren voltage, Ah, Wh.
 
-1) Bottom digits - current.
+1. Bottom digits - current.
 
-1) If it switched off at min voltage you can see last values when you switch it on again.
+1. If it switched off at min voltage you can see last values when you switch it on again.
 
-1) Start/Stop discharging - press `Start/stop` button.
+1. Start/Stop discharging - press `Start/stop` button.
 
-1) Current and min voltage you can change during discharging.
+1. Current and min voltage you can change during discharging.
 
-1) They said that to clear values you have to press `Start/Stop` twice, but in my case
+1. They said that to clear values you have to press `Start/Stop` twice, but in my case
 I have to enter and exit settings for that.
 
-1) Error codes
+1. Error codes
   * Err1 - too high battery voltage
   * Err2 - too low battery voltage (or no battery connected or connected in wrong polarity)
   * Err3 - battery resistance too high (cannot keep the current)
