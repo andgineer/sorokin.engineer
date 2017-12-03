@@ -7,7 +7,7 @@ comments: true
 tags: [NFC, MIFARE, python]
 ---
 
-![](/images/acr1281.jpg){:.post-title}
+![](/images/acr1281.jpg)
 
 Here is my experience with [ACS](https://www.acs.com.hk) readers.
 Hope that will save time if you have to use them.
