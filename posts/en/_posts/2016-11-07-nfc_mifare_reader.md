@@ -16,7 +16,7 @@ I worked with readers [ACR1281](https://www.acs.com.hk/en/products/397/acr1281u-
 and [ACR122](https://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/).
 
 Of cause you can use you NFC-enabled mobile phone but in my case I had to develop
-application for work with Moscow subway system cards.
+Windows application for work with Moscow subway system cards.
 
 ### Python library
 
@@ -84,7 +84,7 @@ You can find swig installer for Windows or use linux apt-get, as shown before.
 
 ACR1281 has three interfaces, for each card type
 (SAM, contact cards, contactless cards). You see them as three readers and the names
-are differ in different OS.
+are different in different OS.
 
             from smartcard.System import readers
             
@@ -102,12 +102,12 @@ are differ in different OS.
             
 And after that `reader.createConnection().connect()`
 
-Alternatively you can just wait for any reader that dirst read a card:
+Alternatively you can just wait for any reader that first read a card:
 
         from smartcard.CardType import AnyCardType
 
         def wait_for_card(timeout=0):
-            # Ожидаем карту с ATR NXP карт ISO 14443 Part 3 PICC (бесконтактные)
+            # Wait for card with ATR NXP card ISO 14443 Part 3 PICC (бесконтактные)
             # (atr == reader.atr & mask, zeroes in mask filter out variative part, 
             # this part in atr equals zero)
             cardtype = ATRCardType(

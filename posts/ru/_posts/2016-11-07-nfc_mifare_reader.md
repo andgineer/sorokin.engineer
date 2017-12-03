@@ -21,7 +21,7 @@ tags: [NFC, MIFARE, python]
 и [ACR122](https://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/).
 
 Конечно, сейчас многие мобильные телефоны с таким же успехом могут и считывать и записывать
-MIFARE карты, но мне были необходимы ридеры для создания инструментального приложения,
+MIFARE карты, но мне были необходимы ридеры для создания инструментального Windows приложения,
 работающего с картами московского метро.
 
 ### Python библиотека
@@ -118,7 +118,7 @@ Add these two lines to the end of the file:
         from smartcard.CardType import AnyCardType
 
         def wait_for_card(timeout=0):
-            # Ожидаем карту с ATR NXP карт ISO 14443 Part 3 PICC (бесконтактные)
+            # Ожидаем карту с ATR NXP карта ISO 14443 Part 3 PICC (бесконтактные)
             # (atr == reader.atr & mask, т.е. нули в mask отфильтровывают вариативную часть, 
             # которую приравниваем в параметре atr равной нулю)
             cardtype = ATRCardType(
