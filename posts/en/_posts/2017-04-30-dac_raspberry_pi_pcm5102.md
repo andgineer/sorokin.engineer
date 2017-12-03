@@ -4,7 +4,7 @@ lang: en
 ref: raspberry-dac
 title: "Internet radio: How to connect I2S DAC to Raspberry Pi"
 comments: true
-tags: [raspberry pi, DAC, HAT, PCM5102]
+tags: [raspberry pi, electronics, DAC, HAT, PCM5102, aliexpress]
 ---
 
 To build your DIY internet radio, you connect Raspberry Pi to some DAC
