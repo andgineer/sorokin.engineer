@@ -4,7 +4,7 @@ lang: ru
 ref: raspberry-dac
 title: "Интернет-приемник: Подключение аудио ЦАП к Raspberry Pi"
 comments: true
-tags: [raspberry pi, DAC, HAT, PCM5102]
+tags: [raspberry pi, electronics, DAC, HAT, PCM5102, aliexpress]
 ---
 
 Если вы хотите сделать интернет-приемник, то самый простой вариант - взять Raspberry Pi, подключить к ней
