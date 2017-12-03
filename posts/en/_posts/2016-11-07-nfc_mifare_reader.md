@@ -126,9 +126,9 @@ Both readers are from the same company but you have to use different parameters 
 Block this is MIFARE read unit, 16 bytes.
 
 To read block:
-1. Save key in reader
-1. Auth block by the key (reader send the key to smart card and it answers if you
-can read the block with the card)
+1. Save the read key in reader
+1. Auth block by the key (reader sends the key to smart card and it answers if you
+can read the block with the key)
 1. Read the block
 
 For ACR122 you have to save key in address 0, but for ACR1281 - in address `0x20`.
