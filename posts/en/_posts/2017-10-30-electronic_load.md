@@ -16,13 +16,13 @@ Cost is around $15.
 For additional $7 you can buy acrylic case, if you need it for some strange reasons.
 
 The devices can dischage batteries with any current you want.
-So you need it to revive rechargable batteries if you chagring device cannot discharge them
+So you need it to revive rechargable batteries if your charging device cannot discharge them
 by itself.
 
-so no more assorted light bulbs to select from for the current you want at the moment.
+So no more assorted light bulbs to select from for the current you want at the moment.
 
-I do not know about real top current for this device but on 1A it's coll (the fan is not
-switched off so I this there are no fan control).
+I do not know about real max current for this device but on 1A it's cool (the fan is not
+switched off so I think there in fact is no fan control).
 
 The only negative side - there is no good manual. All sellers copy the same very lame text
 that I cannot understand at all.
@@ -41,7 +41,7 @@ Below follows my version that is better - for me at least.
 
 1. Two green LEDs between digital areas - selected part of the number you are changing (before
 or after digital point).
-To switch them - press rotatinf handle. To change selected number part - rotate the handle.
+To switch between them - press rotating handle. To change the selected number part - rotate the handle.
 
 1. To enter to setting - power up with `Start/Stop` pressed (and keep it pressed until
 you see settings). To select a setting value - rotate handle, to go to next setting - press `Start/Stop`.
@@ -55,7 +55,7 @@ you see settings). To select a setting value - rotate handle, to go to next sett
 
 1. Bottom digits - current.
 
-1. If it switched off at min voltage you can see last values when you switch it on again.
+1. If the device had switched off at min voltage you can see last values when you switch it on again.
 
 1. Start/Stop discharging - press `Start/stop` button.
 
@@ -68,10 +68,10 @@ I have to enter and exit settings for that.
   * Err1 - too high battery voltage
   * Err2 - too low battery voltage (or no battery connected or connected in wrong polarity)
   * Err3 - battery resistance too high (cannot keep the current)
-  * Err4 - circuit failare (what's that?)
+  * Err4 - circuit failure (what's that?)
   * Err6 - work voltage power supply is not enough (need at least 0.5A)
   * otP - overheating protection
   * Ert - temperature sensor error (or temperature is too low)
-  * ouP - ultra-high voltage electron -load mode (what's that?)
+  * ouP - ultra-high voltage electronic load mode (what's that?)
   * oPP - under ultra-high power electronic load mode instantly (what's that?)
     
