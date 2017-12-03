@@ -9,21 +9,25 @@ tags: [NFC, MIFARE, python]
 
 ![](/images/athena.png){:.post-title}
 
-Структура карт метро защищена NDA, поэтому я не буду про нее рассказывать. 
+Структура карт моксковсого метро защищена NDA, поэтому я не буду про нее рассказывать. 
 Тем более что и так достаточно публикаций, подробно описывающих и устройство карт метро 
-и даже - как их самому записывать.
+и даже как их самому записывать.
 
 В моем случае я столкнулся с особенностью ридеров компании [ACS](https://www.acs.com.hk),
-который и хочу описать.
+которые и хочу описать.
 Надеюсь, что мой опыт съекономит кому-то время.
 
 В моем распоряжении были ридеры [ACR1281](https://www.acs.com.hk/en/products/397/acr1281u-c2-card-uid-reader/)
 и [ACR122](https://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/).
 
+Конечно, сейчас многие мобильные телефоны с таким же успехом могут и считывать и записывать
+MIFARE карты, но мне были необходимы ридеры для создания инструментального приложения,
+работающего с картами московского метро.
+
 ### Python библиотека
 
-Я работал с ридерами через библиотеку pyscard (модуль в python называется smartcard).
-Она использует для общения с ридером [PC/SC](https://ru.wikipedia.org/wiki/PC/SC) интерфейс, 
+Я работал с ридерами через библиотеку `pyscard` (модуль в python называется `smartcard`).
+Она использует для общения с ридером [PC/SC интерфейс](https://ru.wikipedia.org/wiki/PC/SC), 
 что означает, что нам нужен минимальный драйвер, который передает команды в ридер через USB.
 
 #### Ubuntu Linux
@@ -54,7 +58,7 @@ tags: [NFC, MIFARE, python]
 
 ##### Если pcsc_scan не смог найти ридер, то
 
-Читаем здесь: https://oneguyoneblog.com/2016/11/02/acr122u-nfc-usb-reader-linux-mint/
+https://oneguyoneblog.com/2016/11/02/acr122u-nfc-usb-reader-linux-mint/
 
     sudo nano /etc/modprobe.d/blacklist.conf
 
@@ -70,13 +74,12 @@ Add these two lines to the end of the file:
     
 Далее установить Python библиотеку:
 
-    $ sudo apt-get install swig libpcsclite-dev 
-    $ sudo -H pip3 install pyscard
+    sudo apt-get install swig libpcsclite-dev 
+    sudo -H pip3 install pyscard
 
 #### Windows
 
-Установить любой pc/sc драйвер.
-Далее установить Python библиотеку:
+Установить Python библиотеку:
 
     $ python -m pip install pyscard
     
@@ -84,6 +87,7 @@ Add these two lines to the end of the file:
 
 Скорее всего, для сборки python-библиотеки (выполняемой при ее установке через PIP) 
 потребуется установить системную библиотеку [swig](http://www.swig.org/).
+Для Windows есть инсталлятор, для linux можно использовать apt-get, как показно выше.
 
 ### Несколько интерфейсов ACR1281
 
@@ -106,6 +110,28 @@ Add these two lines to the end of the file:
             else:
                 raise Exception('Не найден поддерживаемый ридер карт')
             # reader - выбранный ридер
+            
+Далее `reader.createConnection().connect()`
+
+Альтернативный вариант - ждать, какой ридер первым считает карту:
+
+        from smartcard.CardType import AnyCardType
+
+        def wait_for_card(timeout=0):
+            # Ожидаем карту с ATR NXP карт ISO 14443 Part 3 PICC (бесконтактные)
+            # (atr == reader.atr & mask, т.е. нули в mask отфильтровывают вариативную часть, 
+            # которую приравниваем в параметре atr равной нулю)
+            cardtype = ATRCardType(
+                atr=toBytes('3B 80 80 01 80 4F 0C A0 00 00 03 06 03 00 00 00 00 00 00 00'),
+                mask=toBytes('FF F0 FF FF FF FF FF FF FF FF FF FF FF FF F0 FF FF FF FF 00')
+            )
+            return CardRequest(timeout=timeout, cardType=cardtype)
+            
+Для дальнейших действий надо соединиться с тем ридером, который считал карту:
+`wait_for_card().service.connection.connect()`.
+
+Для обоих вариантов далее обмениваемся командами `APDU` через `PC/SC`: 
+`connection.transmit(APDU)`.
             
 ### Чтение блоков на разных ридерах
 
