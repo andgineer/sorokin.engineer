@@ -2,7 +2,7 @@
 layout: post
 lang: en
 ref: electronic_load
-title: "Electronic load to test and revive rechargable batterirs"
+title: "Electronic load to test and revive rechargable batteries"
 comments: true
 tags: [battery, electronics, aliexpress]
 ---
