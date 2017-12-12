@@ -9,4 +9,5 @@ tags: [github pages]
 
 ![](/images/staticman.svg)
 
+
 [Staticman](https://staticman.net/docs/)
