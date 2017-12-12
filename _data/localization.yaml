@@ -1,3 +1,15 @@
 search:
   en: "Search on the site..."
   ru: "Поиск по сайту..."
+comments:
+  en: "User comments:"
+  ru: "Комментарии пользователей"
+name:
+  en: "Name:"
+  ru: "Имя:"
+message:
+  en: "Message:"
+  ru: "Сообщение:"
+post_button:
+  en: "Comment"
+  ru: "Опубликовать"
