@@ -13,3 +13,9 @@ message:
 post_button:
   en: "Comment"
   ru: "Опубликовать"
+leave_comment:
+  en: "Leave your comment:"
+  ru: "Оставьте свой комментарий:"
+written:
+  en: "Written on"
+  ru: "Опубликовано"

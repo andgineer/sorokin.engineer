@@ -1,39 +1,40 @@
 <div class="panel-group">
     <div class="panel panel-default">
-        <div class="panel-heading">{{ site.data.localization.comments[page.lang] }}</div>
-        <div class="panel-body">
-            <table>
-                {% assign comments = site.data.comments | sort %}
-                {% for commentArray in comments reversed %}
-                    {% assign comment = commentArray %}
-                    {% if comment[0] == page.slug %}
-                        {% for entry in comment[1] %}
-                        <tr>
-                            <td>
-                                {{ entry[1].date | date: "%Y.%m.%d" }}<br>
-                                <b>{{ entry[1].name }}</b><br>
-                                {{ entry[1].message | markdownify }}
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    {% endif %}
-                {% endfor %}
-            </table>
-        </div>
+        {% if site.data.comments%}
+            {% assign comments = site.data.comments | sort %}
+            <div class="panel-heading">{{ site.data.localization.comments[page.lang] }}</div>
+            <div class="panel-body">
+                <table>
+                    {% for commentArray in comments reversed %}
+                        {% assign comment = commentArray %}
+                        {% if comment[0] == page.slug %}
+                            {% for entry in comment[1] %}
+                            <tr>
+                                <td>
+                                    {{ entry[1].date | date: "%Y.%m.%d" }}<br>
+                                    <b>{{ entry[1].name }}</b><br>
+                                    {{ entry[1].message | markdownify }}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                </table>
+            </div>
+        {% endif %}
     </div>
 </div>
 
 <form method="POST" action="https://api.staticman.net/v2/entry/masterandrey/masterandrey.com/master/comments">
+    <div class="panel-group">
+        {{ site.data.localization.leave_comment[page.lang] }}
+    </div>
     <input name="options[redirect]" type="hidden" value="https://masterandrey.com">
     <!-- e.g. "2016-01-02-this-is-a-post" -->
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
     <div class="form-group">
         <label for="name">{{ site.data.localization.name[page.lang] }}</label>
         <input id="name" name="fields[name]" type="text" class="form-control">
-    </div>
-    <div class="form-group">
-        <label for="email">E-mail</label>
-        <input id="email" name="fields[email]" type="email" class="form-control">
     </div>
     <div class="form-group">
         <label for="message">{{ site.data.localization.message[page.lang] }}</label>
