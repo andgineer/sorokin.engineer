@@ -6,7 +6,7 @@
                 {% assign comments = site.data.comments | sort %}
                 {% for commentArray in comments reversed %}
                     {% assign comment = commentArray %}
-                    {% if comment[0] == page.ref %}
+                    {% if comment[0] == page.slug %}
                         {% for entry in comment[1] %}
                         <tr>
                             <td>
