@@ -6,16 +6,17 @@
                 {% assign comments = site.data.comments | sort %}
                 {% for commentArray in comments reversed %}
                     {% assign comment = commentArray %}
-                    {% for entry in comment[1] %}
-                    <tr>
-                        <td>
-                            {{ entry[1].date | date: "%Y.%m.%d" }}<br>
-                            <b>{{ entry[1].name }}</b><br>
-                            {{ entry[1].message | markdownify }}
-                        </td>
-                    </tr>
-                    {% endfor %}
-
+                    {% if comment[0] == page.ref %}
+                        {% for entry in comment[1] %}
+                        <tr>
+                            <td>
+                                {{ entry[1].date | date: "%Y.%m.%d" }}<br>
+                                <b>{{ entry[1].name }}</b><br>
+                                {{ entry[1].message | markdownify }}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    {% endif %}
                 {% endfor %}
             </table>
         </div>
