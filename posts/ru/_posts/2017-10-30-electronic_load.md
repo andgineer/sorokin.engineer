@@ -9,6 +9,7 @@ tags: [battery, electronics, aliexpress]
 
 ![](/images/electronic_load_ali.png){:.post-title}
 
+
 Замечательное устройство из Китая.
 Название на [aliexpress.com](https://www.aliexpress.com/item/9-99A-60W-30V-Constant-Current-Electronic-Load-Discharge-Battery-Capacity-Tester/32776310672.html?spm=a2g0s.9042311.0.0.BmzLSN)
  `9.99A 60W 30V Constant Current Electronic Load Discharge Battery Capacity Tester`.
