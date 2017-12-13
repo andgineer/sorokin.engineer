@@ -19,3 +19,6 @@ leave_comment:
 written:
   en: "Written on"
   ru: "Опубликовано"
+no_comments:
+  en: "No comments yet, be first to comment!"
+  ru: "Пока никто не оставил комментариев"
