@@ -1,0 +1,11 @@
+_id: 23c67ea0-ec1c-11e7-9181-0ba658dd01e7
+lang: en
+email: 41c7e6168822039e05a9fef8145c2a4e
+name: M-H
+message: >-
+  Thanks! just completed the setup of this one :
+  https://www.aliexpress.com/item/1PCS-Interface-I2S-PCM5102-DAC-Decoder-GY-PCM5102-I2S-Player-Module-For-Raspberry-Pi/32840255905.html?spm=a2g0s.9042311.0.0.lBPM3m,
+  based on your info. Just a tip, mine needed XSMT to be connected to 3.3 volts
+  at power on tpo enable sound. Setup in PCP is through generic 5102 driver
+  provided in image.
+date: 1514499126
