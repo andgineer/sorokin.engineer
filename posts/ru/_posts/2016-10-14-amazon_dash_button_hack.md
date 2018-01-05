@@ -47,6 +47,7 @@ tags: [amazon dash button, python, docker, synology]
 | [AWS IoT Button](https://aws.amazon.com/iotbutton/) | $20 |
 | [flic](https://flic.io/store/) | $35 |
 | [кнопка particle.io](https://store.particle.io/#internet-button) | $50 |
+| [XiaoMi Aqara Smart Wireless Switch Key](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20180105060003&SearchText=XiaoMi+Aqara+Smart+Wireless+Switch+Key) | $8 за каждую кнопку и $30 один Zigbee хаб |
 {:.unstripedtable}
 
 <br>
