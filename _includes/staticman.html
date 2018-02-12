@@ -28,24 +28,21 @@
             {% assign no_comments = true %}
             <div class="panel-heading">{{ site.data.localization.comments[page.lang] }}</div>
             <div class="panel-body">
-                {% if site.data.comments %}
-                    {% assign comments = site.data.comments | sort %}
-                    {% for commentArray in comments reversed %}
-                        {% assign comment = commentArray %}
-                        {% if comment[0] == page.slug %}
-                            {% for entry in comment[1] %}
-                            {% if entry[1].lang == page.lang %}
+                {% if site.data.comments and site.data.comments[page.slug] %}
+                    {% assign comments = site.data.comments[page.slug] | sort %}
+                    {% for comment in comments %}
+                            {% assign entry = comment[1] %}
+                            {% if entry.lang == page.lang %}
                                 <div class="panel panel-info">
                                     {% assign no_comments = false %}
-                                    <div class="panel-heading">{{ entry[1].date | date: "%Y.%m.%d %H:%M" }}</div>
+                                    <div class="panel-heading">
+                                        {{ entry.date | date: "%Y.%m.%d %H:%M" }} <b>{{ entry.name }}</b>
+                                    </div>
                                     <div class="panel-body">
-                                        <b>{{ entry[1].name }}</b><br>
-                                        {{ entry[1].message | markdownify }}
+                                        {{ entry.message | markdownify }}
                                     </div>
                                 </div>
                             {% endif %}
-                            {% endfor %}
-                        {% endif %}
                     {% endfor %}
                 {% endif %}
                 {% if no_comments %}

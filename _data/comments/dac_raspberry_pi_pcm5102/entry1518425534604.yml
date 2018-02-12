@@ -2,5 +2,5 @@ _id: 05656500-0fd2-11e8-9a18-e7aef873d3ef
 lang: en
 email: 41c7e6168822039e05a9fef8145c2a4e
 name: masterAndrey
-message: "tx,\r\nlooks like you have some bad connections or defected DAC board."
+message: "> *tx*,\r\n\r\nlooks like you have some bad connections or defected DAC board."
 date: 1518425534
