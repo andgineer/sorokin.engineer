@@ -114,4 +114,4 @@ end;
 Лучше опишите его на языке регулярных выражений и тем самым избавьтесь от
 нудной работы!
 
-[Описание синтаксиса регулярных выражений TRegExpr](http://regexpstudio.com/regexp_syntax_ru/)
+[Описание синтаксиса регулярных выражений TRegExpr](http://regexpstudio.com/ru/regexp_syntax.html)
