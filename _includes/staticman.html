@@ -4,7 +4,7 @@
     </div>
     <div class="panel-body">
     <form method="POST" action="https://api.staticman.net/v2/entry/masterandrey/masterandrey.com/master/comments">
-        <input name="options[redirect]" type="hidden" value="https://masterandrey.com">
+        <input name="options[redirect]" type="hidden" value="https://masterandrey.com/{{page.lang}}/comment_post.html">
         <!-- e.g. "2016-01-02-this-is-a-post" -->
         <input name="options[slug]" type="hidden" value="{{ page.slug }}">
         <input name="fields[lang]" type="hidden" value="{{ page.lang }}">
