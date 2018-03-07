@@ -29,4 +29,4 @@ BTW I place that code not in the controller but in interceptor.
 So I'd changed no server classes and this code for tests we can add or remove by changing
 spring configuration.
 
-[Article about that](posts/en/2018-02-21-boot_spring_mvc_interceptor/)
+[Article about that](/posts/en/2018-02-21-boot_spring_mvc_interceptor/)
