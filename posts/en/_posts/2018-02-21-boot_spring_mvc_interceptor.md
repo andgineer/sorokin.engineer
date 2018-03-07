@@ -4,7 +4,7 @@ lang: en
 ref: springinterceptor
 title: "Spring boot MVC interceptor"
 comments: true
-tags: [java spring test]
+tags: [java, spring, test]
 ---
 
 For test purposes I wanted to add error emulation to our spring server.

@@ -4,7 +4,7 @@ lang: en
 ref: springnetworkclose
 title: "Spring boot MVC emulate server error"
 comments: true
-tags: [java spring test]
+tags: [java, spring, test]
 ---
 
 For testing purporses I want to emulate server failure.

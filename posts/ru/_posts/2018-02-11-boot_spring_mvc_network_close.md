@@ -4,7 +4,7 @@ lang: ru
 ref: springnetworkclose
 title: "Spring boot MVC имитация проблем с сервером"
 comments: true
-tags: [java spring test]
+tags: [java, spring, test]
 ---
 
 С целью тестирования мне потребовалось имитировать проблему сервера, не возвращающего

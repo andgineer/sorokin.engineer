@@ -4,7 +4,7 @@ lang: ru
 ref: springinterceptor
 title: "Spring boot MVC interceptor"
 comments: true
-tags: [java spring test]
+tags: [java, spring, test]
 ---
 
 Мне было необходимо добавить в spring сервер имитацию ошибок.
