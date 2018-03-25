@@ -43,7 +43,7 @@ If we are speaking about other buttons that do not require soldering (like Amazo
 | [AWS IoT Button](https://aws.amazon.com/iotbutton/) | $20 | 
 | [flic](https://flic.io/store/) | $35 |
 | [particle.io button](https://store.particle.io/#internet-button) | $50 |
-| [XiaoMi Aqara Smart Wireless Switch Key](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20180105060003&SearchText=XiaoMi+Aqara+Smart+Wireless+Switch+Key) | $8 per buton and one $30 Zigbee hub |
+| [XiaoMi Aqara Smart Wireless Switch Key](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20180105060003&SearchText=XiaoMi+Aqara+Smart+Wireless+Switch+Key) | $8 per buton (switch) and $25 one Zigbee hub (gateway) |
 {:.unstripedtable}
 
 <br>
