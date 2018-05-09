@@ -56,9 +56,26 @@ So 160bpm from Garmin looks more accurate.
 And Scosche shows the same strange peek at warm up that looks like an error.
 And do not show peek at the end where in fact I sped up so heart rate should be higher.
 
+
+![](/images/20180415_ski_hr.svg)
+
+
+### Heart rate sensors comparison Garmin vs Scosche vs CooSpo
+
+For the science I am running like Egyptian mummy - with three heart rate sensors simultaniously.
+
+At the first chart CooSpo and Garmin are the same (in the middle I lost Garmin chest belt so
+the zero heart rate from Garmin on the chart).
+
+At the second chart HIIT that has very simple heart rate profile (just 5 intervals with stable heart 
+rate and stable heart rate at rest intervals).
+Even in this simple situation we see errors from optical scosche sensor.
+
+![](/images/20180506_roller.svg)
+
+![](/images/20180509_run.svg)
+
 So I think that you should not trust optical heart rate sensor.
 Use old good chest belt.
 
 Be fit and healthy!
-
-![](/images/20180415_ski_hr.svg)
