@@ -60,3 +60,5 @@ home assistant `configuration.yaml`:
           
 Получение ключа - нетривиальные манипуляции с китайским приложением MiHome, описанные 
 [у коллег из Domoticz](https://www.domoticz.com/wiki/Xiaomi_Gateway_(Aqara)#Adding_the_Xiaomi_Gateway_to_Domoticz).
+
+Внятные имена вместо идентификаторов можно настроить в файле `customize.yaml`
