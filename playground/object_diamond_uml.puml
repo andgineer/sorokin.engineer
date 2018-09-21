@@ -1,0 +1,8 @@
+@startuml
+MixinParent <|-- Mixin
+object <|-- MixinParent
+object <|-- Parent
+Parent <|-- ObjectWithMixin
+Mixin <|-- ObjectWithMixin
+
+@enduml

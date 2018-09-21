@@ -1,0 +1,11 @@
+@startuml
+class Animal
+class Mummal
+class Bird
+class Platypus
+Animal <|-- Mummal
+Animal <|-- Bird
+Bird <|-- Platypus
+Mummal <|-- Platypus
+
+@enduml
