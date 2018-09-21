@@ -1,19 +1,15 @@
 @startuml
 class Animal {
 def __init__(): \n     super().__init__()
-def draw(): \n     print('Draw body and tail')
 }
 class Mummal {
 def __init__(): \n     super().__init__()
-def draw(): \n     print('Draw hair') \n     super().draw()
 }
 class Bird {
 def __init__(): \n     super().__init__()
-def draw(): \n     print('Draw beak') \n     super().draw()
 }
 class Platypus {
 def __init__(): \n     super().__init__()
-def draw(): \n     super().draw()
 }
 Animal <|-- Mummal
 Animal <|-- Bird
