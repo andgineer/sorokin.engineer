@@ -118,6 +118,7 @@ Python 2 использовал другой алгоритм (deep first), MRO 
 {% highlight python linenos %}
 {% include src/animal_class_tree.py %}
 {% endhighlight %}
+[... Выполнить код ...](https://trinket.io/python3/87415de54d){:target="_blank"}{:style="background-color: WhiteSmoke;text-align: center;border: 1px solid silver;display: inline-block;width: 100%;"}
 
     Platypus.__init__()
     Mammal.__init__()
@@ -137,8 +138,8 @@ Python 2 использовал другой алгоритм (deep first), MRO 
     Bird.__init__()
     
 Причина в том, что из `Mammal.__init__` вызывается следующий по MRO класс
-(`Bird`), а вовсе не родителя `Mammal`. Родителя ранее вызывал `Bird`, но
-мы убрали этот вызов.
+(`Bird`), а вовсе не родитель `Mammal` (`Animal`). 
+Родителя ранее вызывал `Bird`, но мы убрали этот вызов.
 
 В коде ниже я добавил аргументы в `__init__`, чтобы проиллюстрировать сказанное
 выше выдаваемой ошибкой.
