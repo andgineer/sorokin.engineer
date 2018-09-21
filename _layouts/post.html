@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/{% if page.lang == 'en' %}en_US{% else %}ru_RU{% endif %}/sdk.js#xfbml=1&version=v3.1&appId=2057058471282299&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="col-sm-12">
   <h1>{{ page.title }}</h1>
 
@@ -15,17 +24,10 @@ layout: default
     </div>
   </div>
 
-  <div class="fb-like" data-href="https://masterandrey.com{{ page.id }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+  <div class="row">
+    <div class="fb-like" data-href="https://masterandrey.com{{ page.id }}/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+  </div>
 
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/{% if page.lang == 'en' %}en_US{% else %}ru_RU{% endif %}/sdk.js#xfbml=1&version=v3.0&appId=2057058471282299&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-  <div class="fb-comments" data-href="https://masterandrey.com{{ page.id }}" data-numposts="15"></div>
+  <div class="fb-comments" data-href="https://masterandrey.com{{ page.id }}/" data-numposts="15"></div>
 
 </div>
