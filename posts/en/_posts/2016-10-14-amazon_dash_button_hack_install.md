@@ -8,7 +8,7 @@ tags: [amazon dash button, python, docker, synology]
 ---
 
 Installation for the Amazon Dash Button hack,
-described in [Your DIY smart wifi button](http://masterandrey.com/posts/en/amazon_dash_button_hack/).
+described in [Your DIY smart wifi button](/posts/en/amazon_dash_button_hack.html).
 
 ## Installation in Docker on Synology
 
@@ -207,4 +207,4 @@ There are a huge number of possibilities what you can do with the data from
 Google Calendar or Google Sheets.
 
 If you want to use you old Amazon Kindle and place it on wall, you can use my project 
-[IoT (Internet of things) events on Kindle](http://masterandrey.com/posts/en/iot_calendar_synology/).
+[IoT (Internet of things) events on Kindle](/posts/en/iot_calendar_synology.html).

@@ -10,7 +10,7 @@ tags: [amazon dash button, python, docker, synology]
 ![](/images/amazon_dash.png)
 
 ## TL; DR;
-[Installation manual](http://masterandrey.com/posts/en/amazon_dash_button_hack_install/)
+[Installation manual](/posts/en/amazon_dash_button_hack_install.html)
 
 ## General
 
@@ -18,7 +18,7 @@ Place that button on wall, press it, and event would be added into Google Sheets
 or Google Calendar, or something would be done in [IFTTT](https://ifttt.com).
 
 Events you can visualize by thousands ways, 
-[for example](http://masterandrey.com/posts/en/iot_calendar_synology/).
+[for example](/posts/en/iot_calendar_synology.html).
 
 Your children would like it and it helps to keep doing something regularily.
 
@@ -101,4 +101,4 @@ require amazon SSL-sertificate on server side and this hack does not work.
 With my app you can not only reqister just press but also event duration (for that you 
 should press button at the beginning and at the end of the event).
 
-[Installation manual](http://masterandrey.com/posts/en/amazon_dash_button_hack_install/).
+[Installation manual](/posts/en/amazon_dash_button_hack_install.html).

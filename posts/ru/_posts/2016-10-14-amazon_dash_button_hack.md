@@ -10,7 +10,7 @@ tags: [amazon dash button, python, docker, synology]
 ![](/images/amazon_dash.png)
 
 ## TL; DR;
-[Инструкция по настройке](http://masterandrey.com/posts/ru/amazon_dash_button_hack_install/)
+[Инструкция по настройке](/posts/ru/amazon_dash_button_hack_install.html)
 
 ## Общая идея
 
@@ -18,7 +18,7 @@ tags: [amazon dash button, python, docker, synology]
 также можно настроить любое действие через сервис [IFTTT](https://ifttt.com).
 
 Из таблицы google можете строить любые графики и все, на что у вас хватит фантазии. Например,
-[вот так](http://masterandrey.com/posts/ru/iot_calendar_synology/).
+[вот так](/posts/ru/iot_calendar_synology.html).
 
 Практика показывает, что это нравится детям и служит для них дополнительным мотиватором 
 что-то регулярно делать (например, зарядку).
@@ -113,4 +113,4 @@ tags: [amazon dash button, python, docker, synology]
 ребенок делал упражнения).
 Для этого ее надо нажимать в начале и в конце интервала.
 
-Как настроить, описано в [Инструкции по настройке](http://masterandrey.com/posts/ru/amazon_dash_button_hack_install/).
+Как настроить, описано в [Инструкции по настройке](/posts/ru/amazon_dash_button_hack_install.html).

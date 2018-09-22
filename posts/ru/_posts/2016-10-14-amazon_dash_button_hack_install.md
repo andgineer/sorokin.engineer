@@ -219,5 +219,5 @@ MAC-адрес кнопки надо добавить в файл `buttons.json`
 
 Если вам хотелось бы повесить на стену свой старый Amazon Kindle и видеть данные о нажатиях на кнопку на нем,
 то можете использовать мой проект 
-[Отображение на kindle событий умной wi-fi кнопки](http://masterandrey.com/posts/ru/iot_calendar_synology/).
+[Отображение на kindle событий умной wi-fi кнопки](/posts/ru/iot_calendar_synology.html).
 

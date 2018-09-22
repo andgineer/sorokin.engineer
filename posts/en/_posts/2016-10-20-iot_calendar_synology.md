@@ -10,7 +10,7 @@ tags: [amazon dash button, python, docker, synology]
 ![](/images/dashboard.png)
 
 If you want to see some calendar data (for example from
-[Your DIY smart wifi button](http://masterandrey.com/posts/en/amazon_dash_button_hack/)
+[Your DIY smart wifi button](/posts/en/amazon_dash_button_hack.html)
 you can create image of it with help of my application described below.
 
 I use old Amazon Kindle on wall to show the image.
@@ -23,7 +23,7 @@ Kindle works for weeks on one charge.
 ## Set up
 
 Set up `settings.json` and `buttons.json`, as described in 
-[Smart wifi button install](http://masterandrey.com/posts/en/amazon_dash_button_hack_install/).
+[Smart wifi button install](/posts/en/amazon_dash_button_hack_install.html).
 
 In `dashboards` describe your dashboard. This is image `empty_image` for days without event (i.e.
 mooch days). Also you can have absenties in your calendar (events described in

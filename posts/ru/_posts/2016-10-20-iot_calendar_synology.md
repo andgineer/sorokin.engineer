@@ -9,7 +9,7 @@ tags: [amazon dash button, python, docker, synology]
 
 ![](/images/dashboard.png)
 
-В статье [Умная wi-fi кнопка](http://masterandrey.com/posts/ru/amazon_dash_button_hack/)
+В статье [Умная wi-fi кнопка](/posts/ru/amazon_dash_button_hack.html)
 описано, как вы можете регистрировать в Google Calendar события от кнопки Amazon Dash Button.
 
 Ниже рассказывается, как показать этот календарь на вашем старом Amazon Kindle, который вы можете повесить на стену.
@@ -22,7 +22,7 @@ tags: [amazon dash button, python, docker, synology]
 ## Настройки
 
 Помимо настройки кнопок в `settings.json` и `buttons.json`, описанной в 
-[Установка на Synology умной wi-fi кнопки](http://masterandrey.com/posts/ru/amazon_dash_button_hack_install/),
+[Установка на Synology умной wi-fi кнопки](/posts/ru/amazon_dash_button_hack_install.html),
 вам необходимо настроить параметры отображения событий.
 
 Это делается в разделе `dashboards`. Настраивается картинка для дней, в которых не было событий `empty_image` (т.е.
