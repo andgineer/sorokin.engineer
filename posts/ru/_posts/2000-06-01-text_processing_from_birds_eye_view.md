@@ -5,6 +5,7 @@ comments: true
 ref: text_processing_from_birds_eye_view
 title: "Регулярные выражения: Взгляд на текст с высоты птичьего полета"
 tags: [pascal, regexp, delphi]
+redirect_from: "/posts/ru/text_processing_from_birds_eye_view/"
 ---
 
 Эту статью я опубликовал на delphi3000.com, но сайт прожил недолго..
