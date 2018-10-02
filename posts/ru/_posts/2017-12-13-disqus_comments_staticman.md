@@ -5,6 +5,7 @@ ref: staticman
 title: "Замена комментариев disqus на комментарии github"
 comments: true
 tags: [github pages]
+redirect_from: "/posts/ru/disqus_comments_staticman/"
 ---
 
 ![](/images/staticman.svg)

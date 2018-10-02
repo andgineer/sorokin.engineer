@@ -5,6 +5,7 @@ ref: amazon_dash_button_hack
 title: "Amazon Dash Button hack: Умная wi-fi кнопка"
 comments: true
 tags: [amazon dash button, python, docker, synology]
+redirect_from: "/posts/ru/amazon_dash_button_hack/"
 ---
 
 ![](/images/amazon_dash.png)

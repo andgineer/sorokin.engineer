@@ -5,6 +5,7 @@ ref: nfc_mifare_reader
 title: "Moscow subway NFC cards and MIFARE readers from ACS (ACR1281 и ACR122)"
 comments: true
 tags: [NFC, MIFARE, python]
+redirect_from: "/posts/en/nfc_mifare_reader/"
 ---
 
 ![](/images/acr1281.jpg)

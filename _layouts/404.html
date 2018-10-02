@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    <script>
+      var page_url = window.location.href;
+      if((page_url.charAt(page_url.length - 1) == "/") && (page_url.match(/\/posts\//i))) {
+        window.location.replace(page_url.slice(0, -1) + ".html");
+      }
+    </script>
+    {% include title.html %}
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>

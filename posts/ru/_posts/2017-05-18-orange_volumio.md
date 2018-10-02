@@ -5,6 +5,7 @@ ref: orange_volumio
 title: "Volumio on orange pi"
 comments: true
 tags: [orange pi, volumio]
+redirect_from: "/posts/ru/orange_volumio/"
 ---
 
 

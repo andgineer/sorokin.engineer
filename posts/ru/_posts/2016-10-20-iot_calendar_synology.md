@@ -5,6 +5,7 @@ ref: iot_calendar_synology
 title: "Отображение на Kindle календаря IoT (wi-fi кнопки)"
 comments: true
 tags: [amazon dash button, python, docker, synology]
+redirect_from: "/posts/ru/iot_calendar_synology/"
 ---
 
 ![](/images/dashboard.png)

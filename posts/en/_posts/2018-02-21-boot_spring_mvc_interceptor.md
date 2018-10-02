@@ -5,6 +5,7 @@ ref: springinterceptor
 title: "Spring boot MVC interceptor"
 comments: true
 tags: [java, spring, test]
+redirect_from: "/posts/en/boot_spring_mvc_interceptor/"
 ---
 
 For test purposes I wanted to add error emulation to our spring server.

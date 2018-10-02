@@ -6,6 +6,7 @@ title: "OpenAPI(swagger): Генерация рускоязычного опис
 categories: api, web
 comments: true
 tags: [api, web, swagger, bootprint]
+redirect_from: "/posts/ru/bootprint_openapi_russian/"
 ---
 
 ![](/images/bootprint.png){:.post-title}

@@ -5,6 +5,7 @@ ref: electronic_load
 title: "Electronic load to test and revive rechargable batteries"
 comments: true
 tags: [battery, electronics, aliexpress]
+redirect_from: "/posts/en/electronic_load/"
 ---
 
 ![](/images/electronic_load_ali.png){:.post-title}

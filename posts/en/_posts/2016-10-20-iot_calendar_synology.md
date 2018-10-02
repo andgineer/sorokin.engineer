@@ -5,6 +5,7 @@ ref: iot_calendar_synology
 title: "IoT (Internet of things) events calendar on Kindle"
 comments: true
 tags: [amazon dash button, python, docker, synology]
+redirect_from: "/posts/en/iot_calendar_synology/"
 ---
 
 ![](/images/dashboard.png)

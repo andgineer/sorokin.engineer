@@ -5,6 +5,7 @@ ref: staticman
 title: "Disqus comments alternative: github issues (Staticman)"
 comments: true
 tags: [github pages]
+redirect_from: "/posts/en/disqus_comments_staticman/"
 ---
 
 ![](/images/staticman.svg)

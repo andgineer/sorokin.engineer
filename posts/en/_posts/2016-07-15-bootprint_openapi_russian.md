@@ -6,6 +6,7 @@ title: "OpenAPI(swagger): Exportable documentation"
 categories: api, web
 comments: true
 tags: [api, web, swagger, bootprint]
+redirect_from: "/posts/en/bootprint_openapi_russian/"
 ---
 
 ![](/images/bootprint.png){:.post-title}
