@@ -5,6 +5,7 @@ ref: projector_excelvan_cl720
 title: "Бюджетный проектор на дачу Excelvan CL720"
 comments: true
 tags: [projector]
+redirect_from: "/posts/ru/projector_excelvan_cl720/"
 ---
 
 ![](/images/excelvan_cl720_00001.png)

@@ -1,6 +1,9 @@
 search:
   en: "Search on the site..."
   ru: "Поиск по сайту..."
+find:
+  en: "Find"
+  ru: "Найти"
 comments:
   en: "User comments:"
   ru: "Комментарии пользователей"

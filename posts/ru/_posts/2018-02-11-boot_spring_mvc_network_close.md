@@ -5,6 +5,7 @@ ref: springnetworkclose
 title: "Spring boot MVC имитация проблем с сервером"
 comments: true
 tags: [java, spring, test]
+redirect_from: "/posts/ru/boot_spring_mvc_network_close/"
 ---
 
 С целью тестирования мне потребовалось имитировать проблему сервера, не возвращающего

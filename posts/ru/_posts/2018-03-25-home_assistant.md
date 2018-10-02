@@ -5,6 +5,7 @@ ref: home_assistant
 title: "Домашняя автоматизация с Xiaomi и Home assistant"
 comments: true
 tags: [smart home, Home asssitant]
+redirect_from: "/posts/ru/home_assistant/"
 ---
 
 ### Введение

@@ -5,6 +5,7 @@ ref: springinterceptor
 title: "Spring boot MVC interceptor"
 comments: true
 tags: [java, spring, test]
+redirect_from: "/posts/ru/boot_spring_mvc_interceptor/"
 ---
 
 Мне было необходимо добавить в spring сервер имитацию ошибок.

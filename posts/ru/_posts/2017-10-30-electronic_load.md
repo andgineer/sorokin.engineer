@@ -5,6 +5,7 @@ ref: electronic_load
 title: "Электронная нагрузка - тестируем и оживляем аккумуляторы"
 comments: true
 tags: [battery, electronics, aliexpress]
+redirect_from: "/posts/ru/electronic_load/"
 ---
 
 ![](/images/electronic_load_ali.png){:.post-title}

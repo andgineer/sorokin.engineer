@@ -5,6 +5,7 @@ ref: text_processing_from_birds_eye_view
 comments: true
 title: "Regular expressions: Text processing from bird's eye view"
 tags: [pascal, regexp, delphi]
+redirect_from: "/posts/en/text_processing_from_birds_eye_view/"
 ---
 
 This article was initially published on delphi3000.com, but the site had not survived..

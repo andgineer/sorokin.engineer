@@ -5,6 +5,7 @@ ref: kindle_display
 title: "Kindle keyboard as display"
 comments: true
 tags: [osx, kindle]
+redirect_from: "/posts/ru/kindle_display/"
 ---
 
 ![](/images/kindle_dashboard.png)

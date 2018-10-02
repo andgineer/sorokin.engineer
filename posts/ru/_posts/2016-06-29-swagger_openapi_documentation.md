@@ -5,6 +5,7 @@ ref: swagger_openapi_documentation
 title: "OpenAPI(swagger): Опыт использования"
 comments: true
 tags: [api, swagger]
+redirect_from: "/posts/ru/swagger_openapi_documentation/"
 ---
 
 ![](/images/swagger.png)

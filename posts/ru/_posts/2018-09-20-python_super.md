@@ -5,6 +5,7 @@ ref: python_super
 title: "Python super() - нюансы кооперативного множественного наследования"
 comments: true
 tags: [Python]
+redirect_from: "/posts/ru/python_super/"
 ---
 
 ![](/images/diamond_uml.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
