@@ -1,0 +1,16 @@
+@startuml
+control function_1
+control function_2
+collections CPU
+
+function_1 -> CPU
+activate CPU
+function_2 -> CPU
+activate CPU
+CPU -> CPU: wait for io
+|||
+CPU --> function_2
+deactivate CPU
+CPU --> function_1
+deactivate CPU
+@enduml
