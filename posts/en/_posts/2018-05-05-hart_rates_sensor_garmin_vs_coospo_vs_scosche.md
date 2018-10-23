@@ -80,3 +80,6 @@ So I think that you should not trust optical heart rate sensor.
 Use old good chest belt.
 
 Be fit and healthy!
+
+All graph was created with [hrcomparison](https://github.com/masterandrey/hrcomparison)
+ 
