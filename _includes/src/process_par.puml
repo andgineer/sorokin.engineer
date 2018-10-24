@@ -1,18 +1,17 @@
 @startuml
-control function_1
-control function_2
+control func1
+control func2
 collections CPU
 
-function_1 -> CPU
+func1 -> CPU
 activate CPU
-function_2 -> CPU
-note right: work with func1 and \nfunc2 in parallel\n- at least twice \nas much time
+func2 -> CPU
+note right: switching between func1 \nand func2 - at least twice \nas much execution time
 activate CPU
-CPU --> function_1
+CPU --> func1
 deactivate CPU
-CPU -> CPU: wait for io
 |||
 |||
-CPU --> function_2
+CPU --> func2
 deactivate CPU
 @enduml

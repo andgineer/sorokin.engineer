@@ -1,18 +1,17 @@
 @startuml
-control function_1
-control function_2
+control func1
+control func2
 collections CPU
 
-function_1 -> CPU
+func1 -> CPU
 activate CPU
-function_2 ->x CPU
+func2 ->x CPU
 note right: func2 request but we \nare busy with func1
-CPU -> CPU: wait for io
 |||
-CPU --> function_1
+CPU --> func1
 deactivate CPU
 CPU -> CPU: ready to get next func
 activate CPU
-CPU --> function_2
+CPU --> func2
 deactivate CPU
 @enduml
