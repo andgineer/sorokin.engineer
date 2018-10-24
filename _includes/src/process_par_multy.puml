@@ -8,10 +8,10 @@ function_1 -> CPU_1
 activate CPU_1
 function_2 -> CPU_2
 activate CPU_2
-CPU_1 --> function_1
-deactivate CPU_1
-CPU_2 -> CPU_2: wait for io
-|||
 CPU_2 --> function_2
 deactivate CPU_2
+CPU_1 -> CPU_1: wait for io
+|||
+CPU_1 --> function_1
+deactivate CPU_1
 @enduml
