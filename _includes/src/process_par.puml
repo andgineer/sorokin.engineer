@@ -8,10 +8,10 @@ activate CPU
 func2 -> CPU
 note right: switching between func1 \nand func2 - at least twice \nas much execution time
 activate CPU
-CPU --> func1
+CPU --> func2
 deactivate CPU
 |||
 |||
-CPU --> func2
+CPU --> func1
 deactivate CPU
 @enduml
