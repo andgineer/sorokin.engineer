@@ -6,10 +6,12 @@ collections CPU
 function_1 -> CPU
 activate CPU
 function_2 -> CPU
+note right: work with func1 and \nfunc2 in parallel\n- at least twice \nas much time
 activate CPU
 CPU --> function_1
 deactivate CPU
 CPU -> CPU: wait for io
+|||
 |||
 CPU --> function_2
 deactivate CPU
