@@ -1,16 +1,19 @@
-class Animal:
-    def draw(self):
-        print('Draw body')
+class Vertebrate:
+    def lay_eggs(self):
+        return None
 
-class Bird(Animal):
-    def draw(self):
-        print('Draw beak')
+class Bird(Vertebrate):
+    def lay_eggs(self):
+        return True
 
-class Mammal(Animal):
+class Mammal(Vertebrate):
     pass
 
-class Platypus(Mammal, Bird):
+class PlatypusMammalFirst(Mammal, Bird):
     pass
 
-duckbill = Platypus()
-duckbill.draw()
+class PlatypusBirdFirst(Bird, Mammal):
+    pass
+
+print(PlatypusMammalFirst().lay_eggs())
+print(PlatypusBirdFirst().lay_eggs())

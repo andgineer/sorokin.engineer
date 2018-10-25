@@ -6,8 +6,10 @@ async def f(name, timeout, on_result):
     print('hello', name)
     on_result(name + ' done!')
 
+
 def on_result(msg):
     print(msg)
+
 
 async def main():
     bob = asyncio.create_task(f('bob', 0.3, on_result))  # start the coroutine

@@ -1,11 +1,22 @@
 @startuml
-class Animal
-class Mummal
-class Bird
+
+class object
+class Vertebrate {
+    def lay_eggs():\n   return None
+}
+class Mammal
+class Bird {
+    def lay_eggs():\n   return True
+}
+class Dinosaur {
+    def lay_eggs():\n   return True
+}
 class Platypus
-Animal <|-- Mummal
-Animal <|-- Bird
+object <|-- Vertebrate
+Vertebrate <|-- Mammal
+Vertebrate <|-- Bird
+Vertebrate <|-- Dinosaur
 Bird <|-- Platypus
-Mummal <|-- Platypus
+Mammal <|-- Platypus
 
 @enduml

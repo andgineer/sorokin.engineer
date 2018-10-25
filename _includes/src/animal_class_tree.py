@@ -1,13 +1,13 @@
-class Animal:
+class Vertebrate:
     def __init__(self):
-        print('Animal.__init__()')
+        print('Vertebrate.__init__()')
 
-class Bird(Animal):
+class Bird(Vertebrate):
     def __init__(self):
         print('Bird.__init__()')
         super().__init__()
 
-class Mammal(Animal):
+class Mammal(Vertebrate):
     def __init__(self):
         print('Mammal.__init__()')
         super().__init__()
