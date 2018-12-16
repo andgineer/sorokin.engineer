@@ -10,10 +10,10 @@ redirect_from: "/posts/en/python_decorator_function_signature.md/"
 
 ## Problem
 
-[Decorators](https://docs.python.org/3/library/doctest.html) modifies original
+[Decorators](https://docs.python.org/3/library/doctest.html) modify original
 function.
 
-But as a result we have new function with different `sugnature` (set of
+As a result we have new function with different `sugnature` (set of
 arguments).
 
 Sometimes we want to keep old set of arguments.
@@ -45,17 +45,19 @@ The arguments list is not the only function feature that we lost after
 our decorator.
 
 For example we will loose also `__doc__` and that will be a problem for
-[doc-tests](https://docs.python.org/3/library/doctest.html) 
-- all the doc-tests won't work anymore.
+[doc-tests](https://docs.python.org/3/library/doctest.html)  - all the 
+doc-tests won't work anymore.
 
-Many attributes of the function that had been decorated you can save with help
-of `wraps` from `functools`:
+This and many other attributes of the function that had been decorated you can 
+save with help of `wraps` from `functools`:
 
 {% highlight python %}
 {% include src/decorator2.py %}
 {% endhighlight %}
 
-It's a pity for `__signature__` you need separate code and cannot use the same
-`wraps`. This is because many functions just do not have 
+It's a pity that for `__signature__` you need separate code and cannot use the 
+same `wraps`. 
+
+This is because many functions just do not have 
 `__signature__` attribute. You have to create it with help of `inspect`.
-But `wraps` just copy existing attributes so it's no help there.
+`wraps` just copy existing attributes so it's no help there.
