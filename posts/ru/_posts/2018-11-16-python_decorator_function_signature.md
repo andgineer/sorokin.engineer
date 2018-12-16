@@ -8,7 +8,9 @@ tags: [Python decorator]
 redirect_from: "/posts/ru/python_decorator_function_signature.md/"
 ---
 
-[Декоратор](https://docs.python.org/3/library/doctest.html) подменяет исходную 
+## Проблема
+
+[Декораторы](https://docs.python.org/3/library/doctest.html) подменяют исходную 
 функцию.
 
 И при этом изменяет ее "сигнатуру" - набор параметров.
@@ -34,6 +36,8 @@ redirect_from: "/posts/ru/python_decorator_function_signature.md/"
 Он будет видеть только безликие `*args, **kwargs`.
 И не построит нам корректного swagger-описания.
 
+## Как сохранить исходный набор параметров декорированной функции
+
 Как описано в
 [PEP0362](https://www.python.org/dev/peps/pep-0362/#visualizing-callable-objects-signature)
 в Python, начиная с 3.3, можно подменять сигнатуру функции с помощью 
@@ -42,6 +46,8 @@ redirect_from: "/posts/ru/python_decorator_function_signature.md/"
 {% highlight python %}
 {% include src/decorator2.py %}
 {% endhighlight %}
+
+## Как сохранить прочие атрибуты функции после декорирования
 
 Помимо этого, скорее всего мы также захотим сохранить еще ряд атрибутов функции.
 

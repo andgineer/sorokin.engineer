@@ -2,13 +2,15 @@
 layout: post
 lang: en
 ref: python_decorator_function_signature
-title: "Python decorators - how to keep function signature unchanged (__signature__)"
+title: "Python decorators - how to keep function signature (set of arguments) unchanged"
 comments: true
 tags: [Python decorator]
 redirect_from: "/posts/en/python_decorator_function_signature.md/"
 ---
 
-[Decorator](https://docs.python.org/3/library/doctest.html) modifies original
+## Problem
+
+[Decorators](https://docs.python.org/3/library/doctest.html) modifies original
 function.
 
 But as a result we have new function with different `sugnature` (set of
@@ -27,15 +29,19 @@ For example after:
 
 We will have only faceless `*args, **kwargs` as our new function arguments.
 
+## How to save function arguments list after it had been decorated
+
 In Python 3.3 and above 
-()[PEP0362](https://www.python.org/dev/peps/pep-0362/#visualizing-callable-objects-signature))
-you can use special attribute `__signature__`:
+([PEP0362](https://www.python.org/dev/peps/pep-0362/#visualizing-callable-objects-signature))
+you can use special attribute `__signature__` to save original arguments list:
 
 {% highlight python %}
 {% include src/decorator2.py %}
 {% endhighlight %}
 
-But the arguments list is not the only function feature that we lost after
+## How to save other function attributes
+
+The arguments list is not the only function feature that we lost after
 our decorator.
 
 For example we will loose also `__doc__` and that will be a problem for
