@@ -59,7 +59,7 @@ redirect_from: "/posts/ru/python_decorator_function_signature.md/"
 `wraps` модуля `functools`:
 
 {% highlight python %}
-{% include src/decorator2.py %}
+{% include src/decorator3.py %}
 {% endhighlight %}
 
 Только `__signature__` надо сохранять отдельно. 

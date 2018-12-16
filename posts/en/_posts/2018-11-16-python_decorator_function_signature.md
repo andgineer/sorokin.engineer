@@ -52,7 +52,7 @@ This and many other attributes of the function that had been decorated you can
 save with help of `wraps` from `functools`:
 
 {% highlight python %}
-{% include src/decorator2.py %}
+{% include src/decorator3.py %}
 {% endhighlight %}
 
 It's a pity that for `__signature__` you need separate code and cannot use the 
