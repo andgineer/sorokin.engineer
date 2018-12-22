@@ -7,6 +7,7 @@ comments: true
 tags: [java, spring, test]
 redirect_from: "/posts/en/boot_spring_mvc_network_close/"
 ---
+![](/images/failure.jpg){:.post-title}
 
 For testing purporses I want to emulate server failure.
 

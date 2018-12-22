@@ -8,7 +8,16 @@ tags: [github pages]
 redirect_from: "/posts/ru/disqus_comments_staticman/"
 ---
 
-![](/images/staticman.svg)
+![](/images/staticman.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
+<style type="text/css">
+  h2 {
+    content: "";
+    clear: both;
+  }
+</style>
+
+## Исход
 
 После новостей о рекламе в disqus, я решил перевести блог на комментарии в самом gihub
 на котором и живет блог.

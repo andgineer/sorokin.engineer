@@ -8,7 +8,16 @@ tags: [github pages]
 redirect_from: "/posts/en/disqus_comments_staticman/"
 ---
 
-![](/images/staticman.svg)
+![](/images/staticman.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
+<style type="text/css">
+  h2 {
+    content: "";
+    clear: both;
+  }
+</style>
+
+## Exodus
 
 After news about disqus, I decided to move comment system of my blog to github review.
 Because my site is static and live on github itself.

@@ -7,6 +7,7 @@ comments: true
 tags: [java, spring, test]
 redirect_from: "/posts/ru/boot_spring_mvc_interceptor/"
 ---
+![](/images/interceptor.jpg){:.post-title}
 
 Мне было необходимо добавить в spring сервер имитацию ошибок.
 Причем сделать это так, чтобы не менять исходный код сервера и иметь возможность

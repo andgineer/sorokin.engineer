@@ -7,7 +7,7 @@ comments: true
 tags: [Python]
 redirect_from: "/posts/ru/python_super/"
 ---
-![](/images/logo_super!.png)
+![](/images/logo_super!.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 <style type="text/css">
   h2 {
@@ -15,6 +15,8 @@ redirect_from: "/posts/ru/python_super/"
     clear: both;
   }
 </style>
+
+## Множественное наследование
 
 Python позволяет указать для класса несколько родителей.
 Это называется множественным наследованием.
@@ -117,6 +119,7 @@ mixin смогли бы переопределить его методы, тол
 
 
 ## Функция super()
+![](/images/animal_class_tree_uml.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 Функция super() обеспечивает так называемое "кооперативное" наследование методов.
 Если во всех переопределенных методах использовать эту функцию, то она обеспечит 
@@ -140,7 +143,6 @@ mixin смогли бы переопределить его методы, тол
 Но в каких-то ситуациях это может оказаться неприятной и трудно обнаружимой
 проблемой.
 
-![](/images/animal_class_tree_uml.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 ## Иллюстрация кооперативного множественного наследования с помощью super()
 

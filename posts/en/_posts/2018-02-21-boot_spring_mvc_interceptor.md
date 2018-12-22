@@ -7,6 +7,7 @@ comments: true
 tags: [java, spring, test]
 redirect_from: "/posts/en/boot_spring_mvc_interceptor/"
 ---
+![](/images/interceptor.jpg){:.post-title}
 
 For test purposes I wanted to add error emulation to our spring server.
 But I did not want to modify its sources and wanted ability to compile server without

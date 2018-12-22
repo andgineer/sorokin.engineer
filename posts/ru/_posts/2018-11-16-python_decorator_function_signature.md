@@ -7,7 +7,15 @@ comments: true
 tags: [Python decorator]
 redirect_from: "/posts/ru/python_decorator_function_signature.md/"
 ---
-![](/images/decorator.jpg){:.post-title}
+![](/images/decorator.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
+<style type="text/css">
+  h2 {
+    content: "";
+    clear: both;
+  }
+</style>
+
 ## Проблема
 
 [Декораторы](https://docs.python.org/3/library/doctest.html) подменяют исходную 

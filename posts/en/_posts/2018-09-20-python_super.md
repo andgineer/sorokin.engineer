@@ -7,7 +7,8 @@ comments: true
 tags: [Python]
 redirect_from: "/posts/en/python_super/"
 ---
-![](/images/logo_super!.png)
+![](/images/logo_super!.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
 
 <style type="text/css">
   h2 {
@@ -16,6 +17,7 @@ redirect_from: "/posts/en/python_super/"
   }
 </style>
 
+## Multiple inheritance
 Multiple inheritance is a feature in which a class can inherit characteristics 
 from more than one parent class.
 
@@ -114,6 +116,7 @@ multiple inheritance because all classes have the same grad-..-grand parent.
 
 
 ## super() function
+![](/images/animal_class_tree_uml.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 Function super() implements cooperative inheritance.
 
@@ -127,7 +130,6 @@ In some cases this is just intuitively right and good.
 But that can be very confusing in other cases and can be a source of hard
 to discover bug.
 
-![](/images/animal_class_tree_uml.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 ## Cooperative multiple inheritance with super()
 

@@ -7,7 +7,7 @@ comments: true
 tags: [Python asyncio threads fork]
 redirect_from: "/posts/ru/python_async/"
 ---
-![](/images/wool-yarn.jpg)
+![](/images/wool-yarn.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 <style type="text/css">
   h2 {
@@ -15,6 +15,8 @@ redirect_from: "/posts/ru/python_async/"
     clear: both;
   }
 </style>
+
+## Введение
 
 В арсенале современного программиста есть множество средств для создания не синхронного кода
 (выполняемого не последовательно).

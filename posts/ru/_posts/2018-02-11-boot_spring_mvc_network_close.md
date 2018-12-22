@@ -7,6 +7,7 @@ comments: true
 tags: [java, spring, test]
 redirect_from: "/posts/ru/boot_spring_mvc_network_close/"
 ---
+![](/images/failure.jpg){:.post-title}
 
 С целью тестирования мне потребовалось имитировать проблему сервера, не возвращающего
 ответ.
