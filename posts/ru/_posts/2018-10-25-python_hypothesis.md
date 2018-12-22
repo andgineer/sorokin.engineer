@@ -7,6 +7,7 @@ comments: true
 tags: [Python test hypothesis]
 redirect_from: "/posts/ru/python_hypothesis/"
 ---
+![](/images/hypothesis.jpg)
 
 При написании unit-тестов бывает трудно подобрать тестовые значения.
 Каждый из нас начинает идти по одним и тем же граблям, набирая свою базу "волшебных значений",

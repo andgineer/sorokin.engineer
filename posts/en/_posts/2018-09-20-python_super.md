@@ -7,6 +7,7 @@ comments: true
 tags: [Python]
 redirect_from: "/posts/en/python_super/"
 ---
+![](/images/logo_super!.png)
 
 <style type="text/css">
   h2 {

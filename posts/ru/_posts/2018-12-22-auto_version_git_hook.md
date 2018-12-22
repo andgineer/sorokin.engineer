@@ -8,6 +8,8 @@ tags: [Python Git hook]
 redirect_from: "/posts/ru/auto_version_git_hook.md/"
 ---
 
+![](/images/git-secret-big.png){:.post-title}
+
 ## Задача
 
 Удобно всегда знать точную версию приложения, с которым ты имеешь дело.

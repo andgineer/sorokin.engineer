@@ -7,6 +7,7 @@ comments: true
 tags: [Python asyncio threads fork]
 redirect_from: "/posts/ru/python_async/"
 ---
+![](/images/wool-yarn.jpg)
 
 <style type="text/css">
   h2 {

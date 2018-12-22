@@ -7,7 +7,7 @@ comments: true
 tags: [Python decorator]
 redirect_from: "/posts/ru/python_decorator_function_signature.md/"
 ---
-
+![](/images/decorator.jpg){:.post-title}
 ## Проблема
 
 [Декораторы](https://docs.python.org/3/library/doctest.html) подменяют исходную 
