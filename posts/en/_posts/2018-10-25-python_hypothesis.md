@@ -39,9 +39,9 @@ But do there is knowledge base for that just waiting for you use it.
     Actual   :1.0000000000000002
 
 The example is very simple one just to give you a taste.
-Of cause you know beforehand and witout any tests that this code is bad one 
+Of cause you know beforehand and without any tests that this code is bad one 
 to manipulate with money. But just imagine some novice wrote it, used
-Hypothesis to test and bum! - thru Hipothesis she gets advice from experts 
+Hypothesis to test and `bang!` - through Hipothesis she gets advice from experts 
 that actually this is not so good code. 
 
 Just think about that - this is not just test framework but expert knowledge base.
