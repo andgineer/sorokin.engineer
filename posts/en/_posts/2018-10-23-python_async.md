@@ -290,27 +290,25 @@ implicite and had to see. Looking at the code you have no idea that in fact
 it can stop execution and execute another code.
 
 #### Pluses
-* Не надо существенно раскрашивать `async/await`, как в `asyncio`, код зеленого потока.
-* Дешевое переключение между потоками.
-* Потоков может быть много.
-* Накладные расходы невысоки.
+* We don't complicated our code with explicite `async/await`, as with `asyncio`
+* Cheap switching between `green therads` (actually zero cost)
+* We can have very large amount of `green threads`
+* No cost overhead
 
 #### Minuses
-* `Monkey patching` неочевиден, поэтому даже при большом опыте вы будете очень приближенно понимать, 
-что происходит в приложении. И оптимизация работы станет увлекательным научным приключением.
+* `Monkey patching` implicite and even big experience won't gove you good understanding
+how you code actually works.
 
 #### Where to use
-Можно попробовать применить для большого объема унаследованного кода, который не предполагал 
-асинхронность.
+Legacy projects.
 
-Есть риск надолго завязнуть в сложной отладке и так и не получить реально несинхронного выполнения,
-но зато при успехе экономим время на переписывании старого кода. 
-
+In worst case scenario you just could not make it work, but in the best case it just 
+magically became `multi-thread` at nearly zero efforts from you.
 
 ### Asyncio
 
-Стандарт для Python.
-Имеет специальные ключевые слова в языке. 
+Python standard.
+Special operator in the language. 
 
 {% highlight python %}
 {% include src/async.py %}
@@ -321,54 +319,41 @@ it can stop execution and execute another code.
     alice done!
 
 #### Pluses
-* В полном соответствии с Python принципами "явное лучше неявного" - полная прозрачность 
-происходящего, упрощающая дальнейшее сопровождение приложений.
-* Дешевое переключение между потоками.
-* Потоков может быть много.
-* Накладные расходы невысоки.
-* В сочетании с отсутствие `monkey patching` получаем достаточно простое логически решение.
-Которое на порядок проще писать и отлаживать, чем multy threading. 
+* As in Python motto "explicite is better than implicite". Easy to understand and to debug.
+* Cheap switching
+* We can have very large amount of `coroutines`
+* No cost overhead 
 
 #### Minuses
-Надо существенно изменять исходные код.
-После чего его использование в синхронном режиме, хотя и вполне возможно, но уже довольгно громоздко
-и менее эффективно (придется все равно стартовать цикл обработки).
+You have a lot of `asyn/await` in you code and that complicate application logic.
+And you will have async code that should be used as async.
 
 #### Where to use
-Не стоит использовать `asyncio`, если у используемых вами библиотек ввода/вывода нет 
-`asycnio` вариантов. Такие варианты сейчас появились почти для всего, но если вам не уйти от 
-использования не поддерживаемой библиотеки, для которой никому не понадобилось делать `asyncio` вариант,
-возможно, рациональнее для начала попробовать сделать `monkey patching`, чем тратить много усилий на
-создание `asyncio` версии своими силами. 
-
-В новом коде рекомендуется использовать именно `asyncio`.
-Вполне решаемо совмещение `зеленых потоков` и `asyncio` - тем или иным образом надо решить
-вопрос использования единого `цикла выполнени` для обеих библиотек.
+All libraries that you use have `asyncio` version.
+Now this is Pythonic standard so with high probability this is your case. 
 
 
 ## Call-back hell
 
-Для полноты упомяну js-way.
-Мы можем при вызове ввода-вывода указывать функции, которые после ввода-вывода надо будет вызвать.
-И после этого продолжать выполнение нашей программы.
+Just to have a whole picture I want to say a couple of words about `js-way`.
+In each potentially `async` function you specify functions that will be called after
+complition of this function.
 
-Очевидно, что при этом приложение становится конечным автоматом.
-Вы пишете не последовательный код выполнения программы, а море обработчиков всевозможных событий.
-Которые, зачастую, логически совсем не выглядят событием (скажем, завершение открытия файла).
+Obviously after that you application is a some kind of finite-state machine.
 
-В принципе, несложный интерфейс пользователя так можно реализовать.
-Но как только нам надо сделать сложную обработку, мы получим очень запутанное приложение.
+You have a lot of 'handler' instead of some 'logic flow'.
 
-Поскольку `callback` это про способ взаимодействия с `coroutines`, чтобы его продемонстрировать я 
-взял `asyncio`.
+In fact this is good for UI which is naturally event-driven.
 
-Пример получился не страшным. Чтобы понять, во что в итоге выльется такой дизайн, вам надо далее
-представить, что после получения результатов от `bob` и `alice` вам надо далее что-то с ними сделать.
-Но вы уже не можете это описать как последователность инструкций - вам надо в обработчике `on_result`
-понять, что все нужные результаты уже получены и далее куда-то передать управление. А там будет 
-очередной разрыв процесса выполнения, когда вам потребуется ждать другие `coroutines`. И порой это 
-будет вложенным процессом. В итоге приложение будет состоять из большого числа сложно связанных
-функций, и из кода будет трудно понять последовательность их выполнения.
+But this is just spagetty-code for other purposes.
+
+I wrote some example - see it below.
+
+I kept it simple but you need just a little imagination to understand what monster will
+you have if you continue to write application in this way.
+
+At the end of the day you will have a mess of handler without any understanding
+how they are interconnected.
 
 {% highlight python %}
 {% include src/callback.py %}
@@ -380,20 +365,16 @@ it can stop execution and execute another code.
     
 ## libuv and others
 
-В описанном выше я не упоминал, как именно `цикл выполнения` понимает, что операционная система,
-например, закончила считывание файла, и, значит, управление можно опять давать той `coroutine` что
-этого ожидала.
+In fact for any `execution loop` tricky part - how to understand that we got
+data we was waiting for and have to contie this `coroutine`.
 
-Конкретные реализации не только существенно зависят от операционных систем.
-В рамках каждой операционной системы может быть несколько способов этого сделать.
+From application logic point of view this is irrevalent.
+But different `execution loop` implementation will have different performance
+for different situations and in different OS.
 
-Поэтому имеется несколько вариантов реализации `цикла выполнения`.
-Понять, какой из них лучше, и для чего - нетривиальное исследование.
-Сложность связана с тем, что эффективность надо измерять в реальных условиях.
-А реальный ввод-вывод очень сложно сделать повторяемым.
-При этом его задержки должны быть достаточно существенными, чтобы продемонстривать
-эффективность или неэффективность. На фоне этих задержек не просто поймать вклад
-в производительность собственно `цикла выполнения`.
+There are a lot of `execution loop` implementations.
+To compare them - very complicated task that cannot be done 'in-general',
+results heavily depends on application and resources it uses.
 
 ### Slide show
 * [PDF](/files/PythonAsync.pdf)
