@@ -33,20 +33,29 @@ redirect_from: "/posts/ru/python_asyncio_multiprocessing/"
 {% highlight python %}
 {% include src/asyncio_multiprocessing.py %}
 {% endhighlight %} 
-    >>>>>>>>>> 0
-    >>>>>>>>>> 1
-    >>>>>>>>>> 2
-    >>>>>>>>>> 3
-    <<<<<<<<<< task 2 finished with status 0
+    >>>>> task 0 starts with delay 0.9 seconds
+    >>>>> task 1 starts with delay 0.4 seconds
+    >>>>> task 2 starts with delay 0.6 seconds
+    <<<<< task 1 finished with status 0
     Stdout: b'', Stderr: b''
-    >>>>>>>>>> 4
-    <<<<<<<<<< task 1 finished with status 0
+    >>>>> task 3 starts with delay 0.3 seconds
+    <<<<< task 3 finished with status 0
     Stdout: b'', Stderr: b''
-    >>>>>>>>>> 5
-    <<<<<<<<<< task 3 finished with status 0
+    <<<<< task 2 finished with status 0
+    Stdout: b'', Stderr: b''
+    >>>>> task 4 starts with delay 0.9 seconds
+    >>>>> task 5 starts with delay 0.3 seconds
+    <<<<< task 0 finished with status 0
+    Stdout: b'', Stderr: b''
+    <<<<< task 5 finished with status 0
+    Stdout: b'', Stderr: b''
+    <<<<< task 4 finished with status 0
     Stdout: b'', Stderr: b''
 
-Этот код запускает максимум три экземпляра внешнего процесса.
+Process finished with exit code 0
+
+
+Этот код запускает 6 задач в максимум трех одновременно работающих экземплярах внешнего процесса.
 Я ограничиваю это с помощью [asyncio.Queue](https://docs.python.org/3/library/asyncio-queue.html).
 
 Когда процесс завершается вы можете обработать его результаты.
