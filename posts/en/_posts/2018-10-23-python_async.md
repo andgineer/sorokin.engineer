@@ -155,6 +155,8 @@ usage:
     hello bob
     alice done!
     bob done!
+    
+And you can even [use multiprocessing in asyncio application](/posts/en/python_asyncio_multiprocessing.html)
 
 #### Properties
 Let OS manage resources between our processes.
@@ -375,6 +377,11 @@ for different situations and in different OS.
 There are a lot of `execution loop` implementations.
 To compare them - very complicated task that cannot be done 'in-general',
 results heavily depends on application and resources it uses.
+
+## Combine
+
+In some cases it's convenient to combine different technics.
+For example you can write [asyncio application with multiprocessing](/posts/en/python_asyncio_multiprocessing.html)
 
 ### Slide show
 * [PDF](/files/PythonAsync.pdf)

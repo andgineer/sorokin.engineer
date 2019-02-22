@@ -5,7 +5,7 @@ ref: auto_version_git_hook
 title: "Automatically add version to sources (not only Python) - GIT hooks"
 comments: true
 tags: [Python Git bash]
-redirect_from: "/posts/en/auto_version_git_hook.md/"
+redirect_from: "/posts/en/auto_version_git_hook/"
 ---
 
 ![](/images/git-secret-big.png){:.post-title}
