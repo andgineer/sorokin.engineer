@@ -5,7 +5,7 @@ ref: hrcomparison
 title: "Heart rate sensors comparison Garmin vs Scosche vs CooSpo"
 comments: true
 tags: [sport, heart rate, tcx]
-redirect_from: "/posts/en/hart_rates_sensor_garmin_vs_coospo_vs_scosche/"
+redirect_from: "/posts/en/heart_rates_sensor_garmin_vs_coospo_vs_scosche/"
 ---
 
 ### Heart rate sensors comparison Garmin vs CooSpo

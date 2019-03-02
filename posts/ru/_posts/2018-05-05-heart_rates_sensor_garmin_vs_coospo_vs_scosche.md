@@ -5,8 +5,13 @@ ref: hrcomparison
 title: "Сравнение датчиков пульса Garmin, Scosche, CooSpo"
 comments: true
 tags: [sport, heart rate, tcx]
-redirect_from: "/posts/ru/hart_rates_sensor_garmin_vs_coospo_vs_scosche/"
+redirect_from: "/posts/ru/heart_rates_sensor_garmin_vs_coospo_vs_scosche/"
 ---
+
+### Нужная в хозяйстве вещь
+При тренировках полезно пользоваться датчиками пульса, в 
+[этой статье](/posts/ru/serious_training_endurance_athlets_rob_sleamaker_ray_browning)
+я рассказываю, почему.
 
 ### Сравнение датчиков пульса Garmin vs CooSpo
 
