@@ -28,7 +28,7 @@ redirect_from: "/posts/ru/fitness_wellness_life/"
 
 ## Силовые тренировки
 
-![](/images/image00001.png){:style="float: right; clear: both; margin-right: 7px;margin-top: 7px;"}
+![](/images/Image00001.png){:style="float: right; clear: both; margin-right: 7px;margin-top: 7px;"}
 Самое плохое, что вы можете сделать для своего здоровья - ходить в тренажерный зал
 два раза в неделю по два часа. 
 
@@ -83,7 +83,7 @@ redirect_from: "/posts/ru/fitness_wellness_life/"
 бодибилдера?
 
 ## Кардио нагрузка
-![](/images/image00002.png){:style="float: left; clear: both; margin-right: 7px;margin-top: 7px;"}
+![](/images/Image00002.png){:style="float: left; clear: both; margin-right: 7px;margin-top: 7px;"}
 
 Без кардио нагрузки, посещая только тренажерный зал, вы разбалансируете свой 
 организм и скорее получите проблемы со здоровьем, а не его улучшение.
@@ -113,7 +113,7 @@ redirect_from: "/posts/ru/fitness_wellness_life/"
 
 ## Как похудеть на 10 килограмм за две недели
 
-![](/images/image00003.png){:style="float: right; clear: both; margin-right: 7px;margin-top: 7px;"}
+![](/images/Image00003.png){:style="float: right; clear: both; margin-right: 7px;margin-top: 7px;"}
 
 Никак. Точнее, если вы ничего не будете есть, то вы похудеете примерно на столько
 как раз за две недели. И тяжело заболеете.
