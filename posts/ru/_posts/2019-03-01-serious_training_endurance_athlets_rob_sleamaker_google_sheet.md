@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: ru
-ref: serious_training_endurance_athlets_rob_sleamaker_ray_browning
-title: "Google таблица для составления плана по книге Роб Слимейкер Серьезные тренировки для спортсменов на выносливость"
+ref: serious_training_endurance_athlets_rob_sleamaker_ray_browning_sheet
+title: "Google таблица для составления плана по книге Серьезные тренировки для спортсменов на выносливость, Роб Слимейкер"
 comments: true
 tags: [sport ski]
 redirect_from: "/posts/ru/2019-03-01-serious_training_endurance_athlets_rob_sleamaker_google_sheet/"

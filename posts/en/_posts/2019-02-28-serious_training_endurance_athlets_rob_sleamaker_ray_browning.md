@@ -1,11 +1,11 @@
 ---
 layout: post
-lang: ru
+lang: en
 ref: serious_training_endurance_athlets_rob_sleamaker_ray_browning
-title: "Серьезные тренировки для спортсменов на выносливость, Роб Слимейкер"
+title: "Serious Training for Endurance Athletes, Rob Sleamaker"
 comments: true
 tags: [sport ski]
-redirect_from: "/posts/ru/serious_training_endurance_athlets_rob_sleamaker_ray_browning/"
+redirect_from: "/posts/en/serious_training_endurance_athlets_rob_sleamaker_ray_browning/"
 ---
 ![](/images/serious_planning.png){:.post-title}
 
@@ -14,7 +14,7 @@ redirect_from: "/posts/ru/serious_training_endurance_athlets_rob_sleamaker_ray_b
 на длительный период времени, о котором я ниже и расскажу.
 
 Если же вы занимаетесь физкультурой менее 4 часов в неделю, то, возможно,
-вам будет интересна моя статья [Как быстро похудеть..](/posts/ru/fitness_wellness_life.html)
+вам будет интересна моя статья [How to lose weight fast..](/posts/en/fitness_wellness_life.html)
 
 Без плана, идя на очередную тренировку нереально помнить о макроциклах или 
 даже циклах внутри месяца. Но без цикличности нагрузки вы улучшаете
