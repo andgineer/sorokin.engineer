@@ -28,156 +28,178 @@ This is jst for well-being and health, not for rofessional sportsmen.
 ## Strength trainings
 
 ![](/images/Image00001.png){:style="float: right; clear: both; margin-right: 7px;margin-top: 7px;"}
-Самое плохое, что вы можете сделать для своего здоровья - ходить в тренажерный зал
-два раза в неделю по два часа. 
+The worst thing you can do for your health is to go to the gym twice a week 
+for two hours.
 
-Два часа для силовой тренировки это нереально много и тяжело
-даже профессиональному спортсмену. Если заниматься, а не трепаться с тренером.
+Two hours for strength training is unrealistic and hard even for a 
+professional athlete. 
+If you engage, but do not gab with the coach.
 
-Силовая тренировка должна быть не более часа, лучше академического (45 минут).
-Даже если вы монстр и можете тренироваться дольше, все что больше часа будет 
-работать на сжиганием мышц. 
+Strength training should be no more than an hour, better than academic 
+(45 minutes).
+ Even if you are a monster and can train longer, all that will work for more 
+ than an hour on muscle burning.
 
-В тренажерном зале обычно есть два лагеря, тупо- и остро-конечников.
-Одни за свободные веса, другие за тренажеры.
+In the gym, there are usually two tribes, little-enders and big-enders. 
+Some for free weights, others for exercise machines.
 
-Для здоровья лучше не использовать ни то, ни другое.
+For health, it is better not to use any one or the other.
 
-Со свободными весами надо быть очень осторожным. Они эффективны для молодых
-бычков, которым надо быстро нарастить мясо. Это ваша цель? 
-Ок, у всех свои приоритеты, но мы же вроде про здоровье? 
-Да, да, классно иметь бицепс больше головы, но если вам более 20 лет, возможно, 
-у вас другие приоритеты в жизни.
+With free weights you have to be very careful. 
+They are effective for young bulls who need to quickly increase meat. 
+Is that your goal? Ok, everyone has their own priorities, but what about health? 
+Yes, yes, it's great to have biceps bigger than your head, but if you are 
+over 20 years old, you may have other priorities in life.
 
-Риск травм при неграмотном выполнении упражнений со свободными
-весами, просто не оправдывает пользу для любителя. А чтобы выполнять грамотно, надо 
-заниматься с хорошим тренером. Только со стороны можно увидеть изъяны техники. И только
-хорошему тренеру захочется реально смотреть за техникой. Большинство просто дадут вам малый 
-вес, с которым травма маловероятна, но и толку от которого мало. И будут следить
-только за вашим настроением, чтобы вам понравилось и вы пришли еще.
- 
-Тренажеры - беполезная потеря времени. Они не дают нужной нагрузки и они неестественно
-изолируют группы мышц. Есть хорошие упражнения, использующие тренажеры,
-но эти упражнения вам никогда не покажут во вводной тренировке и они не нарисованы
-на тренажере.
+The risk of injury in illiterate exercise with free weights simply does not 
+justify the benefit for an amateur. 
+And to perform correctly, you need to deal with a good coach. 
+Only from the side you can see the flaws of technology. 
+And only a good coach will want to really look for the technique. 
+Most just give you a small weight, with which the injury is unlikely, 
+but the sense of which is small.
+And they will only monitor your mood, so that you will like it and you will 
+come again.
 
-Полезны круговые тренировки (или табата, или другие модные названия) с весом своего 
-тела и оборудованием типа TRX.
-Да, простите, безумной скорости наращивания бройлерного мяса не будет,
-но зато то, что вы нарастите, будет функционально. 
+Exercise machines - useless loss of time. 
+They do not give the desired load and they unnaturally isolate muscle groups. 
+There are good exercises that use simulators, but these exercises will 
+never show you in the introductory training session and they are not drawn 
+on the exercise machine.
 
-Приседая на одной ноге, даже без утяжеления, вы даете на ноги
-ту же нагрузку, как штанга вашего веса. 
+Circuit training (or tabata, or other fashionable names) with the weight of 
+your body and equipment like TRX are useful. 
+Yes, excuse me, there will be no insane speed of broiler meat growth, 
+but what you increase will be functional.
 
-Подтягивание с отяжелением, или на одной руке безопаснее становой тяги. 
+One leg squats, even without weighting, give the same load on your legs as a 
+barbell of your weight.
 
-Несимметричные, в пределе на одной руке, отжимания, не порвут вам мышцы
-груди, как бывает при жиме штанги.
- 
-Упражнений много. Упражнения с собственным весом перегрузят ваши 
-мышцы как штанга на сотни килограмм, без вредного воздействия на позвоночник.
+Pulling-up with additional weight, or on one hand safer than the deadlift.
 
-Поймите меня правильно, я не собираюсь спорить с десятками книг по бодибилдингу,
-в них, в основном, все написано правильно. Но вы реально начинаете карьеру
-бодибилдера?
+Asymmetrical, better on one hand, push-ups, will not tear your chest muscles, 
+as happens when you press a barbell from your chest.
 
-## Кардио нагрузка
+A lot of exercises. 
+Exercises with your own weight will overload your muscles like a barbell for 
+hundreds of kilograms, without harmful effects on the spine.
+
+Understand me correctly, I am not going to argue with dozens of books 
+on bodybuilding, basically everything is written in them correctly. 
+But are you really starting a bodybuilder career?
+
+## Cadio
 ![](/images/Image00002.png){:style="float: left; clear: both; margin-right: 7px;margin-top: 7px;"}
 
-Без кардио нагрузки, посещая только тренажерный зал, вы разбалансируете свой 
-организм и скорее получите проблемы со здоровьем, а не его улучшение.
+Without cardio load, visiting only the gym, you will unbalance your body 
+and get health problems rather than improving it.
 
-Только не говорите "я не люблю бегать". Я тоже так говорил и не мог пробежать 
-более 10 минут без остановки, любым темпом. На тот момент у меня был диагноз
-"гипертония" и я постоянно болел то одним то другим.
+Just do not say "I do not like to run." 
+I also said so and could not run more than 10 minutes without stopping, 
+at any pace. 
+At that time I had a diagnosis of “hypertension” and I constantly suffered 
+from one illness or another.
 
-Сейчас у меня давление 120 на 80 и я уже 4 года не брал больничный. Еще важнее,
-что у меня не наступает усталость, как раньше, в конце рабочего дня.
-Я остаюсь энергичным и эффективным. 
+Now I have a pressure of 120 to 80 and I have not taken sick leave for 4 years. 
+More importantly, I do not get tired, as before, at the end of the working day. 
+I remain energetic and efficient.
 
-Кардио нагрузка должна быть такой, чтобы вам нравилось этим заниматься.
-Выберите свое - танцы, аэробика, волейбол, теннис, лыжи, велосипед, бег..
+Cardio should be such that you like to do it. 
+Choose your own poison - dancing, aerobics, volleyball, tennis, skiing, 
+biking, running ..
 
-Подготовка к событиям типа марафон или конкурс танцев может оказаться хорошим 
-способом приучить себя к регулярным занятиям и поддерживать к ним интерес.
+Preparing for events such as a marathon or a dance competition can be a 
+good way to train yourself in regular activities and keep them interested.
 
-Если речь о циклических видах спорта вроде лыж или велосипеда, можно составить
-себе план тренировок с помощью замечательной книги
-* [Роб Слимейкер, Рэй Браунинг Серьезные тренировки для спортсменов на выносливость](https://www.ozon.ru/context/detail/id/142772738/)
-* [Rob Sleamaker, Ray Browning Serious Training for Endurance Athletes 2nd](https://www.amazon.com/Serious-Training-Endurance-Athletes-2nd/dp/0873226445) 
+If we are talking about cyclical sports like ski or bicycle, you can make a 
+training plan for yourself with the help of a wonderful book
+[Rob Sleamaker, Ray Browning Serious Training for Endurance Athletes 2nd](https://www.amazon.com/Serious-Training-Endurance-Athletes-2nd/dp/0873226445) 
 
-Я рассказываю об этом в [тренировки на выносливость](/posts/ru/serious_training_endurance_athlets_rob_sleamaker_ray_browning.html) 
+I talk about this in [endurance training](/posts/en/serious_training_endurance_athlets_rob_sleamaker_ray_browning.html) 
 
-## Как похудеть на 10 килограмм за две недели
+## How to lose 20 pounds in two weeks
 
 ![](/images/Image00003.png){:style="float: right; clear: both; margin-right: 7px;margin-top: 7px;"}
 
-Никак. Точнее, если вы ничего не будете есть, то вы похудеете примерно на столько
-как раз за две недели. И тяжело заболеете.
+Just not possible.
 
-Запомните, что недопустимо худеть быстрее 2 килограмм в месяц. Во-1х это большой 
-стресс для организма, вы можете получить общее хроническое заболевание, которое уже 
-не вылечите никогда до конца своей жизни. 
-Во-2х это бессмысленно - килограммы не просто быстро к вам вернутся, они вернутся 
-с плюсом. Организм, видя что возможны такие проблемы с питанием, начнет активно
-запасать жир впрок. 
+Well, if you do not eat at all in this two weeks, you will lose this 20 pounds. 
+And you get sick.
 
-После каждой такой диеты вы, наоборот, набираете вес. 
-Очень мазохистским образом - мучая себя голодом напрасно и с большим риском для 
-здоровья. 
+Remember that it is unacceptable to lose weight faster than one pound a week. 
+Otherwise this is a great stress for the body, you can get a common chronic 
+disease that can never be cured until the end of your life. 
 
-Чтобы похудеть надо, извините за банальность, изменить образ жизни.
+Another reason why it makes no sense - pounds will not just return to you 
+quickly, they will return with a surplus. 
+The body, seeing that such nutritional problems are possible, will begin to 
+actively store fat for the future.
 
-Пока вы не научитесь получать удовольствие от того, что едите умеренно,
-долговременного эффекта не будет. 
-Похудеть можно только всегда соблюдая умеренность, а не на краткосрочной диете.
+After each such diet, you, on the contrary, gain weight. 
+In a very masochistic way - torturing yourself with hunger in vain and at 
+great risk for health.
 
-Да, пока вы на этом берегу, велико искушение
-сказать "да нафиг мне такая жизнь, мне на том свете никто не даст медаль,
-лучше получать удовольствие сейчас". 
+To lose weight you need, sorry for the banality, change your lifestyle.
 
-Только  оказавшись на другом берегу можно сказать "блин, как мне могла вообще
-нравится моя прежняя жизнь, я сейчас от бокала вина получаю больше удовольствия,
-чем от двух литров пива с пиццей тогда".
+Until you learn to enjoy what you eat moderately, there will be no lasting 
+effect. 
+You can only lose weight by eating less all the time, and not on a 
+short-term diet.
+
+Yes, while you are on this coast, the temptation is great to say 
+“this is no way to live for me, we live once, better to have fun now”.
+
+Only when you are on the other side you can say “damn, how I could even 
+like my old life, I now get more pleasure from a glass of wine than from two 
+liters of beer with pizza then”.
+
+While you are on this shore, you will continue to read in glossy zines, 
+what products you eat to lose weight, or which workouts burn fat on the hips.
+
+I know that you will not believe. But I say it anyway. 
+Helps only constant, over the years, healthy eating. 
+You also will like this life better than self-torturing by diets.
+
+No exercise helps to burn fat. First, it is impossible to “burn fat” 
+in a certain place. 
+Secondly, no training can burn extra piece of cake.
+Just too many calories to burn. 
+
+[Mike Boyle](http://www.bodybyboyle.com/), a recognized expert in functional 
+training, says that only one exercise helps to lose weight: `table push-away`. 
+This coach specializes in strength training for professional athletes in team 
+sports (hockey, soccer). 
+His task is to protect them from injuries and improve their functional 
+performance, not the volume of biceps, with the help of strength training, 
+which is not targeted for these athletes. 
+Be sure to look for the video, what exercises he recommends.
+
+As for the common myth “I want to lose weight - I am going to run at mornings
+or visiting a jym”. 
+One banana is 150 calories. Half an hour workout - 150 calories. 
+A piece of cake - 500 calories. 
+You lose weight at the dinner table, not in training.
+
+## I just do not have so much time for training
+
+Five children, work 12 hours a day.
+
+But a very decent amount of training at 7 hours a week is just an average 
+of an hour a day. 
+Or even just half an hour on a weekday and two hours a weekend.
+
+Don't you even have half an hour a day? 
+
+Well, honestly? 
+
+Then of course you are a prisoner and it no use to even think about health.
+You just straggling for your life.
+
+You can have agrement with your employer to extend the dinner to have some 
+training. 
+You can gets up early. You can go to bed later. 
+You can use commute as a workout on a bicycle.
  
-Пока вы на этом берегу, вы будете продолжать читать в Яндекс Дзен, от каких
-продуктов худеют, или какие тренировки эффективнее сжигают жир на бедрах.
-
-Но я все равно скажу, осознавая, что вы не поверите. Помогает только постоянное, 
-годами, здоровое питание. Вы еще и будете получать от такой жизни в тонусе кайф,
-в отличие от самоистязания диетами. 
-
-Точно не помогают никакие упражнения. Во-1х невозможно "сжечь жир" в определенном месте.
-Во-2х никакими тренировками не компенсировать лишний кусок торта. Гораздо проще
-его не есть, чем пытаться потом сжечь это количество калорий на многочасовой
-интенсивной тренировке.
-
-[Mike Boyle](http://www.bodybyboyle.com/), признанный эксперт по функциональным
-тренировкам, говорит что для похудения помогает только одно упражнение: 
-`table push-away` (`отталкивание от обеденного стола`). Этот тренер,
-специализируется на силовых тренировках для профессиональных спортсменов в игровых
-видах спорта (хоккей, футбол). Его задача - с помощью силовых занятий, не целевых для
-этих спортсменов, обезопасить их от травм и улучшить их функциональные показатели,
-а не объем бицепсов. Обязательно поищите видео, какие упражнения он рекомендует.
-
-Что касается распространенного мифа "надо похудеть - займусь спортом".
-Один банан - 150 калорий. Полчаса тренировки - 150 калорий. 
-Кусок торта - 500 калорий. Худеют за обеденным столом, а не на тренировках.
-
-## У меня в принципе нет столько времени на тренировки
-
-Пятеро детей, работа по 12 часов в день.
-
-Но очень приличный объем тренировок в 7 часов в неделю это всего лишь в 
-среднем час в день. Или даже только полчаса в будний день и по два часа
-в выходные.
-
-У вас нет даже полчаса в день? Ну честно? Тогда конечно вы заключенный
-на каторге и вам реально не до здоровья.
-
-Кто-то договаривается с работодателем о продлении обеда.
-Кто-то встает пораньше. Кто-то ложиться попозже.
-Кто-то использует дорогу на работу как тренировку на велосипеде.
-Или просто часть дороги на работу проходит пешком - к марафону так не 
-подготовишься, но рекомендации ВОЗ так можно выполнить с лихвой.
-
+Or just part of the commute to go on foot. That way you will not prepare 
+for the marathon of cause, but this is very good for your health and you save 
+a lot on hospital biils.

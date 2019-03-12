@@ -9,9 +9,8 @@ redirect_from: "/posts/en/2019-03-01-serious_training_endurance_athlets_rob_slea
 ---
 ![](/images/2019-03-02_15-49-22.png){:.post-title}
 
-In this article I describe how to use Google sheet based on book:
-* [Роб Слимейкер, Рэй Браунинг Серьезные тренировки для спортсменов на выносливость](https://www.ozon.ru/context/detail/id/142772738/)
-* [Rob Sleamaker, Ray Browning Serious Training for Endurance Athletes 2nd](https://www.amazon.com/Serious-Training-Endurance-Athletes-2nd/dp/0873226445) 
+In this article I describe how to use Google sheet based on book
+[Rob Sleamaker, Ray Browning Serious Training for Endurance Athletes 2nd](https://www.amazon.com/Serious-Training-Endurance-Athletes-2nd/dp/0873226445) 
 
 How to train using this plan I describe in
  [Serious Training..](/posts/en/serious_training_endurance_athlets_rob_sleamaker_ray_browning.html).
