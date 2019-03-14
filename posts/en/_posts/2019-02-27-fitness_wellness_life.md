@@ -75,7 +75,7 @@ but what you increase will be functional.
 One leg squats, even without weighting, give the same load on your legs as a 
 barbell of your weight.
 
-Pulling-up with additional weight, or on one hand safer than the deadlift.
+Chin-ups with additional weight, or on one hand safer than the deadlift.
 
 Asymmetrical, better on one hand, push-ups, will not tear your chest muscles, 
 as happens when you press a barbell from your chest.
