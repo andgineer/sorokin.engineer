@@ -9,251 +9,266 @@ redirect_from: "/posts/en/serious_training_endurance_athlets_rob_sleamaker_ray_b
 ---
 ![](/images/serious_planning.png){:.post-title}
 
-Если вы занимаетесь циклическими видами спорта вроде лыж или велосипеда, или бега,
-более 4 часов в неделю, то поддерживать интерес к тренировкам поможет план
-на длительный период времени, о котором я ниже и расскажу.
+If you are engaged in cyclic sports like ski or bicycle, or jogging, more 
+than 4 hours a week, then a plan for a long period of time, which I will 
+discuss below, will help to maintain interest in training.
 
-Если же вы занимаетесь физкультурой менее 4 часов в неделю, то, возможно,
-вам будет интересна моя статья [How to lose weight fast..](/posts/en/fitness_wellness_life.html)
+If you exercise less than 4 hours a week, then perhaps you will be interested 
+in my article [How to lose weight fast..](/posts/en/fitness_wellness_life.html) ..
 
-Без плана, идя на очередную тренировку нереально помнить о макроциклах или 
-даже циклах внутри месяца. Но без цикличности нагрузки вы улучшаете
-свои показатели не эффективно, а без развития вы неизбежно вообще 
-потеряете интерес к тренировкам. 
+Without a plan, going to the next training session it is impossible to remember 
+about macro-cycles or even cycles within a month. 
 
-Предопределенность на месяцы вперед может казаться угнетающе скучной.
-Но во-1х это, наоборот, вносит разнообразие - вы не делаете неделю за
-неделей одно и тоже.
-Во-2х это упрощает совмещение тренировок с вашей прочей социальной
-жизнью. Благодаря плану вы можете полностью освободить голову для рабочих
-проблем и для семьи.
+Without the cyclical nature of the load, you do not improve your performance 
+effectively, and without development you will inevitably lose interest in 
+training at all.
 
-Для составления плана, нам, любителям, и дорого и ни к чему обращаться к 
-высококлассным тренерам или долго изучать теорию, чтобы составить план 
-самостоятельно.
-
-Существует замечательная книга
-* [Роб Слимейкер, Рэй Браунинг Серьезные тренировки для спортсменов на выносливость](https://www.ozon.ru/context/detail/id/142772738/)
-* [Rob Sleamaker, Ray Browning Serious Training for Endurance Athletes 2nd](https://www.amazon.com/Serious-Training-Endurance-Athletes-2nd/dp/0873226445) 
-
-Которая позволяет вам очень быстро составить план тренировок.
-
-А чтобы вам было еще проще, я подготовил Google Sheet таблицу с шаблоном, так
-что вам остается только поставить дату начала и указать, сколько часов в 
-неделю вы  можете тренироваться.
-
-Более подробно об использовании таблицы читайте [Google таблица для составления плана..](/posts/ru/serious_training_endurance_athlets_rob_sleamaker_google_sheet.html).
-
-В этой статье я описываю, из каких упражнений состоит план.
-
-Очень важно понять, что эффект будет только от следования плану в целом.
-Он эффективен как системный подход, нет смысла брать из него
-отдельные кусочки.  
-
-## Структура тренировочного плана
-
-План составляется на полгода или год.
-Мой шаблон для полугода, потому что мне интересно участвовать в спортивных
-событиях и зимой (лыжи) и летом (бег).
-
-### Уровни интенсивности
-Прикинуть свои зоны пульса вы можете с помощь 
-[калькулятора зон пульса](https://www.heartmonitors.com/blogs/news/38044801-heart-rate-training-zone-calculator)
-
-Для этого надо знать свой пульс покоя (замерьте утром лежа) и максимальный 
-пульс.
-
-Максимальный пульс можно прикинуть по формуле `220 - возраст`.
-
-Его можно определить и на интенсивной тренировке.
-Но если вы давно не занимались физкультурой, настоятельно рекомендую
-сделать у врача как минимум кардиограмму. 
-
-А желательно стресс-эхо - это
-УЗИ сердца, которое делают после нагрузки. Как бонус вам определят ваш 
-максимальный пульс.
-
-Врач обязателен, чтобы вам не прибежать прямо в реанимацию, или чтобы 
-не превратиться в инвалида от вашей попытки вести здоровый образ жизни.
-Отнеситесь к этому серьезно. 
-
-На тренировках обязателен монитор пульса - по ощущениям уровень нагрузки
-определить сложно. Смотрите мое 
-[сравнение датчиков пульса](/posts/ru/heart_rates_sensor_garmin_vs_coospo_vs_scosche).
-
-Также вам надо бы знать свой уровень ПАНО (анаэробного порога). Это важно потому,
-что тренировки на уровне выше ПАНО не только бесполезны, но и вредны.
-
-Если для упражнения сказано "уровень 4", но ваше ПАНО пока на уровне 3,
-значит, вам нельзя превышать уровень 3. 
-
-Определение ПАНО это отдельная тема и я не смогу ее тут компактно раскрыть.
-
-### Низкая интенсивность
-
-Обратите внимание, что большая часть тренировок осуществляется на минимальном уровне 
-нагрузки.
-Вас на первых порах будут обгонять старушки и дети, научитесь это игнорировать.
-
-Если вы заставите нетренированное сердце работать без 
-восстановления, то можно получить необратимые изменения в нем, микроинфаркты. 
-И даже если вам повезет, и сердце не пострадает, вы напрасно будете себе 
-перенапрягать, не получая никакого развития. 
-
-### Разминка и заминка
-
-Книга подчеркивает важность разминки и тут трудно не согласиться. 
-Без разминки даже короткая пробежка может привести к микро растяжению в самом 
-неожиданном месте, которое поставит крест на тренировках не на одну неделю. 
-Да и психологически это важный момент включения в тренировку. 
-
-Важна и заминка, чтобы вывести накопленные за тренировку токсины из мышц. 
-
-И разминку и заминку вы учитываете как тренировку типа "Сверхдистанция".
-
-### Растяжка
-
-Авторы говорят и о растяжке, но тут они не приводят результатов исследований. 
-Судя по книгам других авторов, эффективность растяжки после упражнений сейчас 
-ставится под сомнение. 
-Растяжка важна, но, возможно, рациональнее ее делать при холодных мускулах. 
+Predeterminism for months ahead can seem depressingly boring. 
+But on the contrary, it brings diversity - you don’t do the same thing week 
+after week.
  
-### Структура плана
-Вся подготовка делится на фазы 
-* базовая
-* интенсивная
-* пиковая
-* соревновательная
-* восстановительная
+Secondly, it makes it easier to combine workouts with your other social life. 
+Thanks to the plan, you can completely free your head for work problems and for 
+the family.
 
-У каждой фазы свое назначение и свой набор тренировок, а также тренировочный 
-объем.
+To draw up a plan for us, the amateurs, there is no need to 
+use high-class trainers or study the theory for a long time in order to 
+draw up a plan on our own.
 
-Внутри фаз есть четырех-недельные циклы.
-Если фаза короче четырех недель, естественно, циклы будут менее четырех 
-недель. Циклы создают периодизацию нагрузки, чтобы организм эффективнее
-адаптировался.
+There is a wonderful book:
+ [Rob Sleamaker, Ray Browning Serious Training for Endurance Athletes 2nd](https://www.amazon.com/Serious-Training-Endurance-Athletes-2nd/dp/0873226445) 
 
-Недели лучше планировать однообразно, поскольку вам надо все это соотносить
-с вашей повседневной жизнью, и проще это делать, когда вы уже помните,
-что и в какой день недели происходит с точки зрения тренировок.
+Which allows you to very quickly make a training plan.
 
-Все это вам подскажет [шаблон плана](/posts/ru/serious_training_endurance_athlets_rob_sleamaker_google_sheet.html). 
+And to make it even easier for you, I prepared a Google Sheet with a 
+template, so you just have to put a start date and indicate how many hours a 
+week you can train.
 
-### Типы тренировок
+For more information about using table read 
+[Google Sheet..](/posts/en/serious_training_endurance_athlets_rob_sleamaker_google_sheet.html).
 
-#### Скорость (p.112)
-Используем на этих тренировках тот вид спорта в котором собираетесь 
-соревноваться. 
+In this article I describe the exercises of which the plan consists.
 
-Цель - тренировка связи мышц и нервов, тренировка скорости в экономичном
-режиме. 
+It is very important to understand that the effect will only be from following 
+the plan as a whole. 
 
-Не выжимать а лететь. Аэробная интенсивность и расслабленные мышцы. 
+It is effective as a systematic approach, it makes no sense to take individual 
+pieces from it. 
 
-15 минут разминка, 10 заминка. Длительность в плане включает периоды отдыха
-между ускорениями.
+## The structure of the training plan
 
-Три типа тренировок на скорость:
-* Bursts (базовая подготовка) - 15-20 секундные ускорения во время 
-сверхдистанционных (из них 10 секунд разгон). 
-10 % быстрее гоночной скорости. 
-* Body(конец базовой и все остальные фазы) - тоже полет, расслабленные 
-мышцы - 30-60 секунд с отдыхом 60-90 секунд или до пульса ниже 120. 
-До 3й зоны интенсивности. 
+The plan is drawn up for six months or a year. 
 
-| Цель гонки 10км | 200 метров, месяцы 24 недельного плана |
+My template is for six months, because it is interesting for me to 
+participate in sporting events both in winter (skiing) and in summer (running).
+
+### Intensity levels
+You can estimate your pulse zones with the help of the 
+[pulse zones calculator](https://www.heartmonitors.com/blogs/news/38044801-heart-rate-training-zone-calculator)
+
+To do this, you need to know your resting heart rate (measured lying down 
+in the morning) and the maximum heart rate.
+
+Maximum heart rate can be estimated by the formula `220 - age`.
+
+It can be determined on intensive training. 
+
+But if you haven’t been involved in physical exercise for a long time, 
+I strongly recommend that you do at least a cardiogram with your doctor.
+
+And preferably `stress echo` is an ultrasound of the heart, which is done 
+after exercise. 
+As a bonus, you will determine your maximum heart rate.
+
+A visit to physician is mandotory so that you do not run straight into ER, 
+or get serious illness as a result of your attempt to lead a healthy lifestyle. 
+
+Take it seriously.
+
+At trainings the pulse monitor is obligatory - it is difficult to determine 
+the sensation of the load. See my
+[hart rates sensors comparisom](/posts/en/heart_rates_sensor_garmin_vs_coospo_vs_scosche).
+
+Also, you need to know your level of anaerobic threshold. 
+This is important because training at the level above the anaerobic threshold 
+is not only useless, but also harmful.
+
+If the exercise description says “level 4”, but your anaerobic threshold is 
+at level 3, then you should not exceed level 3.
+
+The definition of anaerobic threshold is a separate topic please google it.
+
+### Low intensity
+
+Please note that most of the workouts are carried out at a minimum load level. 
+At first at your trainings you will be easely overефлу ин old women and 
+children, learn to ignore it.
+
+If you make an untrained heart work without recovery, then you can get 
+irreversible changes in it, microinfarcts. 
+
+## Warm up and cool down
+
+The book emphasizes the importance of warm-up and it's hard not to agree.  
+Without a warm-up, even a short run can lead to micro-stretching in the most 
+unexpected place, which will put an end to training for more than one week. 
+Yes, and psychologically this is an important point of inclusion in the workout.
+
+The cool down is also important in order to remove the toxins accumulated 
+during training from the muscles.
+
+And you consider warming up and hitch as a training like “Over-Distance”.
+
+### Stretching
+
+The authors talk about stretching, but here they do not give the results of 
+research. 
+
+Judging by the books of other authors, the effectiveness of stretching after 
+exercise is now questioned. 
+
+Stretching is important, but perhaps it is more rational to do it with cold 
+muscles.
+ 
+### Plan structure
+All preparation is divided into phases:
+* base
+* intense
+* peak
+* race
+* restorative
+
+Each phase has its own goal and its own set of workouts, as well as 
+the training volume.
+
+Inside the phases there are four-week cycles. 
+If the phase is shorter than four weeks, naturally, the cycles will be 
+less than four weeks. 
+
+Cycles create periodization of the load so that the body adapts more effectively.
+
+Weeks are better to plan monotonously, because you need to relate all this 
+to your daily life, and it is easier to do this when you already remember 
+what day of the week comes from the point of view of training.
+
+All this will tell you the [Google sheet..](/posts/en/serious_training_endurance_athlets_rob_sleamaker_google_sheet.html). 
+
+### Types of training
+
+#### Speed (p.112)
+We use at these trainings that kind of sport in which you are going to 
+compete.
+
+The goal is to train the connection of muscles and nerves, speed 
+training in economy mode.
+
+Fill you fly. Aerobic intensity and relaxed muscles.
+
+15 minutes warm up, 10 hitch. 
+
+The duration of the plan includes rest periods between accelerations.
+
+Three types of speed training:
+* Bursts (base) - 15-20 second accelerations during super-long-distance 
+(of which 10 seconds acceleration). 10% faster racing speed.
+* Body (end of the base and all other phases) - also flight, relaxed muscles - 
+30-60 seconds with a rest of 60-90 seconds or until the pulse is below 120. 
+To the 3rd intensity zone.
+
+| 10km race goal | 200 meters, months 24 week plan |
 | ----- | ----- |
-|50 минут | 67-65-63-60 секунд |
-| 45 минут | 61-59-57-54 секунд |
-| 40 минут | 55-53-51-48 секунд |
-| 35 минут | 49-47-45-42 секунд |
-| 30 минут | 43-41-39-36 секунд |
+|50 minutes | 67-65-63-60 seconds |
+| 45 minutes | 61-59-57-54 seconds |
+| 40 minutes | 55-53-51-48 seconds |
+| 35 minutes | 49-47-45-42 seconds |
+| 30 minutes | 43-41-39-36 seconds |
 
-* Peaking (только в подводке и во время соревнований). 
-Анаэробная нагрузка до 4-5 зоны интенсивности. 
-Серии по пять раз 15 секунд, 30 секунд отдых, между сериями 5 минут отдых. 
-Три серии.  
+* Peaking (only in the peak phase and race). Anaerobic load up to 4-5 
+zones of intensity. Series five times 15 seconds, 30 seconds rest, 
+between the series 5 minutes rest. Three series.
 
-#### Выносливость (p.116)
-Цель - аэробная тренировка в игровом режиме, использование других видов 
-спорта для разнообразия. 
+#### Endurance (p.116)
+The goal - aerobic training in the game mode, the use of other sports for 
+a change.
 
-5 минут разминка, 5 заминка.
+5 minutes warm up, 5 hitch.
 
-Можно как разминку для интервалов или скорости или силовой. 
+You can as a warm-up for intervals or speed or power.
 
-На втором уровне пульса 5-20 минут далее 15 секунд отдых и так далее 
-(мне кажется что это опечатка - при такой малой разнице в уровене нагрузки
-за 15 секунд я вообще не успеваю ощутить разницу, которую вижу только 
-по пульсометру) 
+At the second level of the pulse, 5-20 minutes, then 15 seconds rest and so 
+on.
 
-#### Темп/Гонка (p.119)
-Цель - репетиция гонки, в целевом виде спорта. 
+#### Race/pace (p.119)
 
-В том числе тестирование режима питья и еды. 
+The goal - the imitation of the race, in the target sport.
 
-Разминка 15-20 минут, 10 заминка. 
+This includes testing the drinking and eating regimens.
 
-Соревнование или самотестирование. 
+Warm up 15-20 minutes, 10 hitch.
 
-4-5 уровень интенсивности в зависимости от дистанции (но не выше ПАНО). 
+Competition or self-testing.
 
-Желательно в одном месте, чтобы контролировать прогресс и каждый месяц. 
+4-5 level of intensity depending on the distance (but not higher than anaerobic
+threshold).
 
-Научиться не менять темп во время всей тренировки (т.е. по сути найти 
-свой темп и на нем и начинать и заканчивать).
+It is desirable in one place to monitor progress every month.
 
-Не более 1-2 раз за месяц. План распределяет эти тренировки по неделям,
-но фактически надо аккумулировать все это время в тренировки, достаточные по 
-длительности для имитации планируемой гонки, или 80% дистанции 
-планируемого марафона.
+To learn not to change the pace during the entire workout (that is, in fact, 
+find your own pace and start and end on it).
 
-Фиксируется дистанция и HR чтобы совершенствовать технику и 
-контролировать прогресс по итоговому времени.  
+No more than 1-2 times per month. The plan distributes these workouts by 
+weeks, but in fact it is necessary to accumulate all this time in training, 
+sufficient in duration to simulate the planned race, or 80% of the 
+distance of the planned marathon.
 
-####  Интервалы и горные (p.123)
-В целевом виде спорта. Горные отличаются только тем, что выполняются в горку.
+The distance and HR are fixed in order to improve the technique and monitor 
+the progress over the final time. 
 
-3-4 уровень но ниже ПАНО. 
+####  Intervals and up-hill (p.123)
+In the target sport. Up-hill differ only in that they are up the hill.
 
-Если вы превышаете ПАНО и ваши мышцы ощущаются забитыми, у вас одышка - 
-вы не тренируетесь, а разрушаете ранее достигнутое, снизьте темп. 
+Level 3-4 but below anaerobic threshold.
 
-Цель - улучшение ПАНО. 
+If you exceed anaerobic threshold and your muscles feel clogged, 
+you have shortness of breath - you do not exercise, but destroy the 
+previously achieved, slow down.
 
-Разминка 15-20 минут 10 заминка. Не дольше 75 минут. Длительность в 
-плане включает периоды отдыха между ускорениями.
+The goal is to improve the anaerobic threshold.
 
-Фартлек - без контроля пульса ускоряться и отдыхать по ощущениям. 
+Warm up 15-20 minutes 10 hitch. Not longer than 75 minutes. 
+The duration of the plan includes rest periods between accelerations.
 
-Интервалы - 1км или 2-8 минут (увеличивать с каждой неделей). 
-Отдых до пульса 130 или половину длительности интервала. 
+Fartlek - without pulse control, accelerate and relax on sensations.
 
-#### Сверхдистанция (p.127)
-Желательно целевой вид спорта но периодически разнообразить виды. 
+Intervals - 1 km or 2-8 minutes (increase with each week). 
+Rest to pulse 130 or half the duration of the interval.
 
-Строго 1й уровень нагрузки. 
+#### Over distance (p.127)
+It is desirable target sport but periodically use other types.
 
-Без разминки-заминки, более того, разминку к другим видам нагрузки вы можете 
-учитывать в счет этого типа тренировок.
+Strictly 1st level of load.
 
-Не увеличивать длительность быстрее чем по 10%. 
+Without a warm-up hitch, moreover, you can take into account this 
+type of workout to warm up to other types of exercise.
 
-Если ожидаемый марафон более 2 часов то раз в неделю сверхдистанция 
-от 2 до 5 часов. 
+Do not increase the duration faster than 10%.
 
-Bursts каждые 10-15 минут. 
+If the expected marathon is more than 2 hours, then once a week the 
+distance is from 2 to 5 hours.
 
-#### Сила (p.129)
-8-12 упражнений по три подхода. 
+Bursts every 10-15 minutes.
 
-12-20 повторов. 
+#### Strength (p.129)
+8-12 exercises on three approaches.
 
-До 60 минут. 
+12-20 repetitions.
 
-В книге есть подробные рекомендации для разных видов спорта и фаз подготовки.
-Например, не делать жим от груди на интенсивном этапе подготовки лыжников.
- 
-Но тут уже вам решать, настолько ли вы хотите достичь пика в беге, 
-чтобы игнорировать для этого силовые тренировки. 
+Up to 60 minutes.
+
+The book has detailed recommendations for different sports and training 
+phases. 
+For example, do not press on the chest at the intensive stage of training 
+skiers.
+
+But here it is up to you to decide whether you want to reach a peak in 
+running so that you can ignore strength training for this.
