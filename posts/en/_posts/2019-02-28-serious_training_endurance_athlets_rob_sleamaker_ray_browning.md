@@ -133,10 +133,10 @@ muscles.
 ### Plan structure
 All preparation is divided into phases:
 * base
-* intense
+* intensity
 * peak
 * race
-* restorative
+* regeneration
 
 Each phase has its own goal and its own set of workouts, as well as 
 the training volume.
@@ -224,8 +224,8 @@ distance of the planned marathon.
 The distance and HR are fixed in order to improve the technique and monitor 
 the progress over the final time. 
 
-####  Intervals and up-hill (p.123)
-In the target sport. Up-hill differ only in that they are up the hill.
+####  Intervals and up/vertical (p.123)
+In the target sport. Up/vertical differ only in that they are up the hill.
 
 Level 3-4 but below anaerobic threshold.
 
@@ -243,7 +243,7 @@ Fartlek - without pulse control, accelerate and relax on sensations.
 Intervals - 1 km or 2-8 minutes (increase with each week). 
 Rest to pulse 130 or half the duration of the interval.
 
-#### Over distance (p.127)
+#### Overdistance (p.127)
 It is desirable target sport but periodically use other types.
 
 Strictly 1st level of load.
