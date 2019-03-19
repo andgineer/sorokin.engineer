@@ -4,7 +4,7 @@ lang: ru
 ref: airdump
 title: "Быстрая реакция кнопки Amazon Dash с помощью aircrack"
 comments: true
-tags: [MacOS aircrack amazon_dash_button]
+tags: [MacOS, aircrack, amazon dash button]
 redirect_from: "/posts/ru/homebridge-dash-aircrach-ng/"
 ---
 

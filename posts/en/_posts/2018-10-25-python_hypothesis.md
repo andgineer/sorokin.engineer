@@ -4,7 +4,7 @@ lang: en
 ref: python_hypothesis
 title: "Test Python with Hypothesis"
 comments: true
-tags: [Python test hypothesis]
+tags: [Python, test, hypothesis]
 redirect_from: "/posts/ru/python_hypothesis/"
 ---
 ![](/images/hypothesis.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}

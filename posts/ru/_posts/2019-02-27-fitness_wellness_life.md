@@ -4,7 +4,7 @@ lang: ru
 ref: fitness_wellness_life
 title: "Как быстро похудеть и другие рекомендации Всемирной Организации Здравоохранения"
 comments: true
-tags: [sport fitness wellness]
+tags: [sport, fitness, wellness]
 redirect_from: "/posts/ru/fitness_wellness_life/"
 ---
 ![](/images/who-logo.png){:.post-title}

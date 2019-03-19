@@ -4,7 +4,7 @@ lang: en
 ref: fitness_wellness_life
 title: "How to lose weight fast and other recommendations of World Health Organization"
 comments: true
-tags: [sport fitness wellness]
+tags: [sport, fitness, wellness]
 redirect_from: "/posts/en/fitness_wellness_life/"
 ---
 ![](/images/who-logo.png){:.post-title}

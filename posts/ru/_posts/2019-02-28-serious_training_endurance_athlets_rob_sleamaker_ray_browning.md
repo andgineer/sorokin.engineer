@@ -4,7 +4,7 @@ lang: ru
 ref: serious_training_endurance_athlets_rob_sleamaker_ray_browning
 title: "Серьезные тренировки для спортсменов на выносливость, Роб Слимейкер"
 comments: true
-tags: [sport ski]
+tags: [sport, ski]
 redirect_from: "/posts/ru/serious_training_endurance_athlets_rob_sleamaker_ray_browning/"
 ---
 ![](/images/serious_planning.png){:.post-title}

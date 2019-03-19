@@ -4,7 +4,7 @@ lang: en
 ref: serious_training_endurance_athlets_rob_sleamaker_ray_browning_sheet
 title: "Google sheet based on book Serious Training for Endurance Athletes, Rob Sleamaker"
 comments: true
-tags: [sport ski]
+tags: [sport, ski]
 redirect_from: "/posts/en/2019-03-01-serious_training_endurance_athlets_rob_sleamaker_google_sheet/"
 ---
 ![](/images/2019-03-02_15-49-22.png){:.post-title}

@@ -4,7 +4,7 @@ lang: en
 ref: python_async
 title: "Non-sequential Python"
 comments: true
-tags: [Python asyncio threads fork]
+tags: [Python, asyncio, threads, fork]
 redirect_from: "/posts/en/python_async/"
 ---
 ![](/images/wool-yarn.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}

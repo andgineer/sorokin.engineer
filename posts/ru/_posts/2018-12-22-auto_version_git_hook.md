@@ -4,7 +4,7 @@ lang: ru
 ref: auto_version_git_hook
 title: "Автоматическое добавление версии в исходники (не обязательно Python) - GIT hook"
 comments: true
-tags: [Python Git bash]
+tags: [Python, Git, bash]
 redirect_from: "/posts/ru/auto_version_git_hook/"
 ---
 

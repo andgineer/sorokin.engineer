@@ -4,7 +4,7 @@ lang: en
 ref: serious_training_endurance_athlets_rob_sleamaker_ray_browning
 title: "Serious Training for Endurance Athletes, Rob Sleamaker"
 comments: true
-tags: [sport ski]
+tags: [sport, ski]
 redirect_from: "/posts/en/serious_training_endurance_athlets_rob_sleamaker_ray_browning/"
 ---
 ![](/images/serious_planning.png){:.post-title}

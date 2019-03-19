@@ -4,7 +4,7 @@ lang: en
 ref: python_asyncio_multiprocessing
 title: "How to use asyncio with multiprocessing in Python"
 comments: true
-tags: [Python asyncio multiprocessing]
+tags: [Python, asyncio, multiprocessing]
 redirect_from: "/posts/ru/python_asyncio_multiprocessing/"
 ---
 ![](/images/wool-yarn.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}
