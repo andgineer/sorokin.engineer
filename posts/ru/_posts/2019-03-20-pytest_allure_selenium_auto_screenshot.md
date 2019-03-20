@@ -26,4 +26,4 @@ redirect_from: "/posts/en/pytest_allure_selenium_auto_screenshot/"
 
 Или узнать как с минимальными усилиями можно развернуть Selenium + Allure 
 конфигурацию для тестов
-[из моей статьи](https://masterandrey.com/posts/en/e2e_tests.html).
+[из моей статьи](https://masterandrey.com/posts/ru/e2e_tests.html).
