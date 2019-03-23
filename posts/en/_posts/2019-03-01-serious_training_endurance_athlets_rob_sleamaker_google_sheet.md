@@ -75,3 +75,8 @@ For Saturday and Sunday there are gray digits that show how many hours for each 
 not log for the week.
 Gray digits do not used to calculate week result. When you enter real digids the cells will change color
 to black and the sheet will use them to calculate week results.
+
+Example what you get as a result (and a chance to learn a couple of words in 
+Russian):
+
+![](/images/endurance_example.png){:.post-title}
