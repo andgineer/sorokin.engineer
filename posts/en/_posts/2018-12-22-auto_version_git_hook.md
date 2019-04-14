@@ -25,13 +25,18 @@ For this purposes we can use `git hooks`.
 This is scripts that run locally by `git` for different events. 
 For example before commit.
 
-Script below saves date and time to some file and add
-this file to the commit.
-
-Name this file as `git_hook_add_commit_date.sh`.
+Script below saves date and time to some file.
+Name this file as `git_hook_pre_commit.sh`.
 
 {% highlight bash %}
-{% include src/git_precommit.sh %}
+{% include src/git_hook_pre_commit.sh %}
+{% endhighlight %}
+
+And this name as `git_hook_post_commit.sh`, it adds
+this file to the commit.
+
+{% highlight bash %}
+{% include src/git_hook_post_commit.sh %}
 {% endhighlight %}
 
 As it's inside your source code you can use it like this: 
@@ -43,17 +48,8 @@ As it's inside your source code you can use it like this:
 For security reasons you have to install `git hooks`
 by yourself on each machine you use for development.
 
-Script below installs our script as `pre-comit git hook`.
+Script below installs our scripts as `pre-comit and post-commit git hooks`.
 
 {% highlight bash %}
 {% include src/git_hook_install.sh %}
 {% endhighlight %}
-
-In fact I wanted to add commit message as well.
-But I have not found way for doing this.
-Commit message you can easily get in the `git hook commit-msg`.
-But if you add something to commit on this phase (for example as
-`git commit --amend`) git will fail the commit with message
-that `HEAD` was changed.
-
-If you know how to do that please let me know.
