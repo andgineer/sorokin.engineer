@@ -164,7 +164,7 @@ training in economy mode.
 
 Fill you fly. Aerobic intensity and relaxed muscles.
 
-15 minutes warm up, 10 hitch. 
+15 minutes warm up, 10 cool down. 
 
 The duration of the plan includes rest periods between accelerations.
 
@@ -191,7 +191,7 @@ between the series 5 minutes rest. Three series.
 The goal - aerobic training in the game mode, the use of other sports for 
 a change.
 
-5 minutes warm up, 5 hitch.
+5 minutes warm up, 5 cool down.
 
 You can as a warm-up for intervals or speed or power.
 
@@ -204,7 +204,7 @@ The goal - the imitation of the race, in the target sport.
 
 This includes testing the drinking and eating regimens.
 
-Warm up 15-20 minutes, 10 hitch.
+Warm up 15-20 minutes, 10 cool down.
 
 Competition or self-testing.
 
