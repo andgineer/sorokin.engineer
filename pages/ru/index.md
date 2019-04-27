@@ -5,17 +5,22 @@ ref: blog
 permalink: /ru/index.html
 ---
 
-<div class="container-fluid">
-  <ul class="list-group">
-  {% assign posts=site.posts | where:"lang",page.lang %}
-  {% for post in posts %}
-    <article class="post">
-
-      <li class="list-group-item borderless">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-
-    </article>
-  {% endfor %}
-  </ul>
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">{{ site.data.localization.history[page.lang] }}</div>
+    <div class="panel-body">
+        <table>
+          {% for post in site.posts %}
+            {% if page.lang == post.lang %}
+                <tr>
+                    <td>{{ post.date | date: "%Y.%m.%d" }}</td>
+                    <td>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </td>
+                </tr>
+            {% endif %}
+          {% endfor %}
+        </table>
+    </div>
+</div>
 </div>

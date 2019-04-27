@@ -1,0 +1,45 @@
+---
+layout: reviews_base
+---
+
+<article class="page">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="row">
+    {{ content }}
+  </div>
+
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">{{ site.data.localization.reviews[page.lang] }}</div>
+            <div class="panel-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>{{ site.data.localization.author[page.lang] }}</th>
+                            <th>{{ site.data.localization.country[page.lang] }}</th>
+                            <th>{{ site.data.localization.text[page.lang] }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for review in site.data.reviews %}
+                        <tr>
+                            <td>
+                                {{ review.author }}
+                            </td>
+                            <td>
+                                {{ review.country }}
+                                <span class="flag-icon flag-icon-{{review.country-code}}"></span>
+                            </td>
+                            <td>
+                                {{ review.text }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</article>
