@@ -4,19 +4,24 @@ lang: en
 ref: text_processing_from_birds_eye_view
 comments: true
 title: "Regular expressions: Text processing from bird's eye view"
-tags: [pascal, regexp, delphi]
+tags: [pascal, regex, delphi]
 redirect_from: "/posts/en/text_processing_from_birds_eye_view/"
 ---
 
-This article was initially published on delphi3000.com, but the site had not survived..
+This article was published on delphi3000.com, but now the site is dead.
 
 ![](/images/bookshelves.png){:.post-title}
 
-Do You want to write program for extracting weather forecast or currency rates or e-mails or whatsoever You want from HTML-pages, e-mails or other unformatted source? Or do You need to import data into Your database from old DB's ugly export format? Or You want just ensure that the e-mail user entered is syntaxically correct one?
+Do you want to write Delphi/Pascal program for extracting weather forecast or 
+currency rates or e-mails or whatsoever you want from HTML-pages, e-mails or o
+ther unformatted source? Or do you need to import data into your database from 
+old DB's ugly export format? Or you want just ensure that the e-mail user entered is 
+syntaxically correct one?
 
 There are two ways.
 
-The traditional one - You must make full featured text parser. This is an awful peace of work!
+The traditional one - you must make full featured text parser. This is an awful peace 
+of work!
 For example, try to implement rules how to recognize e-mail address - simple code like
 
 {% highlight pascal linenos %}
@@ -26,11 +31,14 @@ if (p > 1) and (p < length (email))
 {% endhighlight %}
 
 don't filter many common errors, for example, users frequently forget enter domain-part
-of e-mail, You'll need much more complex code (just read the big article
+of e-mail, you'll need much more complex code (just read the big article
 [Extended E-mail Address Verification and Correction](http://delphi-kb.blogspot.ru/2005/11/extended-e-mail-address-verification.html)).
 Just think about writing and debugging this code.
 
-The second way - look at the text from bird's eye view with help of regular expressions engine. You don't write the check processing routine, You just describe how regexp engine must do it for You. Your application will be implemented very fast and will be robust and easy to change!
+The second way - look at the text from bird's eye view with help of regular expressions 
+engine. You don't write the check processing routine, you just describe how regexp 
+engine must do it for you. Your application will be implemented very fast and will 
+be robust and easy to change!
 
 Unfortunately, Delphi component palette contains no TRegularExpression component.
 
@@ -81,7 +89,8 @@ APhones[1]='12-345-67'
 
 Create new project and place at the main form TBitBtn, TLabel and TNMHTTP components.
 
-Add following code as BitBtn1 OnClick event handler (don't mind Russian letter - they need for Russian web-page parsing):
+Add following code as BitBtn1 OnClick event handler (don't mind Russian letter - they 
+need for Russian web-page parsing):
 
 {% highlight pascal linenos %}
 procedure TForm1.BitBtn1Click(Sender: TObject);
@@ -102,10 +111,13 @@ begin
 end;
 {% endhighlight %}
 
-Now, then You click at the BitBtn1, programm connects to specified web-server and extract current rate.
+Now, then you click at the BitBtn1, programm connects to specified web-server and 
+extract current rate.
 
 Conclusion
-"Free Your mind" ((c) The Matrix ;)) and You'll find many other tasks there regular expressions can save You incredible amount of stupid coding work !
+"Free your mind" ((c) The Matrix ;)) and you'll find many other tasks there regular 
+expressions can save 
+you incredible amount of stupid coding work !
 
-[Regular expressions syntax explained](http://regexpstudio.com/en/regexp_syntax.html)
+[Regular expressions syntax explained](https://regex.masterandrey.com/regex)
 
