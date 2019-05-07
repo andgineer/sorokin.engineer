@@ -7,4 +7,4 @@ title: "Запущен сайт TRegExpr"
 tags: [pascal, regexp, delphi]
 ---
 
-Создан сайт [TRegExpr](https://regexpr.masterandrey.com/ru/latest/)
+Создан сайт [TRegExpr](https://regex.masterandrey.com/ru/latest/)

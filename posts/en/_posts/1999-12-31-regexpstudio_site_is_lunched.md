@@ -7,4 +7,4 @@ title: "TRegExpr site have been lunched"
 tags: [pascal, regexp, delphi]
 ---
 
-The [TRegExpr](https://regexpr.masterandrey.com/en/latest/) site have been lunched.
+The [TRegExpr](https://regex.masterandrey.com/en/latest/) site have been lunched.
