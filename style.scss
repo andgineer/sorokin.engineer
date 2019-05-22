@@ -85,7 +85,7 @@ li.borderless {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: 'Gloria Hallelujah', cursive;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -94,7 +94,8 @@ li.borderless {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-family: 'Cute Font', cursive;
+  font-size: 20px;
 
   @include mobile {
     margin: 3px 0;
