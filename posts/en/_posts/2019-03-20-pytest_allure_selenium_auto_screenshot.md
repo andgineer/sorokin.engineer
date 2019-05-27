@@ -22,5 +22,5 @@ as show in code below.
 
 The result would be like on picture above.
 
-In my [article](https://masterandrey.com/posts/en/e2e_tests.html)
+In my [article](https://sorokin.engineer/posts/en/e2e_tests.html)
 I explain how you can set up powerful test infrastructure in no time.

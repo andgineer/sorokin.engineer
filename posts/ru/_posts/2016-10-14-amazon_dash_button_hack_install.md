@@ -9,7 +9,7 @@ redirect_from: "/posts/ru/amazon_dash_button_hack_install/"
 ---
 
 Установка умной wifi кнопки (Amazon Dash Button hack),
-описаной в [Умная wi-fi кнопка](http://masterandrey.com/posts/ru/amazon_dash_button_hack/).
+описаной в [Умная wi-fi кнопка](http://sorokin.engineer/posts/ru/amazon_dash_button_hack/).
 
 ## Установка в Docker на Synology
 

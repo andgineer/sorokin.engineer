@@ -1,4 +1,4 @@
-My personal blog http://masterandrey.com
+My personal blog http://sorokin.engineer
 
 To run locally
 

@@ -119,5 +119,5 @@ Conclusion
 expressions can save 
 you incredible amount of stupid coding work !
 
-[Regular expressions syntax explained](https://regex.masterandrey.com/regex)
+[Regular expressions syntax explained](https://regex.sorokin.engineer/regex)
 
