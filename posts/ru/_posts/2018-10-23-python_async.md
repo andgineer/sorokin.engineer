@@ -4,7 +4,7 @@ lang: ru
 ref: python_async
 title: "Несинхронный Python"
 comments: true
-tags: [Python, asyncio, threads, fork]
+tags: [python, asyncio, threads, fork]
 redirect_from: "/posts/ru/python_async/"
 ---
 ![](/images/wool-yarn.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}

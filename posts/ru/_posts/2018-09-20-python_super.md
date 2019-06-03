@@ -4,7 +4,7 @@ lang: ru
 ref: python_super
 title: "Python - о множественном наследовании и функции super() простыми словами"
 comments: true
-tags: [Python]
+tags: [python]
 redirect_from: "/posts/ru/python_super/"
 ---
 ![](/images/logo_super!.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}

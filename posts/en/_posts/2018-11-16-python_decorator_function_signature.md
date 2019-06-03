@@ -4,7 +4,7 @@ lang: en
 ref: python_decorator_function_signature
 title: "Python decorators - how to keep function signature (set of arguments) unchanged"
 comments: true
-tags: [Python, decorator]
+tags: [python, decorator]
 redirect_from: "/posts/en/python_decorator_function_signature/"
 ---
 ![](/images/decorator.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}

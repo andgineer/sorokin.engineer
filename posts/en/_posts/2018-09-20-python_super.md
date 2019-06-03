@@ -4,7 +4,7 @@ lang: en
 ref: python_super
 title: "Python Multiple inheritance and super() function for dummies"
 comments: true
-tags: [Python]
+tags: [python]
 redirect_from: "/posts/en/python_super/"
 ---
 ![](/images/logo_super!.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}

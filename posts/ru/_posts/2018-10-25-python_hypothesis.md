@@ -4,7 +4,7 @@ lang: ru
 ref: python_hypothesis
 title: "Тестирование Python приложений с помощью hypothesis"
 comments: true
-tags: [Python, test, hypothesis]
+tags: [python, test, hypothesis]
 redirect_from: "/posts/ru/python_hypothesis/"
 ---
 ![](/images/hypothesis.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}

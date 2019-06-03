@@ -4,7 +4,7 @@ lang: ru
 ref: pytest_allure_selenium_auto_screenshot
 title: "Как автоматически делать скриншот при падении Selenium теста в py.test"
 comments: true
-tags: [Python, test, pytest, selenium, webdriver, allure]
+tags: [python, test, pytest, selenium, webdriver, allure]
 redirect_from: "/posts/en/pytest_allure_selenium_auto_screenshot/"
 ---
 ![](/images/allure-report.png){:.post-title}

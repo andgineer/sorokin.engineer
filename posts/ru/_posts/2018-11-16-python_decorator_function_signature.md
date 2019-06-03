@@ -4,7 +4,7 @@ lang: ru
 ref: python_decorator_function_signature
 title: "Декораторы Python и сохранение набора параметров декорированной функции (__signature__)"
 comments: true
-tags: [Python, decorator]
+tags: [python, decorator]
 redirect_from: "/posts/ru/python_decorator_function_signature/"
 ---
 ![](/images/decorator.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}
