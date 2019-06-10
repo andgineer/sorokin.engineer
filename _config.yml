@@ -18,24 +18,24 @@ avatar: https://avatars1.githubusercontent.com/u/1568089?v=3&u=f360ac3b8d7f85dd2
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: anso@mail.ru
+  email: andrey@sorokin.engineer
   facebook:
   flickr:
-  github: masterandrey
+  github: andgineer
   instagram:
   linkedin: andgineer
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: andreyamoney
-  stackoverflow: "users/4790975/masterandrey"
+  stackoverflow: "users/4790975/andgineer"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  jekyll: masterandrey/masterandrey.com
+  jekyll: andgineer/sorokin.engineer
 
 
 # Enter your Google Analytics and Yandex Metrika codes
 google_analytics: UA-90368520-2
-yandex_metrika: 44084904
+yandex_metrika: 53999143
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
