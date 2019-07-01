@@ -45,7 +45,7 @@ redirect_from: "/posts/ru/iot_calendar_synology/"
 
 ## Установка на Synology
 
-Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/docker-iot-calendar/`:
+Добавляем в Docker image с моим приложением `https://cloud.docker.com/repository/docker/andgineer/iot-calendar`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
@@ -53,8 +53,8 @@ redirect_from: "/posts/ru/iot_calendar_synology/"
 Когда он скачается, можно создавать Docker контейнер из этого image.
 
 Вы можете вместо выполнения описанной ниже инструкции импортировать 
-[мои настройки контейнера](https://github.com/masterandrey/docker-iot-calendar/tree/master/synology).
-Они предполагают, что [файлы с секретами и настройками](https://github.com/masterandrey/docker-iot-calendar/tree/master/amazon-dash-private)
+[мои настройки контейнера](https://github.com/andgineer/docker-iot-calendar/tree/master/synology).
+Они предполагают, что [файлы с секретами и настройками](https://github.com/andgineer/docker-iot-calendar/tree/master/amazon-dash-private)
 вы разместили на своем Synology в каталоге `docker/amazon-dash-private`.
 ![](/images/synology_import_settings.png)
 
@@ -64,7 +64,7 @@ redirect_from: "/posts/ru/iot_calendar_synology/"
 
 В `Advanced settings` -> `Volume` подключите к контейнеру каталог `/amazon-dash-private` с секретами доступа к 
 календарю Google и прочими настройками приложения.
-Скачайте [примеры этих файлов](https://github.com/masterandrey/docker-iot-calendar/tree/master/amazon-dash-private) 
+Скачайте [примеры этих файлов](https://github.com/andgineer/docker-iot-calendar/tree/master/amazon-dash-private) 
 и разместите в любом удобном вам месте на Synology.
 
 Например, у меня они находятся на томе Synology в каталоге 

@@ -44,7 +44,7 @@ in `openweathermap_key_file_name` parameter of `settings.json`).
 
 ## Synology set up
 
-Add Docker image from URL `https://hub.docker.com/r/masterandrey/docker-iot-calendar/`:
+Add Docker image from URL `https://cloud.docker.com/repository/docker/andgineer/iot-calendar`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
@@ -52,8 +52,8 @@ Add Docker image from URL `https://hub.docker.com/r/masterandrey/docker-iot-cale
 After downloading the image you can create Docker container from it.
 
 Instead of the instructions below you can just import 
-[my container settings](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/synology).
-The only specific thing that they assume - that you place [secrets and settings](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private)
+[my container settings](https://github.com/andgineer/docker-iot-calendar/tree/master/synology).
+The only specific thing that they assume - that you place [secrets and settings](https://github.com/andgineer/docker-iot-calendar/tree/master/amazon-dash-private)
 in folder `docker/amazon-dash-private`.
 ![](/images/synology_import_settings.png)
 
@@ -62,7 +62,7 @@ Or you can do all that by youself - see instructions below.
 Double click the image to start container create wizard.
 
 In `Advanced settings` -> `Volume` add folder `/amazon-dash-private` with secrets and settings.
-Download [examples](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private) 
+Download [examples](https://github.com/andgineer/docker-iot-calendar/tree/master/amazon-dash-private) 
 of this files and place them in any place on Synology. 
 
 In my case this is folder `docker/amazon-dash-private` on Synology volume:
