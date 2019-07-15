@@ -18,7 +18,7 @@ redirect_from: "/posts/en/python_async/"
 
 ## Introduction
 
-Modern sotware dent hvas a lot of options to perform application logic
+Modern sotware developers has a lot of options to perform application logic
 in non-sequential way.
 
 But you have to understand which option is the best for the task at your hand.

@@ -1,14 +1,20 @@
 en:
-  home:
-    name: "Articles"
+  about:
+    name: "About"
     url: "/en/index.html"
+  articles:
+    name: "Articles"
+    url: "/en/articles.html"
   tags:
     name: "Tag cloud"
     url: "/en/tags.html"
 ru:
-  home:
-    name: "Статьи"
+  about:
+    name: "Обо мне"
     url: "/ru/index.html"
+  articles:
+    name: "Статьи"
+    url: "/ru/articles.html"
   tags:
     name: "Облако меток"
     url: "/ru/tags.html"

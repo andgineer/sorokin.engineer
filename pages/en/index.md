@@ -1,27 +1,27 @@
 ---
 layout: default
 lang: en
-ref: blog
+ref: resume
 permalink: /en/index.html
 ---
 
-<div class="panel-group">
-<div class="panel panel-default">
-<div class="panel-heading">{{ site.data.localization.history[page.lang] }}</div>
-    <div class="panel-body">
-        <table>
-          {% for post in site.posts %}
-            {% if page.lang == post.lang %}
-                <tr>
-                    <td>{{ post.date | date: "%Y.%m.%d" }}</td>
-                    <td>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </td>
-                </tr>
-            {% endif %}
-          {% endfor %}
-        </table>
-    </div>
-</div>
-</div>
+![](/images/IMG_0554.png){:style="float: left;margin-right: 7px;margin-top: 7px;"}
 
+<style type="text/css">
+  h2 {
+    content: "";
+    clear: both;
+  }
+</style>
+
+Andrey Sorokin
+
+Software developer with over 20 years of experience.
+
+<i class="svg-icon email" />  [andrey@sorokin.engineer](mailto:andrey@sorokin.engineer){:style="vertical-align: 60%"}
+
+<i class="svg-icon github" /> [github.com/andgineer](https://github.com/andgineer){:style="vertical-align: 60%"}
+
+<i class="svg-icon linkedin" /> [linkedin.com/in/andgineer](https://www.linkedin.com/in/andgineer/){:style="vertical-align: 60%"}
+
+## &nbsp;

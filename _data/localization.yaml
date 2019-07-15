@@ -10,6 +10,9 @@ comments:
 name:
   en: "Name:"
   ru: "Имя:"
+about:
+  en: "Andrey Sorokin, engineer"
+  ru: "Андрей Сорокин, инженер"
 message:
   en: "Message:"
   ru: "Сообщение:"
