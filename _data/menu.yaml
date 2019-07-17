@@ -3,7 +3,7 @@ en:
     name: "About"
     url: "/en/index.html"
   articles:
-    name: "Articles"
+    name: "Blog"
     url: "/en/articles.html"
   tags:
     name: "Tag cloud"
@@ -13,7 +13,7 @@ ru:
     name: "Обо мне"
     url: "/ru/index.html"
   articles:
-    name: "Статьи"
+    name: "Блог"
     url: "/ru/articles.html"
   tags:
     name: "Облако меток"

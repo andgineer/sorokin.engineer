@@ -8,7 +8,7 @@ permalink: /ru/index.html
 ![](/images/IMG_0554.png){:style="float: left;margin-right: 37px;margin-top: 7px;"}
 
 <style type="text/css">
-  h2 {
+  h4 {
     content: "";
     clear: both;
   }
@@ -24,10 +24,16 @@ permalink: /ru/index.html
 {:style="font-size: 16px;"}
 Разработчик программного обеспечения с более чем 20 летним опытом.
 
-<i class="svg-icon email" />  &nbsp;&nbsp;[andrey@sorokin.engineer](mailto:andrey@sorokin.engineer){:style="vertical-align: 60%"}
+<i class="svg-icon linkedin" /> &nbsp;&nbsp;[linkedin.com/in/andgineer](https://www.linkedin.com/in/andgineer/){:style="vertical-align: 60%"}
 
 <i class="svg-icon github" /> &nbsp;&nbsp;[github.com/andgineer](https://github.com/andgineer){:style="vertical-align: 60%"}
 
-<i class="svg-icon linkedin" /> &nbsp;&nbsp;[linkedin.com/in/andgineer](https://www.linkedin.com/in/andgineer/){:style="vertical-align: 60%"}
+<i class="svg-icon email" />  &nbsp;&nbsp;[andrey@sorokin.engineer](mailto:andrey@sorokin.engineer){:style="vertical-align: 60%"}
 
-## &nbsp;
+#### <br><br>Вы искали что-то другое?
+
+Возможно, вы ожидали найти докуменетацию по моему старейшему из живых проектов [TRegExpr](https://regex.sorokin.engineer/ru/latest/index.html) - движок регулярных 
+выражений на Паскале.
+
+Или простой и гибкий инструмент для стресс-тестирования [Bombard](https://bombard.masterandrey.com/ru/latest/).
+
