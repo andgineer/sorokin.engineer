@@ -28,8 +28,6 @@ permalink: /ru/index.html
 
 <i class="svg-icon github" /> &nbsp;&nbsp;[github.com/andgineer](https://github.com/andgineer){:style="vertical-align: 60%"}
 
-<i class="svg-icon email" />  &nbsp;&nbsp;[andrey@sorokin.engineer](mailto:andrey@sorokin.engineer){:style="vertical-align: 60%"}
-
 #### <br><br>Вы искали что-то другое?
 
 Возможно, вы ожидали найти докуменетацию по моему старейшему из живых проектов [TRegExpr](https://regex.sorokin.engineer/ru/latest/index.html) - движок регулярных 
