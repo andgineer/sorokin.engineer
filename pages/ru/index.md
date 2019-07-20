@@ -16,7 +16,7 @@ permalink: /ru/index.html
 
 <br>
 {:style="font-family: "Times New Roman", Times, serif; font-size: 24px;"}
-### Андрей Сорокин, <i class="fa fa-home" />  [sorokin.engineer](https://sorokin.engineer){:style="font-size: 16px;"}
+### Андрей Сорокин, <i class="fa fa-home" />  [andrey.engineer](http://andrey.engineer){:style="font-size: 16px;"}
 
 {:style="font-size: 24px;"}
 ![](/images/hh.svg) [резюме](https://spb.hh.ru/resume/d32833b9ff05af06460039ed1f487336345961)
