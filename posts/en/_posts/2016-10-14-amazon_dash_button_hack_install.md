@@ -9,7 +9,7 @@ redirect_from: "/posts/en/amazon_dash_button_hack_install/"
 ---
 
 Installation for the Amazon Dash Button hack,
-described in [Your DIY smart wifi button](/posts/en/amazon_dash_button_hack.html).<br/>
+described in [Your DIY smart wifi button](/posts/en/amazon_dash_button_hack.html).
 
 
 ## Installation in Docker on Synology
