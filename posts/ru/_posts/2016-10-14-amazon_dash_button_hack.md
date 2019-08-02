@@ -58,8 +58,8 @@ redirect_from: "/posts/ru/amazon_dash_button_hack/"
 так и для ее активации. Первый месяц подписка дается бесплатно, далее стоит порядка $10 в месяц.
 
 Для регистрации нажатий кнопки вам нужно постоянно работающее приложение, которое 
-будет при нажатии кнопки выполнять нужные действия. Я упаковал свое [приложение](https://github.com/masterandrey/docker-amazon-dash-button-hack/) в 
-[контейнер Docker](https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/) 
+будет при нажатии кнопки выполнять нужные действия. Я упаковал свое [приложение](https://github.com/andgineer/docker-amazon-dash-button-hack) в 
+[контейнер Docker](https://cloud.docker.com/repository/registry-1.docker.io/andgineer/amazon-dash-button-hack) 
 и у себя использую его на дисковом массиве [Synology](https://www.synology.com). 
 
 Вы можете поставить его на любой постоянно включенный компьютер, где есть 
@@ -70,7 +70,7 @@ redirect_from: "/posts/ru/amazon_dash_button_hack/"
 
 Чтобы использовать мое приложение **вне** docker, вам надо установить [python3](https://www.python.org/downloads/) 
 и перечисленные в 
-[pip.requirements.txt](https://github.com/masterandrey/docker-amazon-dash-button-hack/blob/master/pip.requirements.txt)
+[pip.requirements.txt](https://github.com/andgineer/docker-amazon-dash-button-hack/blob/master/pip.requirements.txt)
 библиотеки, а также и все необходимые для них системные зависимости (их довольно много и их описание
 надо искать в описании каждой библиотеки).
 Поэтому я и рекомендую вам использовать мой контейнер docker, который во-1х избавляет вас от необходимости это
@@ -94,7 +94,7 @@ redirect_from: "/posts/ru/amazon_dash_button_hack/"
 Кнопка при этом будет моргать красным, поскольку она не сконфигурирована до конца и ничего не делает в amazon.
 Но при этом мое приложение получит сигнал о нажатии и выполнить настроенные вами действия.
 
-Мое [приложение](https://github.com/masterandrey/docker-amazon-dash-button-hack) для прослушивания траффика 
+Мое [приложение](https://github.com/andgineer/docker-amazon-dash-button-hack) для прослушивания траффика 
 в локальной сети использует python библиотеку [scapy](https://github.com/phaethon/scapy).
 
 Оно работает как со старыми кнопками Amazon (выпущенными до 2016) так и с

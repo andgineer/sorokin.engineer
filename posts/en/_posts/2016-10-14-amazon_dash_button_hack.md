@@ -54,8 +54,8 @@ To buy Amazon button you need Amazon Prime subscription, but it's free first mon
 and after that this is only $10/month.
 
 To catch button press and to do something usefull after press you need constantly running application. 
-My [application](https://github.com/masterandrey/docker-amazon-dash-button-hack/) works in 
-[Docker container](https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/) 
+My [application](https://github.com/andgineer/docker-amazon-dash-button-hack) works in 
+[Docker container](https://cloud.docker.com/repository/registry-1.docker.io/andgineer/amazon-dash-button-hack) 
 and can run for example on [Synology](https://www.synology.com). 
 
 In fact you can use it anywere where installed 
@@ -66,7 +66,7 @@ your network.
 
 You can use my app **without** docker, but for that you should install 
 [python3](https://www.python.org/downloads/) and libraries listed in
-[pip.requirements.txt](https://github.com/masterandrey/docker-amazon-dash-button-hack/blob/master/pip.requirements.txt)
+[pip.requirements.txt](https://github.com/andgineer/docker-amazon-dash-button-hack/blob/master/pip.requirements.txt)
 and all system dependencies for them.
 So I recommend to use Docker, to save your time and don't mess with your operating system libraries.
 
@@ -84,7 +84,7 @@ any appearance of the button in network and count each one as a press.
 The button after press will flash red light because it is not configured to buy something.
 But it will do the job all the same.
 
-My [application](https://github.com/masterandrey/docker-amazon-dash-button-hack) sniffs
+My [application](https://github.com/andgineer/docker-amazon-dash-button-hack) sniffs
  network traffic using python library [scapy](https://github.com/phaethon/scapy).
  
 It works with old Amazon Dash Buttons (before late 2016) and with 
