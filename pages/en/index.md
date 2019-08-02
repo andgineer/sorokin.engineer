@@ -16,16 +16,14 @@ permalink: /en/index.html
 
 <br>
 {:style="font-family: "Times New Roman", Times, serif; font-size: 24px;"}
-### Andrey Sorokin, <i class="fa fa-home" />  [sorokin.engineer](https://sorokin.engineer){:style="font-size: 16px;"}
-
-<i class="svg-icon linkedin" /> &nbsp;&nbsp;[linkedin.com/in/andgineer](https://www.linkedin.com/in/andgineer/){:style="vertical-align: 60%"}
+### Andrey Sorokin, <i class="fa fa-home" />  [andrey.engineer](http://andrey.engineer){:style="font-size: 16px;"}
 
 {:style="font-size: 16px;"}
 Software developer with over 20 years of experience.
 
-<i class="svg-icon github" /> &nbsp;&nbsp;[github.com/andgineer](https://github.com/andgineer){:style="vertical-align: 60%"}
+<i class="svg-icon linkedin" /> &nbsp;&nbsp;[linkedin.com/in/andgineer](https://www.linkedin.com/in/andgineer/){:style="vertical-align: 60%"}
 
-<i class="svg-icon email" />  &nbsp;&nbsp;[andrey@sorokin.engineer](mailto:andrey@sorokin.engineer){:style="vertical-align: 60%"}
+<i class="svg-icon github" /> &nbsp;&nbsp;[github.com/andgineer](https://github.com/andgineer){:style="vertical-align: 60%"}
 
 #### <br><br>You expected something else?
 May be you are here for my oldest alive project [TRegExpr](https://regex.sorokin.engineer) - regular expression engine implemented 

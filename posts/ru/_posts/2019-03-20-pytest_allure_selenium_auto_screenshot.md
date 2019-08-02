@@ -22,7 +22,7 @@ redirect_from: "/posts/en/pytest_allure_selenium_auto_screenshot/"
 В итоге вы получите отчет похожий на приведеный на картинке выше.
 
 Вы можете посмотреть на 
-[полный код](https://github.com/masterandrey/e2e-tests) тестов.
+[полный код](https://github.com/andgineer/e2e-tests) тестов.
 
 Или узнать как с минимальными усилиями можно развернуть Selenium + Allure 
 конфигурацию для тестов

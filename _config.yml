@@ -18,7 +18,7 @@ avatar: https://avatars1.githubusercontent.com/u/1568089?v=3&u=f360ac3b8d7f85dd2
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: andrey@sorokin.engineer
+  email:
   facebook:
   flickr:
   github: andgineer
@@ -26,7 +26,7 @@ footer-links:
   linkedin: andgineer
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: andreyamoney
+  twitter:
   stackoverflow: "users/4790975/andgineer"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/

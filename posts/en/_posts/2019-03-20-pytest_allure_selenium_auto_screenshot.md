@@ -13,7 +13,7 @@ You can write simple pytest hook to take Selenium webdriver screenshots
 automatically each time test fail.
 It recognize Selenium tests by fixture name `browser` so if you use
 another name for Selenuim webdrive you should change it.
-Full tests code you can find on [github](https://github.com/masterandrey/e2e-tests)
+Full tests code you can find on [github](https://github.com/andgineer/e2e-tests)
 
 If you use allure you can nicely attach the screenshots to test report
 as show in code below.
