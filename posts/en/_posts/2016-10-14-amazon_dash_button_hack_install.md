@@ -9,11 +9,12 @@ redirect_from: "/posts/en/amazon_dash_button_hack_install/"
 ---
 
 Installation for the Amazon Dash Button hack,
-described in [Your DIY smart wifi button](/posts/en/amazon_dash_button_hack.html).
+described in [Your DIY smart wifi button](/posts/en/amazon_dash_button_hack.html).<br/>
+
 
 ## Installation in Docker on Synology
 
-Add Docker image `https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/`:
+Add Docker image `https://cloud.docker.com/repository/docker/andgineer/amazon-dash-button-hack`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
@@ -21,8 +22,8 @@ Add Docker image `https://hub.docker.com/r/masterandrey/docker-amazon-dash-butto
 When download finished, we can create Docker container.
 
 Instead of the instructions below you can just import 
-[my container settings](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/synology).
-The only specific thing that they assume - that you place [secrets and settings](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private)
+[my container settings](https://github.com/andgineer/docker-amazon-dash-button-hack/tree/master/synology).
+The only specific thing that they assume - that you place [secrets and settings](https://github.com/andgineer/docker-amazon-dash-button-hack/tree/master/amazon-dash-private)
 in folder `docker/amazon-dash-private`.
 ![](/images/synology_import_settings.png)
 
@@ -35,7 +36,7 @@ Give high privilidge because it sniffs network traffic:
 ![](/images/dash_synology_docker_general.png)
 
 In `Advanced settings` -> `Volume` add folder `/amazon-dash-private` with secrets and settings.
-Download [examples](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private) 
+Download [examples](https://github.com/andgineer/docker-amazon-dash-button-hack/tree/master/amazon-dash-private) 
 of this files and place them in any place on Synology. 
 
 In my case this is folder `docker/amazon-dash-private` on Synology volume:

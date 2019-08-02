@@ -9,11 +9,11 @@ redirect_from: "/posts/ru/amazon_dash_button_hack_install/"
 ---
 
 Установка умной wifi кнопки (Amazon Dash Button hack),
-описаной в [Умная wi-fi кнопка](http://sorokin.engineer/posts/ru/amazon_dash_button_hack/).
+описаной в [Умная wi-fi кнопка](http://sorokin.engineer/posts/ru/amazon_dash_button_hack/).<br/>
 
 ## Установка в Docker на Synology
 
-Добавляем в Docker image с моим приложением `https://hub.docker.com/r/masterandrey/docker-amazon-dash-button-hack/`:
+Добавляем в Docker image с моим приложением `https://cloud.docker.com/repository/docker/andgineer/amazon-dash-button-hack`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
@@ -21,8 +21,8 @@ redirect_from: "/posts/ru/amazon_dash_button_hack_install/"
 Когда он скачается, можно создавать Docker контейнер из этого image.
 
 Вы можете вместо выполнения описанной ниже инструкции импортировать 
-[мои настройки контейнера](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/synology).
-Они предполагают, что [файлы с секретами и настройками](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private)
+[мои настройки контейнера](https://github.com/andgineer/docker-amazon-dash-button-hack/tree/master/synology).
+Они предполагают, что [файлы с секретами и настройками](https://github.com/andgineer/docker-amazon-dash-button-hack/tree/master/amazon-dash-private)
 вы разместили на своем Synology в каталоге `docker/amazon-dash-private`.
 ![](/images/synology_import_settings.png)
 
@@ -36,7 +36,7 @@ redirect_from: "/posts/ru/amazon_dash_button_hack_install/"
 
 В `Advanced settings` -> `Volume` подключите каталог `/amazon-dash-private` с секретами доступа к 
 таблице Google и настройками кнопок к контейнеру.
-Скачайте [примеры этих файлов](https://github.com/masterandrey/docker-amazon-dash-button-hack/tree/master/amazon-dash-private) 
+Скачайте [примеры этих файлов](https://github.com/andgineer/docker-amazon-dash-button-hack/tree/master/amazon-dash-private) 
 и разместите в любом удобном вам месте на Synology.
 
 Например, у меня они находятся на томе Synology в каталоге 
