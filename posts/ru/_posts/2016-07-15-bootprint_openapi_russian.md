@@ -3,7 +3,6 @@ layout: post
 lang: ru
 ref: bootprint_openapi_russian
 title: "OpenAPI(swagger): Генерация рускоязычного описание API"
-categories: api, web
 comments: true
 tags: [api, web, swagger, bootprint]
 redirect_from: "/posts/ru/bootprint_openapi_russian/"
@@ -28,4 +27,4 @@ redirect_from: "/posts/ru/bootprint_openapi_russian/"
 точки зрения OpenAPI, но она отражает именно то, что мы хотели показать заказчику).
 
 Правда, как обычно, двумя проблемами никогда не заканчивается, потом возникла третья,
-но это уже [другая история](/ru/athena_web_page_to_pdf/).
+но это уже [другая история](athena_web_page_to_pdf.html).

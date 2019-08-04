@@ -3,7 +3,6 @@ layout: post
 lang: en
 ref: bootprint_openapi_russian
 title: "OpenAPI(swagger): Exportable documentation"
-categories: api, web
 comments: true
 tags: [api, web, swagger, bootprint]
 redirect_from: "/posts/en/bootprint_openapi_russian/"
@@ -27,4 +26,4 @@ It's a pity I cannot merge my localization with the project because bootprint-op
 such a thing and it's not easy to figure out how to do that.
 
 After that we had another problem with our resourceful customer 
-[but this is another story](/en/athena_web_page_to_pdf/).
+[but this is another story](athena_web_page_to_pdf.html).
