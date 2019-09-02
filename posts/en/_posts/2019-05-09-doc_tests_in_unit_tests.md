@@ -23,7 +23,7 @@ Mostly in cases if usage examples are the best tests for the code.
 But if you add doc-tests in your project where you use [unitests](https://docs.python.org/3/library/unittest.html) 
 you've got a problem - how to get just one test result.
 
-If you what one result to see and to use in [CI](https://en.wikipedia.org/wiki/Continuous_integration)
+If you want one result to see and to use in [CI](https://en.wikipedia.org/wiki/Continuous_integration)
 you can include doc-tests into unit-tests session.
 
 {% highlight python %}
