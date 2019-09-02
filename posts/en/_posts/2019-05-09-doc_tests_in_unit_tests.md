@@ -17,7 +17,7 @@ tags: [python, test, doctest, unittest]
 
 ## how to run doctests in your unit tests session
 
-[doctest](https://docs.python.org/3.7/library/doctest.html) could be are convenient.
+[doctest](https://docs.python.org/3.7/library/doctest.html) could be very convenient.
 Mostly in cases if usage examples are the best tests for the code.
 
 But if you add doc-tests in your project where you use [unitests](https://docs.python.org/3/library/unittest.html) 
