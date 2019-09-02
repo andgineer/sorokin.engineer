@@ -50,7 +50,7 @@ def load_tests(loader, tests, ignore):
 
 
 I use [load_tests protocol](https://docs.python.org/3/library/unittest.html#load-tests-protocol)
-to create doc tests and add them to the same test session as unit-tests.
+to create unit tests wrappers for doc tests and add them to the unit test session.
 
 As a result we will have just one exit code, for unit tests and for doc tests.
 

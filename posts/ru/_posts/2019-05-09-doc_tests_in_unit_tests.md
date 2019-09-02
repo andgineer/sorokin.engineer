@@ -18,7 +18,7 @@ tags: [python, test, doctest, unittest]
 ## Как включить doctests в сессию unittests
 
 Иногда бывает очень удобно использовать [doctest](https://docs.python.org/3.7/library/doctest.html).
-Я это делаю в тех ситуациях, когда пример исопльзования становится одновременно самым удачным тестом.
+Я это делаю в тех ситуациях, когда пример использования становится одновременно самым удачным тестом.
 
 Но если у вас есть также набор [unitests](https://docs.python.org/3/library/unittest.html) 
 то мы получаем два набора тестов, что неудобно и с точки
@@ -50,7 +50,7 @@ def load_tests(loader, tests, ignore):
 
 
 Мы используем [load_tests protocol](https://docs.python.org/3/library/unittest.html#load-tests-protocol).
-И добавляем к найденным самим unit test также создаваемые нами doc tests.
+И добавляем к unit tests также создаваемые нами unit-test обертки для doc tests.
 
 В итоге результат тестовой сессии unit test будет для всех тестов сразу, как обычных unit tests
 так и doc tests.
