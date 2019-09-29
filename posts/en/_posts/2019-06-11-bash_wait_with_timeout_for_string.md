@@ -49,9 +49,10 @@ process finished) it will return error exit code.
 
 ## How to brew install timeout in MacOS
 
-There is no `terminate` on your initial installation of MacOS.
+There is no `timeout` on your initial installation of MacOS, as well as many other
+Linux utils.
 
-So you have to install [coreutils](https://formulae.brew.sh/formula/coreutils).
+To fix that you may install [coreutils](https://formulae.brew.sh/formula/coreutils).
 
 Just remember that all the names will be with `g` prefix, like `gtimeout`.
 If you want tha same names as in Linux you have to modify `PATH` in your `~/.bashrc`.
