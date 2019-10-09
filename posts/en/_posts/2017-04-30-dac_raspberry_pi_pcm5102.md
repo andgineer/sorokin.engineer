@@ -4,7 +4,7 @@ lang: en
 ref: raspberry-dac
 title: "Internet radio: How to connect I2S DAC to Raspberry Pi"
 comments: true
-tags: [raspberry pi, electronics, DAC, HAT, PCM5102, aliexpress]
+tags: [raspberry pi, electronics, dac, hat, pcm5102, aliexpress]
 redirect_from: "/posts/en/dac_raspberry_pi_pcm5102/"
 ---
 

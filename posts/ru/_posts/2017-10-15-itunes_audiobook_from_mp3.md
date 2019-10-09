@@ -4,7 +4,7 @@ lang: ru
 ref: itunes_audiobook_from_mp3
 title: "Аудиокниги iPhone из кривых mp3"
 comments: true
-tags: [iOS, audiobook, python]
+tags: [ios, audiobook, python]
 redirect_from: "/posts/ru/itunes_audiobook_from_mp3/"
 ---
 ![](/images/brothers_karamazov_ardis.jpg)

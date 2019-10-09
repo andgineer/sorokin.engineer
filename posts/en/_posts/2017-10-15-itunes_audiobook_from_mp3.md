@@ -4,7 +4,7 @@ lang: en
 ref: itunes_audiobook_from_mp3
 title: "iTunes (iPhone) Audiobook from mp3"
 comments: true
-tags: [iOS, audiobook, python]
+tags: [ios, audiobook, python]
 redirect_from: "/posts/en/itunes_audiobook_from_mp3/"
 ---
 ![](/images/brothers_karamazov_ardis.jpg)

@@ -4,7 +4,7 @@ lang: ru
 ref: athena_web_page_to_pdf
 title: "Athena: Точный экспорт веб-страниц в PDF"
 comments: true
-tags: [PDF, web, docker, athena]
+tags: [pdf, web, docker, athena]
 redirect_from: "/posts/ru/athena_web_page_to_pdf/"
 ---
 

@@ -4,7 +4,7 @@ lang: en
 ref: auto_version_git_hook
 title: "Automatically add version to sources (not only Python) - GIT hooks"
 comments: true
-tags: [python, Git, bash]
+tags: [python, git, bash]
 redirect_from: "/posts/en/auto_version_git_hook/"
 ---
 

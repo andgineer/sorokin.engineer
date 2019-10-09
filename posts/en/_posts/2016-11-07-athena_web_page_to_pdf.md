@@ -4,7 +4,7 @@ lang: en
 ref: athena_web_page_to_pdf
 title: "Athena: Beautiful PDF"
 comments: true
-tags: [PDF, web, docker, athena]
+tags: [pdf, web, docker, athena]
 redirect_from: "/posts/en/athena_web_page_to_pdf/"
 ---
 

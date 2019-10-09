@@ -4,7 +4,7 @@ lang: ru
 ref: nfc_mifare_reader
 title: "NFC карты московского метро и особенности ридеров MIFARE ACS (ACR1281 и ACR122)"
 comments: true
-tags: [NFC, MIFARE, python]
+tags: [nfc, mifare, python]
 redirect_from: "/posts/ru/nfc_mifare_reader/"
 ---
 
