@@ -41,7 +41,7 @@ Enter number of days for the task in column `D`.
 List all predecessor tasks in column `C` (separate by `,`).
 
 For the task without predecessors will be used the project start date you
- entered to cell`H1`.
+ entered to cell `H1`.
 
 For all other tasks the sheet will calculate start date as `max` of 
 all predecessors' last dates.
