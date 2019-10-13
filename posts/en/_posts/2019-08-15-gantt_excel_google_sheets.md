@@ -40,14 +40,14 @@ Enter number of days for the task in column `D`.
 
 List all predecessor tasks in column `C` (separate by `,`).
 
-For the task without predecessors will be used the date from `H1` (your 
-project starting date).
+For the task without predecessors will be used the project start date you
+ entered to cell`H1`.
 
 For all other tasks the sheet will calculate start date as `max` of 
 all predecessors' last dates.
 
-Last dates are calculated using task length in column `D` and information about 
-weekends and holidays.
+Last dates are calculated using task length in column `D` taking into account 
+weekends and holidays you already entered in table `C11:C15`.
 
 ## How to add line to Gantt chart
 
