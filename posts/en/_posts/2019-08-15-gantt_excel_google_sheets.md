@@ -6,7 +6,7 @@ title: "Free Gantt chart template (like MS Project) for Google sheets or Excel"
 comments: true
 tags: [gantt, teamlead, google sheets]
 ---
-![](/images/gantt_template.png){:.post-title}
+![](/images/gantt-template.png){:.post-title}
 
 ## Project scheduling without MS Project
 

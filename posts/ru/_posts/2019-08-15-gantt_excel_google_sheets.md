@@ -6,7 +6,7 @@ title: "Бесплатный шаблон диаграммы Гантта (за�
 comments: true
 tags: [gantt, teamlead, google sheets]
 ---
-![](/images/gantt_template.png){:.post-title}
+![](/images/gantt-template.png){:.post-title}
 
 ## Планировение проектов без MS Project
 
