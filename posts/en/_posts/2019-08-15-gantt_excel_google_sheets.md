@@ -51,7 +51,10 @@ weekends and holidays you already entered in table `C11:C15`.
 
 ## How to add line to Gantt chart
 
-Just copy&past any existing line.
+On 8th row select from right-click menu Insert row (Insert 1 above).
+
+Copy formulas from columns E - H (select appropriate cell on row above and drag blue 
+square at right bottom corner).
 
 ## How to add more resources
 
