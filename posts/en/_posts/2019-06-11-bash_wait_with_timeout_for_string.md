@@ -30,9 +30,11 @@ specify in the parameter. And kill if after specified timeout.
 
 Also I add parameter `-k` - so `timeout` will hard-kill the process if it won't terminate
 gracefuly.
+And we need `--preserve-status` so timeout will return exit code from the process it controlls.
 
 As test process I wrote Perl one-liner, it print some string, sleep for a moment and 
-print another line.
+print another line. Magic `$|++` in the script switchs off stdout buffering - so it does not 
+buffer all output till end of sleep(2) and second print.
 
 And the main trick in last line.
 
