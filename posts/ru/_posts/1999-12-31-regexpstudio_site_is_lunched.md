@@ -1,7 +1,7 @@
 ---
 layout: reviews
 lang: ru
-ref: regexpstudio_site_is_lunched
+ref: regexpstudio_site_is_launched
 comments: false
 title: "Запущен сайт TRegExpr"
 tags: [pascal, regexp, delphi]

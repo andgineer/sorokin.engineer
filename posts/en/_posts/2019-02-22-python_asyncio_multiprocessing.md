@@ -20,7 +20,7 @@ Python [multiprocessing module](/posts/en/python_async.html) gives you great too
 clear logic.
 
 But sometimes you want to convert old code that use external process. 
-So now it will lunch many instances of the external process 
+So now it will launch many instances of the external process 
 simultaneously. 
 
 You can rewrite it completely to use multiprocessing module.
