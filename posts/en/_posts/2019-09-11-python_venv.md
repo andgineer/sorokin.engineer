@@ -28,14 +28,17 @@ For Windows use
 This command will create in <venv folder name> Python virtual environment that incapsulates all 
 Python libraries.
 
-After you activate it (please note first `.` this is shortcut for [source](https://superuser.com/questions/176783/what-is-the-difference-between-executing-a-bash-script-vs-sourcing-it))
+To "activate" it (please note first `.` this is shortcut for [source](https://superuser.com/questions/176783/what-is-the-difference-between-executing-a-bash-script-vs-sourcing-it))
     
     . <venv folder name>/bin/activate 
     
 For Windows use
 
     <venv folder name>\Scripts\activate.bat
-    
+
+After activation all libraries will be used from the environment. And when you install something with
+`pip install` it will change only this local environment and wont break your system or change any other
+environments.        
     
 To exit from the environment
 
