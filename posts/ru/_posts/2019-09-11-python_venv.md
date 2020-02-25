@@ -24,7 +24,7 @@ tags: [python, virtualenv]
 
     python -m venv <venv folder name>
     
-Эта команда создаст в <venv folder name> "виртуальное окружение" где будут все используемые в этом
+Эта команда создаст в `<venv folder name>` "виртуальное окружение" где будут все используемые в этом
 окружении библиотеки.
 
 Чтобы "активировать" его (обратите внимание на `.` это сокращение для [source](https://superuser.com/questions/176783/what-is-the-difference-between-executing-a-bash-script-vs-sourcing-it))

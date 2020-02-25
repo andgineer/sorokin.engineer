@@ -25,7 +25,7 @@ For Windows use
 
     python -m venv <venv folder name>
     
-This command will create in <venv folder name> Python virtual environment that incapsulates all 
+This command will create in `<venv folder name>` Python virtual environment that incapsulates all 
 Python libraries.
 
 To "activate" it (please note first `.` this is shortcut for [source](https://superuser.com/questions/176783/what-is-the-difference-between-executing-a-bash-script-vs-sourcing-it))
