@@ -218,3 +218,4 @@ mixin смогли бы переопределить его методы, тол
 ### Презентация
 * [PDF](/files/PythonSuper.pdf)
 * [PowerPoint](/files/PythonSuper.pptx)
+* [online (Google slides)](https://docs.google.com/presentation/d/e/2PACX-1vRfgiF6S_yv9kvZct0SDi9KW9m0bc3Vc-AB5gHkE11dgFOK1gNFSOohvdXrF7OIgsIR8Qh3kDWDnf7V/pub?start=false&loop=false&delayms=3000)
