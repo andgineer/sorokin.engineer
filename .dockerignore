@@ -1,0 +1,5 @@
+# Visual studio will map all the folder 
+# so we need only Gemfile to install jekyll & dependencies
+*
+!Gemfile
+!Gemfile.lock
