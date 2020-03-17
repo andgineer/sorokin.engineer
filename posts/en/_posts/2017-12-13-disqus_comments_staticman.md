@@ -28,7 +28,7 @@ by users, because all comment now posted by bot.
 I used [Staticman](https://staticman.net/docs/).
 
 So you just give hitm contributor rights in your github repository with your blog
-and add [config](https://github.com/masterandrey/masterandrey.com/blob/master/staticman.yml)
+and add [config](https://github.com/andgineer/sorokin.engineer/blob/master/staticman.yml)
 into root of your repository.
 
-Example of [html](https://github.com/masterandrey/masterandrey.com/blob/master/_includes/staticman.html) with comments list and comment post form.
+Example of [html](https://github.com/andgineer/sorokin.engineer/blob/master/_includes/staticman.html) with comments list and comment post form.

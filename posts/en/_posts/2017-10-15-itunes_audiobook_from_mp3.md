@@ -13,7 +13,7 @@ redirect_from: "/posts/en/itunes_audiobook_from_mp3/"
 
 If you have a bunch of mp3 and want iTunes Audiobook
 
-1) Use my [Python app](https://github.com/masterandrey/itunes-audiobook-from-mp3)
+1) Use my [Python app](https://github.com/andgineer/itunes-audiobook-from-mp3)
 to fix mp3 tags in the files
 
 2) In iTunes in select file info

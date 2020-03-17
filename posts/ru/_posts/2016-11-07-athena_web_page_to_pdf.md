@@ -24,7 +24,7 @@ redirect_from: "/posts/ru/athena_web_page_to_pdf/"
 Ковыряться в [bootprint-openapi](https://github.com/bootprint/bootprint-openapi),
 чтобы попытаться создавать такой html, который будет конвертироваться без глюков,
 казалось совершенно бесперспективным и тяжким по времени занятием
-(я [форкнул bootprint-openapi](https://github.com/masterandrey/bootprint-openapi)
+(я [форкнул bootprint-openapi](https://github.com/andgineer/bootprint-openapi)
 для русификации, но одно дело перевести на русский handle bars, что заняло не
 более получаса, и другое - ковыряться в html и css).
 

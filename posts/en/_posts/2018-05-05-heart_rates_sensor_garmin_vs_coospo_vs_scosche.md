@@ -81,5 +81,5 @@ Use old good chest belt.
 
 Be fit and healthy!
 
-All graph was created with [hrcomparison](https://github.com/masterandrey/hrcomparison)
+All graph was created with [hrcomparison](https://github.com/andgineer/hrcomparison)
  

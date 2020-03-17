@@ -18,7 +18,7 @@ Full tests code you can find on [github](https://github.com/andgineer/e2e-tests)
 If you use allure you can nicely attach the screenshots to test report
 as show in code below.
 
-<script src="https://gist.github.com/masterandrey/4ec6d58857bb8689907c87f63475525f.js"></script>
+<script src="https://gist.github.com/andgineer/4ec6d58857bb8689907c87f63475525f.js"></script>
 
 The result would be like on picture above.
 

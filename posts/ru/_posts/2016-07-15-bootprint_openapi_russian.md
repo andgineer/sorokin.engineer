@@ -22,7 +22,7 @@ redirect_from: "/posts/ru/bootprint_openapi_russian/"
 
 Ок, нашелся [bootprint-openapi](https://github.com/bootprint/bootprint-openapi).
 
-Вторая проблема, с русификацией, решалась несложно - я [форкнул](https://github.com/masterandrey/bootprint-openapi)
+Вторая проблема, с русификацией, решалась несложно - я [форкнул](https://github.com/andgineer/bootprint-openapi)
 проект и буквально за полчаса получил устраивающую нас русификацию (она не совсем точна с
 точки зрения OpenAPI, но она отражает именно то, что мы хотели показать заказчику).
 

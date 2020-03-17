@@ -110,4 +110,4 @@ Scosche - оптический, на запястье или бицепс.
 ![](/images/20180509_run.svg)
 
 P.S.
-Все графики построены с помощью [hrcomparison](https://github.com/masterandrey/hrcomparison)
+Все графики построены с помощью [hrcomparison](https://github.com/andgineer/hrcomparison)

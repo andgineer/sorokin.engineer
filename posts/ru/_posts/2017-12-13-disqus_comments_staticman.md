@@ -29,7 +29,7 @@ redirect_from: "/posts/ru/disqus_comments_staticman/"
 
 Использованный мной бот [Staticman](https://staticman.net/docs/) не мой.
 
-Чтобы он заработал надо дать ему праава, как описано в его доке, добавить его [конфиг](https://github.com/masterandrey/masterandrey.com/blob/master/staticman.yml)
+Чтобы он заработал надо дать ему права, как описано в его доке, добавить его [конфиг](https://github.com/andgineer/sorokin.engineer/blob/master/staticman.yml)
 в  корень вашего github репозитория с блогом.
 
-Ну и написать [html](https://github.com/masterandrey/masterandrey.com/blob/master/_includes/staticman.html) с формой и списком комментариев.
+Ну и написать [html](https://github.com/andgineer/sorokin.engineer/blob/master/_includes/staticman.html) с формой и списком комментариев.

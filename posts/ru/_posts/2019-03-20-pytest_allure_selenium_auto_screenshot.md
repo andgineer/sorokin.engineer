@@ -17,7 +17,7 @@ redirect_from: "/posts/en/pytest_allure_selenium_auto_screenshot/"
 Я использую allure для построения отчетов по тестам и данный код помещает
 скриншот в отчет allure.
 
-<script src="https://gist.github.com/masterandrey/4ec6d58857bb8689907c87f63475525f.js"></script>
+<script src="https://gist.github.com/andgineer/4ec6d58857bb8689907c87f63475525f.js"></script>
 
 В итоге вы получите отчет похожий на приведеный на картинке выше.
 

@@ -34,7 +34,7 @@ redirect_from: "/posts/ru/itunes_audiobook_from_mp3/"
 которые к тому же никак не решали проблему кодировок, хотя и верно расставляли порядок файлов.
 
 В итоге я взял Python3, [eyeD3](https://eyed3.readthedocs.io/en/latest/) и написал вот такую утилитку
-[Python app](https://github.com/masterandrey/itunes-audiobook-from-mp3).
+[Python app](https://github.com/andgineer/itunes-audiobook-from-mp3).
 
 Поставить программно все нужные свойства не удается - похоже, что передвинуть в аудиокниги можно 
 только в самом iTunes.
