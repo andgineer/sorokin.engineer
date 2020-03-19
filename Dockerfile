@@ -8,8 +8,8 @@ RUN gem update --system \
     && gem install bundler -v 2.1.4
 
 # we need the files with Ruby dependancies at container build time so we cannot use files from repository
-https://raw.githubusercontent.com/andgineer/sorokin.engineer/master/Gemfile
-https://raw.githubusercontent.com/andgineer/sorokin.engineer/master/Gemfile.lock
+RUN wget https://raw.githubusercontent.com/andgineer/sorokin.engineer/master/Gemfile \
+    && wget https://raw.githubusercontent.com/andgineer/sorokin.engineer/master/Gemfile.lock
 
 RUN bundle install
 
