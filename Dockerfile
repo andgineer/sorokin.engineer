@@ -7,8 +7,9 @@ RUN bundle config --global frozen 1
 RUN gem update --system \
     && gem install bundler -v 2.1.4
 
-# we need it at container build time so we cannot use mount that VS Code will create later
-COPY Gemfile Gemfile.lock ./
+# we need the files with Ruby dependancies at container build time so we cannot use files from repository
+https://raw.githubusercontent.com/andgineer/sorokin.engineer/master/Gemfile
+https://raw.githubusercontent.com/andgineer/sorokin.engineer/master/Gemfile.lock
 
 RUN bundle install
 
