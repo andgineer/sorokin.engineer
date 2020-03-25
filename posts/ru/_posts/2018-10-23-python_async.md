@@ -7,7 +7,7 @@ comments: true
 tags: [python, asyncio, threads, fork]
 redirect_from: "/posts/ru/python_async/"
 ---
-![](/images/wool-yarn.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+![](/images/wool-yarn.jpg){:style="float: left;margin-right: 7px;margin-top: 7px;"}
 
 <style type="text/css">
   h2 {
