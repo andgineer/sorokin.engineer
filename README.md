@@ -6,6 +6,21 @@ But it always usefull to check it locally before publishing.
 
 In that case you have to install Jekyll and plugins for github pages (the plugins are listed in `Gemfile`).
 
+## Linux (Ubuntu)
+
+[Install rbenv](https://github.com/rbenv/rbenv#installing-ruby-versions)
+
+Add `/home/<your user name>/.rbenv/bin:` into `PATH` (`~/.bashrc`). and add `eval "$(rbenv init -)"` after this line in `~/.bashrc`.
+
+    sudo apt-get install ruby-dev build-essential libssl-dev libreadline-dev zlib1g-dev
+    rbenv install 2.5.7
+    rbenc global 2.5.7
+    sudo gem install bundler
+
+    # cd to sorokin.engineer folder
+    bundle
+
+
 ## Windows
 
 Use the Dockerfile in [Docker](https://docs.docker.com/docker-for-windows/install/)
