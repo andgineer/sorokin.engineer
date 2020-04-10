@@ -8,21 +8,12 @@ tags: [python, class, decorator]
 ---
 ![](/images/decorators.png){:.post-title}
 
-If you need to refresh your understanding of Python decorators please read any of many
-descriptions. The advanced technique that I describe below assumes you understand basic
+The advanced technique that I describe below assumes you understand basic
 mechanic of Python decorators and Python descriptors. 
 
-Suppose we want to decorate method `func_to_wrap`:
+Suppose we want to decorate method `func_to_wrap` of the class `ClassToWrap`:
 
-{% highlight python %}
-class ClassToWrap:
-    def func_to_wrap(self):
-        self.name += '!'
-        print(self.name)
-        return self.name
-{% endhighlight %}
-
-If we create decorator class as below:
+If we create Python decorator class as below:
 
 {% highlight python %}
 class Decorator:
@@ -33,7 +24,7 @@ class Decorator:
         return self.orig_func(*args)
 {% endhighlight %}
 
-We will fail to use it for `func_to_wrap`:
+We will fail to use it:
 
 {% highlight python %}
 class ClassToWrap:
@@ -48,15 +39,21 @@ c.func_to_wrap()
 {% endhighlight %}
     func_to_wrap() missing 1 required positional argument: 'self'
 
-`Decorator.__call__` calls `func_to_wrap` without `self` - the `self` 
-inside `Decorator.__call__` is the instance of `Decorator`. We do not have 
-`ClassToWrap` instance here. This is because `orig_func` is `unbound`,
-it's not bound to object instance and we have to pass the instance as first argument.
+As we can see from the error `Decorator.__call__` calls `func_to_wrap` without 
+`self`. This is because `orig_func` is `unbound`,
+it's not bound to object instance and we have to pass the instance as first argument. 
+But we cannot!
 
-Of cause there is simple solution - write decorator as function.
+The `self` inside `Decorator.__call__` is the instance of `Decorator`. 
 
-But we can write decorator as class, but with using Python descriptors. As a result the decorator
-can be applied to standalone functions and to object methods.
+We do not have `ClassToWrap` instance inside `Decorator.__call__`.  
+
+Of cause there is simple solution - write the decorator as function.
+
+But I am goin to show you how to write decorator as class, using Python descriptors. 
+
+Moreover the decorator will be universal and
+could be applied to standalone functions as well as to object methods.
 
 The Python descriptor protocol is very simple - if object attribute has method `__get__` 
 then Python will call it and return as the attribute value the result of `__get__`.
@@ -65,10 +62,12 @@ Below you can see working example.
 
 The `UniversalDecorator.__call__` will work if we decorate standalone functions.
 
-But if we decorate class method, Python will call `__get__` and the result would be `WrapperHelper` 
-with links to `ClassToWrap` and `Decorator` instances.
+For class method instead of `__call__` Python will call `__get__` and after that call the result of it as a function.
 
-After that Python will call the `__get__` result so it will call
+`UniversalDecorator.__get__` returns `WrapperHelper` 
+with links to both `ClassToWrap` and `Decorator` instances.
+
+When Python call the `__get__` result (instance of `WrapperHelper`) it will actually call
 `WrapperHelper.__call__`. 
 
 `WrapperHelper.__call__` add instance of `ClassToWrap`, as first item in `*args` (line
