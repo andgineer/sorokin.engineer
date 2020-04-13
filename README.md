@@ -14,7 +14,7 @@ Add `/home/<your user name>/.rbenv/bin:` into `PATH` (`~/.bashrc`). and add `eva
 
     sudo apt-get install ruby-dev build-essential libssl-dev libreadline-dev zlib1g-dev
     rbenv install 2.5.7
-    rbenc global 2.5.7
+    rbenv global 2.5.7
     sudo gem install bundler
 
     # cd to sorokin.engineer folder
