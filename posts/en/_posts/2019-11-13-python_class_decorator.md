@@ -11,7 +11,7 @@ tags: [python, class, decorator]
 The advanced technique that I describe below assumes you understand basic
 mechanic of Python decorators and Python descriptors. 
 
-Suppose we want to decorate method `func_to_wrap` of the class `ClassToWrap`:
+Suppose we want to decorate method `func_to_wrap` of the class `ClassToWrap`.
 
 If we create Python decorator class as below:
 
