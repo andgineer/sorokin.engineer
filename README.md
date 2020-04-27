@@ -35,9 +35,9 @@ Run the docker container or run in VS Code terminal the command below:
 
 https://jekyllrb.com/docs/installation/macos/
 
-    brew install jekyll
-    sudo -H gem install bundler
-    bundler
+And after that:
+ 
+   bundler
 
 ### Reinstall after MacOS update
 
