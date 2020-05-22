@@ -29,9 +29,10 @@ tags: [python, pytest, fixture]
 Теперь вы можете положить файл с данными в тот же каталог что модуль теста:
 
     tests/
-        conftest.py  # здесь код фикстуры data_path
-        foo_data/    # каталог с файлами для теста 
-        test_foo.py  # здесь тест `def test_foo` использующий файлы из каталога `foo_data`
+        conftest.py     # здесь код фикстуры data_path
+        foo_data/       # каталог с файлами для теста 
+            my_file.txt
+        test_foo.py     # здесь тест `def test_foo` использующий файлы из каталога `foo_data`
 
 И использовать в тесте такой код:
 
@@ -50,16 +51,18 @@ tags: [python, pytest, fixture]
 Например, вот так
 
     tests/
-        conftest.py  # здесь код фикстуры data_path
-        foo/         # каталоги с файлами для теста 
-            1/       # каталог с данными для первого прогона теста
-            2/       # каталог с данными для второго прогона теста
-        test_foo.py  # здесь тест `def test_foo` использующий файлы из каталогов `foo/1` и `foo/2` 
+        conftest.py         # здесь код фикстуры data_path
+        foo/                # каталоги с файлами для теста 
+            1/              # каталог с данными для первого прогона теста
+                my_file.txt
+            2/              # каталог с данными для второго прогона теста
+                my_file.txt
+        test_foo.py         # здесь тест `def test_foo` использующий файлы из каталогов `foo/1` и `foo/2` 
         
     @pytest.mark.parametrize('data_path', ['foo/1', 'foo/2'], indirect=['data_path'])
-    def test_data(data_path):
-            my_data_path = data_path / "mydata.txt"
-            with my_data_path.open() as data:
+    def test_foo(data_path):
+            my_file_path = data_path / "my_file.txt"
+            with my_file_path.open() as data:
                 ...
 
 
