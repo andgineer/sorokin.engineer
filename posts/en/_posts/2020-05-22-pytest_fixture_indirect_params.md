@@ -2,7 +2,7 @@
 layout: post
 lang: en
 ref: pytest_fixture_indirect_params
-title: "How to send params to pytest fixture from test"
+title: "How to send params (indirectly) to pytest fixture from test"
 comments: true
 tags: [python, pytest, fixture]
 ---

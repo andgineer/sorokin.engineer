@@ -2,7 +2,7 @@
 layout: post
 lang: ru
 ref: pytest_fixture_indirect_params
-title: "Передача параметров из теста в фикстуру pytest"
+title: "Передача параметров из теста в фикстуру pytest (indirect fixture params)"
 comments: true
 tags: [python, pytest, fixture]
 ---
