@@ -23,9 +23,8 @@ fixture value.
 
 Using this fixture you keep your test code clean without repeated data folder manipulations.
 
-<script src="https://gist.github.com/andgineer/a238cba69c88466024e1f854082e4188.js"></script>
-
-Now you can use the fixture:
+Include the [data_path fixture](https://gist.github.com/andgineer/a238cba69c88466024e1f854082e4188)
+into your `conftest.py`
 
     tests/
         conftest.py      # with fixture data_path
@@ -33,11 +32,13 @@ Now you can use the fixture:
             my_file.txt
         test_foo.py      # here is test `def test_foo` using folder `foo_data`
 
+{% highlight python %}
     def test_foo(data_path):
             my_file_path = data_path / "my_file.txt"
             with my_file_path.open() as data:
                 ...
-                
+{% endhighlight %}
+
 What if we want use the same folder for a tests from different test modules?
 Or run test a number of times for different data files?
 
@@ -53,11 +54,13 @@ We have to pass this information into the fixture. For that we can use
                 my_file.txt
         test_foo.py         # here is test `def test_foo` using folders `foo/1` and `foo/2`
         
+{% highlight python %}
     @pytest.mark.parametrize('data_path', ['foo/1', 'foo/2'], indirect=['data_path'])
     def test_foo(data_path):
             my_data_path = data_path / "my_file.txt"
             with my_data_path.open() as data:
                 ...
+{% endhighlight %}
 
 
 

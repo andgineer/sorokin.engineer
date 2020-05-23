@@ -24,9 +24,8 @@ tags: [python, pytest, fixture]
 К тому же это делает код теста чище - не нужно химичить со всеми этими `__file__` или
 как-то иначе вычислять место файлов с тестовыми данными.
 
-<script src="https://gist.github.com/andgineer/a238cba69c88466024e1f854082e4188.js"></script>
-
-Теперь вы можете положить файл с данными в тот же каталог что модуль теста:
+Включите код фикстуры [data_path fixture](https://gist.github.com/andgineer/a238cba69c88466024e1f854082e4188)
+в ваш `conftest.py`
 
     tests/
         conftest.py     # здесь код фикстуры data_path
@@ -36,10 +35,12 @@ tags: [python, pytest, fixture]
 
 И использовать в тесте такой код:
 
+{% highlight python %}
     def test_foo(data_path):
             my_file_path = data_path / "my_file.txt"
             with my_file_path.open() as data:
                 ...
+{% endhighlight %}
                 
 Но что если нам хочется в тестах в разных модулях использовать один и тот же каталог с данными?
 Или мы хотим повторить тест несколько раз для разных каталогов с даннами?
@@ -59,11 +60,12 @@ tags: [python, pytest, fixture]
                 my_file.txt
         test_foo.py         # здесь тест `def test_foo` использующий файлы из каталогов `foo/1` и `foo/2` 
         
+{% highlight python %}
     @pytest.mark.parametrize('data_path', ['foo/1', 'foo/2'], indirect=['data_path'])
     def test_foo(data_path):
             my_file_path = data_path / "my_file.txt"
             with my_file_path.open() as data:
                 ...
-
+{% endhighlight %}
 
 
