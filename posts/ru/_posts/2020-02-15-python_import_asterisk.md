@@ -41,8 +41,8 @@ from bar import *
 {% highlight python %}
 - controllers.py
     - add_user.py
-        import model
-        def add_user(user: model.User):
+        from model import User, Order
+        def add_user(user: User, order: Order):
             ...
 {% endhighlight %}
 
@@ -50,9 +50,10 @@ from bar import *
 
 {% highlight python %}
 - controllers.py
-    - add_user.py
-        import model.user
-        def add_user(user: model.user.User):
+    - create_order.py
+        from model.user import User
+        from model.order import Order
+        def add_user(user: User, order: Order):
             ...
 {% endhighlight %}
 

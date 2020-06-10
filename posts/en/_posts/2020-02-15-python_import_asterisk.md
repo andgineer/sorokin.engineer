@@ -39,8 +39,8 @@ For me I would prefer after that to do something like that
 {% highlight python %}
 - controllers.py
     - add_user.py
-        import model
-        def add_user(user: model.User):
+        from model import User, Order
+        def add_user(user: User, order: Order):
             ...
 {% endhighlight %}
 
@@ -49,14 +49,15 @@ but instead of that I have to write
 {% highlight python %}
 - controllers.py
     - add_user.py
-        import model.user
-        def add_user(user: model.user.User):
+        from model.user import User
+        from model.order import Order
+        def add_user(user: User, order: Order):
             ...
 {% endhighlight %}
 
 Ugly?
 
-Ok we can add `__init__.py` so `model.User` would be possible:
+Ok we can add `__init__.py`:
 
 {% highlight python %}
 - model.py
