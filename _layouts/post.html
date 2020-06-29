@@ -2,14 +2,13 @@
 layout: default
 ---
 
+{% if page.lang == "ru" %}
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/{% if page.lang == 'en' %}en_US{% else %}ru_RU{% endif %}/sdk.js#xfbml=1&version=v3.1&appId=2057058471282299&autoLogAppEvents=1';
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v7.0&appId=2057058471282299&autoLogAppEvents=1" nonce="Cjhybdvf"></script>
+{% else %}
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=2057058471282299&autoLogAppEvents=1" nonce="Cjhybdvf"></script>
+{% endif %}
 
 <div class="col-sm-12">
   <h1>{{ page.title }}</h1>
@@ -23,9 +22,13 @@ layout: default
   </div>
 
   <div class="row">
-    <div class="fb-like" data-href="https://masterandrey.com{{ page.id }}.html" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true">
+
+    </div>
   </div>
 
-  <div class="fb-comments" data-href="https://masterandrey.com{{ page.id }}.html" data-numposts="15"></div>
+  <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="15" data-width="">
+  </div>
+
 
 </div>
