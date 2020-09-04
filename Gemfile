@@ -6,6 +6,9 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
+# CVE-2020-14001
+gem "kramdown", ">= 2.3.0"
+
 gem "jekyll", "~> 4.0"
 
 gem "jekyll-sitemap", "~> 1.4"
