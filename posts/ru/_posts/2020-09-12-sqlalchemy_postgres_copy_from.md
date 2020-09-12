@@ -37,12 +37,12 @@ SQLAlchemy предоставляем вам удобный способ абс�
 Как же добраться до команды `COPY FROM` из SQLAlchemy?
 
 {% highlight python %}
-    engine = create_engine('postgresql://my_user:my_password@$my.host.com/my_db')
+    engine = create_engine('postgresql://my_user:my_password@my.host.com/my_db')
     session = sessionmaker(bind=engine)()
     
     cursor = session.connection().connection.cursor()
     cursor.copy_expert( 
-        f'COPY entity ({my_columns_comma_separated}) FROM STDIN WITH (FORMAT CSV, HEADER)',
+        f'COPY my_table ({my_columns_comma_separated}) FROM STDIN WITH (FORMAT CSV, HEADER)',
         io.StringIO(my_csv_string),
     )
     session.commit()
