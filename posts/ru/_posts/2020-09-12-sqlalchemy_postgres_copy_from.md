@@ -4,7 +4,7 @@ lang: ru
 ref: sqlalchemy_postgres_copy_from
 title: "Как использовать COPY FROM в SQLAlchemy чтобы быстро добавить большое число записей"
 comments: true
-tags: [python, postgres, fixture]
+tags: [python, postgres, sqlalchemy]
 ---
 ![](/images/elephant_copy.jpg){:.post-title}
 

@@ -4,7 +4,7 @@ lang: en
 ref: sqlalchemy_postgres_copy_from
 title: "Bulk insert with Postgres COPY FROM in SQLAlchemy"
 comments: true
-tags: [python, postgres, fixture]
+tags: [python, postgres, sqlalchemy]
 ---
 ![](/images/elephant_copy.jpg){:.post-title}
 
