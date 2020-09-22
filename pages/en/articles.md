@@ -13,7 +13,6 @@ permalink: /en/articles.html
           {% for post in site.posts %}
             {% if page.lang == post.lang %}
                 <tr>
-                    <td>{{ post.date | date: "%Y.%m.%d" }}</td>
                     <td>
                         <a href="{{ post.url }}">{{ post.title }}</a>
                     </td>

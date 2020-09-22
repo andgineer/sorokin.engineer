@@ -1,0 +1,6 @@
+-IC:\gs\lib;C:\gs\Resource\Font
+-sDEVICE=mswinpr2
+-dNOPAUSE
+-dSAFER
+-sPAPERSIZE=a4
+-sOutputFile="%printer%cannon"
