@@ -92,6 +92,19 @@ XP.
 
 При ее старте там уже будет установленная Windows XP.
 
+#### VirtualBox Guest Additions
+
+Для корректной работы мышки, буфера обмена и прочего вам надо установить
+`Oracle's Guest Additions` в нашу виртуальную Windows (`Guest Windows` как это называет Oracle).
+
+Выберите в меню `Devices` Oracle VM VirtualBox пункт `Insert Guest Additions CD Image`.
+Это подключит виртуальный лазерный диск Guest Additions ISO к нашей виртуальной Windows. 
+
+И далее Windows автоматически запустит с него инсталлятор `Guest Additions` который и установит 
+Guest Additions.
+
+![](/images/vbox_guest_tools.jpg)
+
 ### Физический принтер Windows
 
 Его ставите самым стандартным для Windows образом - кнопка в левом нижнем углу `Start` -> 

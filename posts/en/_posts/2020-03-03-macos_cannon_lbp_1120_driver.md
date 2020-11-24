@@ -83,9 +83,23 @@ Setup Video Memory 128MB for this machine.
 
 Now you start the virtual machine and see already installed Windows XP.
 
+#### VirtualBox Guest Additions
+
+To have your mouse, clipboard and other things work properly you should install 
+`Oracle's Guest Additions` in our virtual Windows (`Guest Windows` in Oracle's terms).
+
+In the Devices menu in the virtual machine's menu bar, Oracle VM VirtualBox has a menu 
+item Insert Guest Additions CD Image, which mounts the Guest Additions ISO file inside 
+your virtual machine. 
+
+A Windows should then automatically start the Guest Additions installer, which installs the 
+Guest Additions.
+
+![](/images/vbox_guest_tools.jpg)
+
 ### Real printer in Windows
 
-Just usual way - `Start` -> 
+Just usual way to install printer in Windows: `Start` -> 
 `Printers and Faxes` -> `Add a printer`. Select Cannon driver from the Cannon CD. 
 
 I advice to print test page to be sure it was installed Ok.
