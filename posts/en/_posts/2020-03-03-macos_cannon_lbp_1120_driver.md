@@ -83,6 +83,10 @@ Setup Video Memory 128MB for this machine.
 
 Now you start the virtual machine and see already installed Windows XP.
 
+#### How to `right-click`
+
+To do mouse right-click in virtual Windows press `Shift+Cmd` and do mouse click.
+
 #### VirtualBox Guest Additions
 
 To have your mouse, clipboard and other things work properly you should install 
@@ -186,7 +190,7 @@ Printer name in my case `cannonrd`.
 Right-click, `Properties` -> `General` -> `Print Test Page`.
 
 ### MacOS Printer
-Create the printer as usual for MacOS. `System preferences` -> `Printers & Sacnners`
+Create the printer as usual for MacOS. `System preferences` -> `Printers & Scanners`
 Press "+" at the bottom of printers list.
 
 Press `Windows`, select the Windows network and machine name for your virtual Windows machine.
