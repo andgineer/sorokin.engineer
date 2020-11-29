@@ -38,8 +38,8 @@ Python позволяет указать для класса несколько 
 {% include src/animal_mro_without_super.py %}
 {% endhighlight %}
 
-Для `PlatypusMammalFirst` первый родитель `Platypus` (`Mammal`) не переопределяет искомый метод, 
-а второй родитель (`Bird`) - переопределяет. Что вернет `lay_eggs()`?
+Для `PlatypusMammalFirst` первый родитель, `Mammal`, не переопределяет искомый метод, 
+а второй родитель, `Bird` - переопределяет. Что вернет `lay_eggs()`?
 
 А для `PlatypusBirdFirst`?
 Разгадка ниже.

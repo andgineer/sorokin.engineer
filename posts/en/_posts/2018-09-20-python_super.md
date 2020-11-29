@@ -40,9 +40,9 @@ The better solution in this case - use
 {% include src/animal_mro_without_super.py %}
 {% endhighlight %}
 
-First parent of `PlatypusMammalFirst`, `Platypus` (`Mammal`),
+First parent of `PlatypusMammalFirst`, `Mammal`,
 does not change the method we are looking for. 
-But the second - (`Bird`) does. What `lay_eggs()` will print?
+But the second - `Bird`, does. What `lay_eggs()` will print?
 
 And what it will print for `PlatypusBirdFirst`?
 Solution see below.
