@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: en
-ref: 2020-03-03-macos_cannon_lbp_1120_driver
-title: "MacOS driver for Cannon LaserJet LBP-1120"
+ref: 2020-03-03-macos_canon_lbp_1120_driver
+title: "MacOS driver for Canon LaserJet LBP-1120"
 comments: true
 tags: [macos, printer, ghostscript]
 ---
@@ -10,7 +10,7 @@ tags: [macos, printer, ghostscript]
 
 ## How to print on printer without MacOS driver?
 
-I've got Cannon LaserJet LBP-1120. 
+I've got Canon LaserJet LBP-1120. 
 
 It has driver for Windows XP but not for MacOS.
 
@@ -28,7 +28,7 @@ problems doing this 2-days task 8-)
 TL;DR
 
 1. Install virtual Windows in MacOS (I am sure you will use it afterwards for other tasks too)
-2. Install real printer in Windows with real driver from Cannon
+2. Install real printer in Windows with real driver from Canon
 3. Install virtual printer in Windows. It will send unparsed PostScript to the real printer
 4. Install Generic PostScript Printer in MacOS that will send PostScript to virtual printer in Windows
 
@@ -104,13 +104,13 @@ Guest Additions.
 ### Real printer in Windows
 
 Just usual way to install printer in Windows: `Start` -> 
-`Printers and Faxes` -> `Add a printer`. Select Cannon driver from the Cannon CD. 
+`Printers and Faxes` -> `Add a printer`. Select Canon driver from the Canon CD. 
 
 I advice to print test page to be sure it was installed Ok.
 
 **Important** - to simplify next steps the printer name should not include spaces and special simbols. 
 
-I use name `cannon`.
+I use name `canon`.
 
 ### Virtual printer in Windows
 
@@ -131,7 +131,7 @@ We will use file for command line parameters to simplify command in the virtual 
 
 In folder `C:\gs` create `rsp` file. For example with `Notepad`.
  
-My file has name `cannon.rsp`.
+My file has name `canon.rsp`.
  
 File content:
 
@@ -140,7 +140,7 @@ File content:
     -dNOPAUSE
     -dSAFER
     -sPAPERSIZE=a4
-    -sOutputFile="%printer%cannon"
+    -sOutputFile="%printer%canon"
 
 In the last line after `%printer%` should be the name of our real printer.
 
@@ -177,7 +177,7 @@ On the newly created printer right-click, choose `Properties`.
 For `Redirected port` set command line `C:\gs\bin\gswin32c.exe`. Do not forget about `c` in the 
 file name.
 
-Arguments `@C:\gs\cannon.rsp -`. Do not forget space and dash at the end. 
+Arguments `@C:\gs\canon.rsp -`. Do not forget space and dash at the end. 
 
 Choose `Copy temporary file to printer` in `Output`. As `printer` choose real printer. 
 
@@ -185,7 +185,7 @@ Press `Ok`.
 
 ![](/images/redirectport.png)
 
-Printer name in my case `cannonrd`.
+Printer name in my case `canonrd`.
 
 Right-click, `Properties` -> `General` -> `Print Test Page`.
 
@@ -194,13 +194,13 @@ Create the printer as usual for MacOS. `System preferences` -> `Printers & Scann
 Press "+" at the bottom of printers list.
 
 Press `Windows`, select the Windows network and machine name for your virtual Windows machine.
-And with some delay you will see list of shared printers. You should select virtual one - `cannonrd`
+And with some delay you will see list of shared printers. You should select virtual one - `canonrd`
 in my case. Driver: `Generic PostScript Printer`.
  
 ![](/images/macos_remote_printer.png)
 
 That's all. 
-Now you can print from MacOS to Cannon LBP-1120.
+Now you can print from MacOS to Canon LBP-1120.
 
 Just do not forget to start Windows Virtual Machine. It starts in split second.
 And you can automate that with Alfred using command line:
