@@ -45,8 +45,8 @@ It's very easy to install.
 
 #### Windows XP distro
 
-Microsoft does not support Windows XP. In spite of that it still is not free. But you can ignore that - this is just
-some reminders.
+Microsoft does not support Windows XP. So this is your responsibility how to get your licence. I just show
+how to install in most simple way.
 
 So we can download Windows XP from Microsoft site.
 [I used this link](https://www.microsoft.com/en-us/download/details.aspx?id=8002). 
