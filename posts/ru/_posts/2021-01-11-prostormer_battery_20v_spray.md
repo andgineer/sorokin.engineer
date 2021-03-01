@@ -13,7 +13,10 @@ tags: [aliexpress tools prostormer]
 На aliexpress его можно найти по строке `800ml Cordless Spray Gun, 18V`.
 
 Но продается он с одним аккумулятором неизвестной марки.
-Однако эти аккумуляторы очень похожы на аккумуляторы Dewalt и китайского же Prostormer `20v max lithium`.
+Однако эти аккумуляторы очень похожы на аккумуляторы Dewalt и 
+китайского 
+[Prostormer](https://zen.yandex.ru/media/id/5b4c98de1f242d00a9b974e3/chtoby-kupit-deshevo-instrumenty-prostormer-ispolzuite-eti-sovety-60114efda3e47e7ee8d08cc9)
+`20v max lithium`.
 
 На фото слева с синей кнопкой аккумулятор `Prostormer 20V MAX Lithium`, а справа с красной кнопкой аккумулятор
 краскопульта.
@@ -43,5 +46,5 @@ tags: [aliexpress tools prostormer]
 
 ![](/images/spray_battery_modified.jpg)
 
-А вот [тут](/posts/ru/prostormer_battery_21v_makita.html) я описываю, как использовать
+А вот [тут](https://zen.yandex.ru/media/id/5b4c98de1f242d00a9b974e3/akkumuliator-makita-besplatno-vladelcam-instrumentov-prostormer-5fed8155bb14d54ffbd1f46f) я описываю, как использовать
 аккумуляторы `Prostormer 21v max lithium` в инструментах Makita.

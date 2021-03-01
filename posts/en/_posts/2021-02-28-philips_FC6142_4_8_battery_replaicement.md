@@ -33,7 +33,8 @@ The mostly important are the size `4/5SC` and the type `Ni-Mh`.
 
 In theory, you better have bigger capacity but for me I bought the cheapest one with the smallest capacity.
 This is because I do not believe in actual numbers from aliexpress sellers so may be
-bigger capacity are just the same batteries.
+bigger capacity are just the same batteries. 
+[How to check battery capacity](https://sorokin.engineer/posts/en/electronic_load.html).
 
 (!) Important! You need cells with welding tabs attached. 
 
