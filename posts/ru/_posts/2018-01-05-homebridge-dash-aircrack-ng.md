@@ -4,8 +4,8 @@ lang: ru
 ref: airdump
 title: "Быстрая реакция кнопки Amazon Dash с помощью aircrack"
 comments: true
-tags: [macos, aircrack, amazon dash button]
-redirect_from: "/posts/ru/homebridge-dash-aircrach-ng/"
+tags: [macos, amazon dash button]
+redirect_from: "/posts/ru/homebridge-dash-aircrack-ng/"
 ---
 
 ![](/images/)
@@ -26,10 +26,6 @@ Amazon работать еще быстрее.
 ### Библиотека для Python
 
     sudo -H pip3 install pyrcrack
-    
-Конечно, если вы уже в режиме супер-пользователя, то `sudo -H` вам ни к чему.
-
-И если pip у вас только для третьего Python то можно просто `pip` вместо `pip3`.
 
 ### Проверка, что все работает
 
