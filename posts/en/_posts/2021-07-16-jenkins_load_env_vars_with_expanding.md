@@ -4,7 +4,7 @@ lang: en
 ref: 2021-07-16_jenkins_load_env_vars_with_expanding
 title: "Jenkins load env vars from file with expanding"
 comments: true
-tags: [jenkins groovy python bash]
+tags: [jenkins, groovy, python, bash]
 ---
 
 ![](/images/jenkins.png){:.post-title}

@@ -4,7 +4,7 @@ lang: ru
 ref: 2020-12-31-prostormer_battery_21v_makita
 title: "Доработка своими руками аккумулятора Prostormer 21в для инструмента Makita 18в"
 comments: true
-tags: [aliexpress tools makita]
+tags: [aliexpress, tools, makita]
 ---
 
 ![](/images/prostormer_battery_21v_diag.jpg){:.post-title}

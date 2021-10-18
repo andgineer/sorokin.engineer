@@ -4,7 +4,7 @@ lang: ru
 ref: 2020-12-31-prostormer_battery_20v_spray
 title: "Доработка своими руками аккумулятора Prostormer 20v max для использования в краскопульте"
 comments: true
-tags: [aliexpress tools prostormer]
+tags: [aliexpress, tools, prostormer]
 ---
 
 ![](/images/spray_battery_side.jpg){:.post-title}

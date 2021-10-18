@@ -4,7 +4,7 @@ lang: en
 ref: 2021-08-02-async_nullcontext
 title: "Python asyncio version of nullcontext"
 comments: true
-tags: [python asyncio]
+tags: [python, asyncio]
 ---
 
 ![](/images/context.jpeg){:.post-title}

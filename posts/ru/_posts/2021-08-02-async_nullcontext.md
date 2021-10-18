@@ -4,7 +4,7 @@ lang: ru
 ref: 2021-08-02-async_nullcontext
 title: "Асинхронный вариант (asincio) пустого менеджера контекста (nullcontext) в Python"
 comments: true
-tags: [python asyncio]
+tags: [python, asyncio]
 ---
 
 ![](/images/context.jpeg){:.post-title}

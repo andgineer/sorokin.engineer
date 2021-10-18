@@ -4,7 +4,7 @@ lang: ru
 ref: 2021-02-28-philips_FC6142_4_8_battery_replaicement
 title: "Ручной пылесос Philips 4.8v FC6142 замена аккумулятора своими руками"
 comments: true
-tags: [battery tools]
+tags: [battery, tools]
 ---
 
 ![](/images/philips48_assempled.jpg){:.post-title}

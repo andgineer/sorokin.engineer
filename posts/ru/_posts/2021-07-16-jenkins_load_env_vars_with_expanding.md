@@ -4,7 +4,7 @@ lang: ru
 ref: 2021-07-16_jenkins_load_env_vars_with_expanding
 title: "Jenkins загрузка переменных из файла с подстановками"
 comments: true
-tags: [jenkins groovy python bash]
+tags: [jenkins, groovy, python, bash]
 ---
 
 ![](/images/jenkins.png){:.post-title}
