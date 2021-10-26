@@ -25,8 +25,8 @@ Github actions would upload the version.
 
 # Result you will have
 
-On `./verup.sh bug` it will
-- create version tag with increased last number
+On `./verup.sh bug/feature/release` it will
+- create version tag with increased last/middle/first number
 - update `version.py` in your package
 - publish the version in PIP (on pypi.org)
 - create Github release with convenient link to the pypi version page
@@ -48,7 +48,8 @@ It is always safe just `rm -r venv` if for some reason you want fresh installati
 example to upgrage dependencies. 
 On the next run `activate.sh` will recreate it.
 
-[activate.sh](https://github.com/andgineer/aios3/blob/master/activate.sh) also install your package in dev mode `pip install -e .` so you can import from it.
+[activate.sh](https://github.com/andgineer/aios3/blob/master/activate.sh) also install your package in dev mode 
+`pip install -e .` so what you import would be the lastes version in your source code.
 
 If you use the same [requirements.txt](https://github.com/andgineer/aios3/blob/master/requirements.txt) 
 as I do you can leave this file intact.
@@ -59,6 +60,7 @@ Just do not forget to install [virtualenv](https://virtualenv.pypa.io/en/stable/
 
 Change `aios3` in line [from src.aios3 import version](https://github.com/andgineer/aios3/blob/19b3a6b4b6904883fa8a3a25e474983a1563b02e/setup.py#L9) with your package name. 
 
+Place your package in `src/`.
 PIP will auto-discover all packages inside `src` folder.
 
 # verup.sh
@@ -78,14 +80,16 @@ To increase 1st
     ./verup.sh release
 
 This script also updates `version.py` in sources.
-You can use this file to show version from you application.
+You can use this Python module to show version from you application.
 
 And this file is used in `setup.py` to set your package version while uploading to `pypi.org`.
 
 Do not forget to edit [VERSION_FILES](https://github.com/andgineer/aios3/blob/19b3a6b4b6904883fa8a3a25e474983a1563b02e/verup.sh#L5) 
-in `verup.sh` (there could be many file locations separated by space).
+in `verup.sh` (if you have a number of packages inside `src` you can make `verup.sh` create version files in each of them -
+list them separated by space).
 
 # Github action .github/workflows/pip_publish.yml
 
-In line [body: https://pypi.org/project/aios3/${{ env.RELEASE_VERSION }}/](https://github.com/andgineer/aios3/blob/19b3a6b4b6904883fa8a3a25e474983a1563b02e/.github/workflows/pip_publish.yml#L47) change `aios3` with your package name.
+In line [body: https://pypi.org/project/aios3/${{ env.RELEASE_VERSION }}/](https://github.com/andgineer/aios3/blob/19b3a6b4b6904883fa8a3a25e474983a1563b02e/.github/workflows/pip_publish.yml#L47) 
+change `aios3` with your package name.
 
