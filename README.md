@@ -1,4 +1,4 @@
-My personal blog [andrey.engineer](http://andrey.engineer)
+My personal blog [sorokin.engineer](http://sorokin.engineer)
 
 You do not need local Jekyll installation if you just change file and put it on github.
 
