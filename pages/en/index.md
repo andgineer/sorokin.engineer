@@ -16,7 +16,7 @@ permalink: /en/index.html
 
 <br>
 {:style="font-family: "Times New Roman", Times, serif; font-size: 24px;"}
-### Andrey Sorokin, <i class="fa fa-home" />  [andrey.engineer](http://andrey.engineer){:style="font-size: 16px;"}
+### Andrey Sorokin, <i class="fa fa-home" />  [sorokin.engineer](http://sorokin.engineer){:style="font-size: 16px;"}
 
 {:style="font-size: 16px;"}
 Software developer with over 20 years of experience.
