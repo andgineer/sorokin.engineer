@@ -33,7 +33,7 @@ Run the docker container or run in VS Code terminal the command below:
 
 ## MacOS
 
-https://jekyllrb.com/docs/installation/macos/
+[install jekill](https://jekyllrb.com/docs/installation/macos/)
 
 And after that:
  
