@@ -9,6 +9,8 @@ tags: [Python, mypy, class]
 
 ![](/images/safari.jpeg){:.post-title}
 
+### How to fix mysterious Python error `Mypy: expects no type arguments, but 1 given [type-arg]`
+
 Have you ever heard of generic type aliases? 
 
 At first glance, [the theory behind them](https://mypy.readthedocs.io/en/stable/generics.html#generic-type-aliases)

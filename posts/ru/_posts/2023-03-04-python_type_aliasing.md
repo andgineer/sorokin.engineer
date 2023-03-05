@@ -9,6 +9,8 @@ tags: [Python, mypy, class]
 
 ![](/images/safari.jpeg){:.post-title}
 
+### Как исправить загадочную ошибку Python `Mypy: expects no type arguments, but 1 given [type-arg]`
+
 Приходилось ли вам слышать про псевдонимы типов в Питоне? 
 
 На первый взгляд, [теория](https://mypy.readthedocs.io/en/stable/generics.html#generic-type-aliases)
