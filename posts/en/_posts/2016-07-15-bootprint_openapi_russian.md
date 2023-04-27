@@ -19,7 +19,7 @@ He want something that he can place on shelf.
 
 Ok here it is [bootprint-openapi](https://github.com/bootprint/bootprint-openapi).
 
-And of cause we wanted Russian version so I [forked](https://github.com/andgineer/bootprint-openapi)
+And of cause we wanted Russian version so I [forked](https://github.com/andgineer/bootprint-openapi-ru)
 bootprint-openapi and it took about half and hour to localize it. The project is based on handle bars
 and all strings to localize neatly in one place.
 It's a pity I cannot merge my localization with the project because bootprint-openapi does not support 
