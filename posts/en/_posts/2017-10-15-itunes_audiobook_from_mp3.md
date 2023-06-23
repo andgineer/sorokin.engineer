@@ -29,8 +29,14 @@ To convert files, for example, in the directory `~/Downloads/audiobook`:
     audiobook-tags ~/Downloads/audiobook -n=name
 
 This command will fix the tag encoding, assuming it's Win1251 (if you need a different encoding, use the `--encoding` argument). 
+
 It will also sort the order based on the file name. 
+
 If you need a different order, refer to the description of the `--num` argument.
+
+By default it is looking for `mp3`, you can change that with the `--suffix` argument, for example `-s="m4b"`.
+
+If you want to try it without changes to files, add `--dry` argument.
 
 To get help on the program, use:
 
