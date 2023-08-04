@@ -29,7 +29,9 @@ your data processing tasks faster.
 The following get_gene_info function demonstrates how to use the HTTP-Stream-XML library to retrieve gene 
 information from the NCBI entrez API (PubMed), a vast database of biomedical information.
 
+{% highlight python %}
 {% include src/http_stream_example.py %}
+{% endhighlight %}
 
 The get_gene_info function uses HTTP-Stream-XML to retrieve and parse the XML response from the NCBI API. 
 The function initiates an HTTP GET request to the API and streams the response. 

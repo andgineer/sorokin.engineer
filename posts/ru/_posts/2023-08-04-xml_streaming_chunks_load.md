@@ -30,7 +30,9 @@ tags: [Python, xml, http, streaming]
 Функция get_gene_info демонстрирует, как использовать библиотеку HTTP-Stream-XML для получения информации 
 о гене из базы данных NCBI entrez API (PubMed), огромной базы данных биомедицинской информации.
 
+{% highlight python %}
 {% include src/http_stream_example.py %}
+{% endhighlight %}
 
 Функция get_gene_info использует HTTP-Stream-XML для получения и анализа XML-ответа от NCBI API. 
 Функция инициирует HTTP-запрос GET к API и стримит ответ. По мере поступления данных, XmlStreamExtractor начинает 
