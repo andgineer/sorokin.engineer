@@ -13,7 +13,7 @@ redirect_from: "/posts/ru/amazon_dash_button_hack_install/"
 
 ## Установка в Docker на Synology
 
-Добавляем в Docker image с моим приложением `https://hub.docker.com/r/andgineer/amazon-dash-button-hack`:
+Добавляем в Docker image с моим приложением [amazon-dash-button-hack](https://hub.docker.com/r/andgineer/amazon-dash-button-hack):
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
