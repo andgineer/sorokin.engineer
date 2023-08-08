@@ -44,7 +44,7 @@ in `openweathermap_key_file_name` parameter of `settings.json`).
 
 ## Synology set up
 
-Add Docker image from URL `https://cloud.docker.com/repository/docker/andgineer/iot-calendar`:
+Add Docker image from URL `https://hub.docker.com/r/andgineer/iot-calendar`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)

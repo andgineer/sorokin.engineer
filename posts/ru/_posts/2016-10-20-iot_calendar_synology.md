@@ -45,7 +45,7 @@ redirect_from: "/posts/ru/iot_calendar_synology/"
 
 ## Установка на Synology
 
-Добавляем в Docker image с моим приложением `https://cloud.docker.com/repository/docker/andgineer/iot-calendar`:
+Добавляем в Docker image с моим приложением `https://hub.docker.com/r/andgineer/iot-calendar`:
 
 ![](/images/dash_synology_docker_image.png)
 ![](/images/dash_synology_docker_url.png)
