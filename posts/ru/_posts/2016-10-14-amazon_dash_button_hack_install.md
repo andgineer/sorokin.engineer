@@ -130,6 +130,9 @@ MAC-адрес кнопки надо добавить в файл `buttons.json`
 Подробнее про типы действий и как их настроить описано ниже.
 Вы можете настроить только нужные вам.
 
+[Описание settings.json](https://andgineer.github.io/docker-amazon-dash-button-hack/settings/)
+
+
 ## IFTTT
 
 С помощью сервиса [IFTTT](https://ifttt.com) вы можете использовать тысячи готовых подключений

@@ -27,11 +27,11 @@ The only specific thing that they assume - that you place [secrets and settings]
 in folder `docker/amazon-dash-private`.
 ![](/images/synology_import_settings.png)
 
-Or you can do all that by youself - see instructions below.
+Or you can do all that by yourself - see instructions below.
 
 Double-click on the image to create Docker container
 
-Give high privilidge because it sniffs network traffic:
+Give high privilege because it sniffs network traffic:
 
 ![](/images/dash_synology_docker_general.png)
 
@@ -124,6 +124,8 @@ one or different types).
 
 Action types described below.
 You can setup only that action types that you need.
+
+[Documentation for settings.json](https://andgineer.github.io/docker-amazon-dash-button-hack/settings/)
 
 ## IFTTT
 
