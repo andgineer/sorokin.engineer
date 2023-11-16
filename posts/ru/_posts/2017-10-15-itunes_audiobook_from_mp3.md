@@ -22,10 +22,15 @@ CD-дисках.
 
 Установите [audiobook-tags](https://github.com/andgineer/itunes-audiobook-from-mp3)
 
-Для этого у вас должен быть установлен [Python](https://www.python.org/downloads/).
+### Установка
+Установите, используя [`pipx`](https://pypa.github.io/pipx/), для изоляции, что предотвращает
+вмешательство в системный Python.
 
-    python -m pip install audiobook-tags
+После установки `pipx`:
 
+    pipx install audiobook-tags
+
+### Почините тэги
 Чтобы конвертировать файлы, например в каталоге `~/Downloads/audiobook`:
 
     audiobook-tags ~/Downloads/audiobook -n=name

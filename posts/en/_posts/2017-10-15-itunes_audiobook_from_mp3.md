@@ -20,11 +20,17 @@ This issue is not specific to where you obtained the audiobook files. It happens
 
 Install [audiobook-tags](https://github.com/andgineer/itunes-audiobook-from-mp3)
 
-To do this, you need to have [Python](https://www.python.org/downloads/) installed.
+### Installation
+Install using [`pipx`](https://pypa.github.io/pipx/) for isolated environments, which prevents interference
+with your system's Python packages.
 
-    python -m pip install audiobook-tags
+Once `pipx` is set up:
 
-To convert files, for example, in the directory `~/Downloads/audiobook`:
+    pipx install audiobook-tags
+
+### Fix the tags
+
+To convert audio files tags, for example, in the directory `~/Downloads/audiobook`:
 
     audiobook-tags ~/Downloads/audiobook -n=name
 
