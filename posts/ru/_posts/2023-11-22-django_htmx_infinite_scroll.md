@@ -116,8 +116,32 @@ python manage.py runserver
 Откройте в браузере http://localhost:8000/ и вы увидите прокручиваемый список страниц.
 
 ## Объяснение кода
+#### HTMX бесконечная прокрутка
+{% highlight python %}
+<div class="row justify-content-center"
+        hx-get="{% url 'book-page' %}?page-number={{ page.number|add:1 }}"
+        hx-swap="afterend"
+        hx-trigger="revealed"
+    <div id="page-{{ page.number }}" class="col-10">
+        <h2 class="card-title text-center">{{ page.number }}</h2>
+        <p class="card-text">{{ page.content }}</p>
+    </div>
+</div>
 
+Чтобы показать одну страницу, мы используем код выше.
+
+Он включает атрибут `hx-get` для указания URL AJAX-запроса.
+Это вызывает наше представление `book_page` с номером страницы в качестве параметра.
+
+Атрибут `hx-swap` определяет, куда должен быть вставлен ответ. `afterend` означает, что ответ будет
+вставлен после текущего элемента.
+
+Атрибут `hx-trigger` указывает событие, которое вызывает AJAX-запрос. `revealed` означает, что запрос
+будет отправлен, когда элемент станет видимым.
+
+Таким образом, когда пользователь прокручивает страницу вниз и она становится видимой, HTMX отправляет 
+AJAX-запрос в Django, чтобы получить следующую страницу.
+И так далее.
 
 ## Исходный код
-
 [django-htmx-infinite-scroll](https://github.com/andgineer/django-htmx-infinite-scroll)

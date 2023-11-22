@@ -108,5 +108,32 @@ python manage.py runserver
 Open http://localhost:8000/ in your browser, and you will see a scrollable list of pages.
 
 ## Code Explanation
+#### HTMX infinite scroll
+{% highlight python %}
+<div class="row justify-content-center"
+        hx-get="{% url 'book-page' %}?page-number={{ page.number|add:1 }}"
+        hx-swap="afterend"
+        hx-trigger="revealed"
+    <div id="page-{{ page.number }}" class="col-10">
+        <h2 class="card-title text-center">{{ page.number }}</h2>
+        <p class="card-text">{{ page.content }}</p>
+    </div>
+</div>
+{% endhighlight %}
+
+To show one page we use the code above.
+
+It includes a `hx-get` attribute to specify the URL for an AJAX request. 
+It call our view `book_page` with the page number as a parameter.
+
+The `hx-swap` attribute defines where the response should be inserted. `afterend` means that the response will 
+be inserted after the current element.
+
+The `hx-trigger` attribute specifies the event that triggers the AJAX request. `revealed` means that the request
+will be sent when the element becomes visible.
+
+So when the user scrolls down and the page becomes visible, HTMX will send an AJAX request to Django to get the next page.
+And so on.
+
 ## Source Code
 [django-htmx-infinite-scroll](https://github.com/andgineer/django-htmx-infinite-scroll)
