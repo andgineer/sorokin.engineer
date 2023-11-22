@@ -147,5 +147,20 @@ AJAX-запрос в Django, чтобы получить следующую ст
 
 И так далее.
 
+#### Подключение библиотеки HTMX
+Мы подключаем библиотеку HTMX загружая ее javascript код в нашем [базовом шаблоне](https://github.com/andgineer/django-htmx-infinite-scroll/blob/64d39895dc30445bab4f67b9fcda961a69cc8f89/django_htmx_infinite_scroll/templates/base.html#L4):
+
+{% highlight html %}
+<script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
+{% endhighlight %}
+
+В шаблоне книги мы указываем этот базовый шаблон:
+
+{% highlight html %}
+{% raw %}
+{% extends "base.html" %}
+{% endraw %}
+{% endhighlight %}
+
 ## Исходный код
 [django-htmx-infinite-scroll](https://github.com/andgineer/django-htmx-infinite-scroll)
