@@ -28,7 +28,7 @@ Now, open http://localhost:8000/ in your browser to view our infinite scroll lis
 ## How to Create Such an Application in Five Minutes
 #### Create a Django Application
 You should have Python and pip installed.
-Install Django and create a project named core and an app named `django_htmx_infinite_scroll`:
+Install Django and create a project named `core` and an app named `django_htmx_infinite_scroll`:
 {% highlight bash %}
 pip install django faker
 django-admin startproject core .
@@ -53,7 +53,7 @@ python manage.py migrate
 {% endhighlight %}
 
 #### Populate the Database
-To test, create records in the database. To do this, we need a Django command - add the contents of [add-pages](https://github.com/andgineer/django-htmx-infinite-scroll/blob/84d91ed61b86eb8c7c315ac4ab14b91f9a9101fe/django_htmx_infinite_scroll/management/commands/add-pages.py#L1)
+To test, create records in the database. To do this, we need a Django command - add the contents of [add-pages.py](https://github.com/andgineer/django-htmx-infinite-scroll/blob/84d91ed61b86eb8c7c315ac4ab14b91f9a9101fe/django_htmx_infinite_scroll/management/commands/add-pages.py#L1)
  to the 
 `django_htmx_infinite_scroll/management/commands/add-pages.py` file.
 
@@ -110,6 +110,7 @@ Open http://localhost:8000/ in your browser, and you will see a scrollable list 
 ## Code Explanation
 #### HTMX infinite scroll
 {% highlight python %}
+{% raw %}
 <div class="row justify-content-center"
         hx-get="{% url 'book-page' %}?page-number={{ page.number|add:1 }}"
         hx-swap="afterend"
@@ -119,6 +120,7 @@ Open http://localhost:8000/ in your browser, and you will see a scrollable list 
         <p class="card-text">{{ page.content }}</p>
     </div>
 </div>
+{% endraw %}
 {% endhighlight %}
 
 To show one page we use the code above.

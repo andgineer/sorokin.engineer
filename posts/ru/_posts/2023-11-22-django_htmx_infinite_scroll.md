@@ -57,7 +57,7 @@ python manage.py migrate
 
 #### Наполним базу данных
 Для тестирования создадим записи в базе данных. Для этого нам потребуется команда Django - добавьте содержимое
-[add-pages](https://github.com/andgineer/django-htmx-infinite-scroll/blob/84d91ed61b86eb8c7c315ac4ab14b91f9a9101fe/django_htmx_infinite_scroll/management/commands/add-pages.py#L1)
+[add-pages.py](https://github.com/andgineer/django-htmx-infinite-scroll/blob/84d91ed61b86eb8c7c315ac4ab14b91f9a9101fe/django_htmx_infinite_scroll/management/commands/add-pages.py#L1)
 в файл `django_htmx_infinite_scroll/management/commands/add-pages.py`.
 
 Тепере можно вызвать `python manage.py add-pages`.
@@ -118,6 +118,7 @@ python manage.py runserver
 ## Объяснение кода
 #### HTMX бесконечная прокрутка
 {% highlight python %}
+{% raw %}
 <div class="row justify-content-center"
         hx-get="{% url 'book-page' %}?page-number={{ page.number|add:1 }}"
         hx-swap="afterend"
@@ -127,6 +128,7 @@ python manage.py runserver
         <p class="card-text">{{ page.content }}</p>
     </div>
 </div>
+{% endraw %}
 {% endhighlight %}
 
 Чтобы показать одну страницу, мы используем код выше.
