@@ -138,7 +138,7 @@ So when the user scrolls down and the page becomes visible, HTMX will send an AJ
 And so on.
 
 #### Integrating HTMX Library
-We integrate the HTMX library by loading its JavaScript code in our [базовом шаблоне](https://github.com/andgineer/django-htmx-infinite-scroll/blob/64d39895dc30445bab4f67b9fcda961a69cc8f89/django_htmx_infinite_scroll/templates/base.html#L4):
+We integrate the HTMX library by loading its JavaScript code in our [base template](https://github.com/andgineer/django-htmx-infinite-scroll/blob/64d39895dc30445bab4f67b9fcda961a69cc8f89/django_htmx_infinite_scroll/templates/base.html#L4):
 
 {% highlight html %}
 <script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
