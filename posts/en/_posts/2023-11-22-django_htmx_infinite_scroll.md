@@ -7,7 +7,7 @@ comments: true
 tags: [Python, HTMX, Django]
 ---
 
-![Steampunk Chunks Factory](/images/steampunk-chunks-factory.png){:.post-title}
+![](/images/python-scroll.png){:.post-title}
 
 I will explain how to create an infinite, dynamically loaded list using Django and HTMX.
 No JavaScript or CSS required.
@@ -19,8 +19,6 @@ I have also included Bootstrap for styling, but it's optional.
 git clone https://github.com/andgineer/django-htmx-infinite-scroll.git
 cd django-htmx-infinite-scroll
 . ./activate  # Note the dot at the beginning of the command
-pip install http-stream-xml
-make migrate
 make init-db
 make run
 ```
@@ -54,14 +52,12 @@ python manage.py makemigrations
 python manage.py migrate
 {% endhighlight %}
 
-Alternatively, you can use make migrate; check the Makefile for how it's done.
-
 #### Populate the Database
 To test, create records in the database. To do this, we need a Django command - add the contents of [add-pages](https://github.com/andgineer/django-htmx-infinite-scroll/blob/84d91ed61b86eb8c7c315ac4ab14b91f9a9101fe/django_htmx_infinite_scroll/management/commands/add-pages.py#L1)
  to the 
 `django_htmx_infinite_scroll/management/commands/add-pages.py` file.
 
-Now you can run `python manage.py add-pages` or `make add-pages`.
+Now you can run `python manage.py add-pages`.
 
 #### Create Views
 Define two views in `django_htmx_infinite_scroll/views.py`, which can be copied from [views.py](https://github.com/andgineer/django-htmx-infinite-scroll/blob/84d91ed61b86eb8c7c315ac4ab14b91f9a9101fe/django_htmx_infinite_scroll/views.py#L1).
@@ -108,8 +104,6 @@ Now you can start the server and see the result:
 {% highlight bash %}
 python manage.py runserver
 {% endhighlight %}
-
-Or use make run.
 
 Open http://localhost:8000/ in your browser, and you will see a scrollable list of pages.
 

@@ -1,13 +1,13 @@
 ---
 layout: post
 lang: ru
-ref: django_htmx_infinite_scrol
+ref: django_htmx_infinite_scroll
 title: "Django реализация бесконечного списка на HTMX"
 comments: true
 tags: [Python, HTMX, Django]
 ---
 
-![](/images/steampunk-chunks-factory.png){:.post-title}
+![](/images/python-scroll.png){:.post-title}
 
 Я расскажу как сделать бесконечный, динамически подгружаемый список на Django и HTMX.
 Ни единой строчки JavaScript, ни единого CSS.
@@ -18,8 +18,6 @@ tags: [Python, HTMX, Django]
     git clone https://github.com/andgineer/django-htmx-infinite-scroll.git
     cd django-htmx-infinite-scroll
     . ./activate  # обратите внимание на точку в начале команды
-    pip install http-stream-xml
-    make migrate
     make init-db
     make run
 
@@ -57,14 +55,12 @@ python manage.py makemigrations
 python manage.py migrate
 {% endhighlight %}
 
-Или можно использовать `make migrate`, посмотрите `Makefile` как это сделано.
-
 #### Наполним базу данных
 Для тестирования создадим записи в базе данных. Для этого нам потребуется команда Django - добавьте содержимое
 [add-pages](https://github.com/andgineer/django-htmx-infinite-scroll/blob/84d91ed61b86eb8c7c315ac4ab14b91f9a9101fe/django_htmx_infinite_scroll/management/commands/add-pages.py#L1)
 в файл `django_htmx_infinite_scroll/management/commands/add-pages.py`.
 
-Тепере можно вызвать `python manage.py add-pages` или `make add-pages`.
+Тепере можно вызвать `python manage.py add-pages`.
 
 #### Создадим представление
 Опишем два представления в `django_htmx_infinite_scroll/views.py`, их можно скопировать из
@@ -116,7 +112,6 @@ urlpatterns = [
 {% highlight bash %}
 python manage.py runserver
 {% endhighlight %}
-Или `make run`.
 
 Откройте в браузере http://localhost:8000/ и вы увидите прокручиваемый список страниц.
 
