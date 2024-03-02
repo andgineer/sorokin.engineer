@@ -2,12 +2,12 @@
 layout: post
 lang: en
 ref: bookmate-review
-title: "bookmate.com - A Joke on the Book Market "
+title: "bookmate.com review - A Joke on the Book Market "
 comments: true
 tags: [book]
 ---
 
-🚨 bookmate.com 🚨
+🚨 bookmate.com - angry consumer review 🚨
 
 ![](/images/bookmate.png){:.post-title}
 

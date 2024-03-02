@@ -2,12 +2,12 @@
 layout: post
 lang: sr
 ref: bookmate-review
-title: "bookmate.com - најгоре што постоји на тржишту"
+title: "bookmate.com recenzija - најгоре што постоји на тржишту"
 comments: true
 tags: [book]
 ---
 
-🚨 bookmate.com 🚨
+🚨 bookmate.com - vrisak nezadovoljnog korisnika 🚨
 
 ![](/images/bookmate.png){:.post-title}
 

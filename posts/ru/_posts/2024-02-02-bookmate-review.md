@@ -2,12 +2,12 @@
 layout: post
 lang: ru
 ref: bookmate-review
-title: "bookmate.com - худшее что есть на рынке"
+title: "bookmate.com отзыв - худшее что есть на рынке"
 comments: true
 tags: [book]
 ---
 
-🚨 bookmate.com 🚨
+🚨 bookmate.com отзыв: эпик фейл читателя 🚨
 
 ![](/images/bookmate.png){:.post-title}
 
