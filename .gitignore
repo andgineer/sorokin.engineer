@@ -1,4 +1,4 @@
-_site
+_site/
 .DS_Store
 .jekyll
 .jekyll-metadata
@@ -10,3 +10,5 @@ node_modules
 package.json
 venv/
 Gemfile.lock
+**/__pycache__/
+allure-results/
