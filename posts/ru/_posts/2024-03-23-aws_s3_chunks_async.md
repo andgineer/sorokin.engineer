@@ -32,5 +32,6 @@ finally:
 В некоторых случаях это может быть неэффективно - например, `pickle` читает объекты по кускам, вам не нужно
 загружать весь файл в память для этого.
 
-С [aioS3](https://github.com/andgineer/aios3/actions) `stream()` у вас есть интерфейс, похожий на файл, с настраиваемым
+С [aioS3](https://github.com/andgineer/aios3/actions) `stream()` у вас есть 
+[интерфейс](https://andgineer.github.io/aios3/reference/#aios3.file.stream), похожий на файл, с настраиваемым
 размером куска.

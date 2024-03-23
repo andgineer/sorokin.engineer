@@ -57,7 +57,7 @@ However, the standard chunk-reading approach doesn't provide a file-like object 
 ## aioS3 to the Rescue
 
 Enter [aioS3](https://github.com/andgineer/aios3/actions). This tool extends the functionality of aiobotocore by offering a 
-`stream()` method that provides a file-like interface with a customizable chunk size. 
+[stream()](https://andgineer.github.io/aios3/reference/#aios3.file.stream) method that provides a file-like interface with a customizable chunk size. 
 
 This means you can efficiently read large files from S3 in chunks, just like before, but now in a way that's 
 compatible with operations that need a file-like object.
