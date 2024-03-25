@@ -35,3 +35,15 @@ finally:
 С [aioS3](https://github.com/andgineer/aios3/actions) `stream()` у вас есть 
 [интерфейс](https://andgineer.github.io/aios3/reference/#aios3.file.stream), похожий на файл, с настраиваемым
 размером куска.
+
+```python
+import json
+from aios3.file import stream
+
+json.load(
+    stream(
+        bucket = "mybucket", 
+        key = "my/key/1.json",
+    )
+)
+```
