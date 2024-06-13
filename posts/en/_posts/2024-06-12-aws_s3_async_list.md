@@ -96,8 +96,8 @@ See [documentation](https://andgineer.github.io/async-s3/).
 
 ## Command-Line Utility
 
-The `async-s3` package also includes a command-line utility for convenient experiments with
-your S3 buckets.
+The `async-s3` package also includes [a command-line utility](https://andgineer.github.io/async-s3/as3/) 
+for convenient experiments with your S3 buckets.
 
 ```bash
 as3 du s3://my-bucket/my-key -d 1 -f 20 -r 3
@@ -109,5 +109,3 @@ recursion depth to `1`.
 If there are more than `20` folders at one level, it tries to group them by prefixes. 
 
 The request is repeated `three` times, and the average time is calculated. 
-
-You can run `as3 --help`, `as3 du --help` etc for more details on available commands and options.
