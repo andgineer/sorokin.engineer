@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-ref: s3_chunks_async
+ref: aws_s3_async_list
 title: "Efficiently Listing Large AWS S3 Buckets with Python"
 comments: true
 tags: [aws s3 bucket list_objects async aiobotocore python]

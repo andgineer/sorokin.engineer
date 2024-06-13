@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: ru
-ref: s3_chunks_async
+ref: aws_s3_async_list
 title: "Быстрое параллельное выкачивание списка файлов AWS S3 Buckets на Python"
 comments: true
 tags: [aws s3 bucket list_objects async aiobotocore python]
