@@ -18,37 +18,37 @@ or even millions of objects. This process can take many minutes,
 because for AWS this is just single huge flat list, collected from many nodes.
 
 To address this problem, I've created a Python class called 
-[`ListObjectsAsync`](https://andgineer.github.io/async-s3/) that 
+[`S3BucketObjects`](https://andgineer.github.io/async-s3/) that 
 efficiently lists large buckets.
 
 ## Async
 
-`ListObjectsAsync` uses `aiobotocore` for non-blocking IO operations. 
+`S3BucketObjects` uses `aiobotocore` for non-blocking IO operations. 
 This allows the package to efficiently work in parallel.
 
 ### Intelligent Parallelism
 
-Although S3 doesn't have actual folders, `ListObjectsAsync` simulates recursive folder 
+Although S3 doesn't have actual folders, `S3BucketObjects` simulates recursive folder 
 traversal by using the `Delimiter` parameter in the AWS S3 `list_objects` API call. 
 This parameter treats the given delimiter (`/`) as a folder separator, 
 causing `list_objects` to return not all the keys with the requested prefix, 
 but two lists: objects ("files") and "common prefixes" - logical "subfolders".
 
-`ListObjectsAsync` starts by listing objects at the specified prefix (the root directory), 
+`S3BucketObjects` starts by listing objects at the specified prefix (the root directory), 
 utilizing the delimiter to retrieve the immediate objects and "subfolders" instead of listing 
 all the objects at once. 
 
 It then recursively calls `list_objects` for each "subfolder", treating it as a new root 
 prefix.
 
-To reduce the number of API calls needed, `ListObjectsAsync` employs two key optimizations.
+To reduce the number of API calls needed, `S3BucketObjects` employs two key optimizations.
 
 #### *Recursion Depth Limitation* 
 
 You can specify a maximum recursion depth (`max_depth`) to limit how deep the package 
 traverses into the directory structure. 
 
-Under the specified depth, `ListObjectsAsync` will list objects just as flat list,
+Under the specified depth, `S3BucketObjects` will list objects just as flat list,
 without further recursion.
 
 This can significantly reduce the number of API calls required, especially for buckets with 
@@ -56,7 +56,7 @@ deeply nested "subfolders".
 
 #### *Prefix Grouping*
 
-`ListObjectsAsync` intelligently groups "folders" prefixes to minimize the number of API calls 
+`S3BucketObjects` intelligently groups "folders" prefixes to minimize the number of API calls 
 needed. 
 
 Instead of listing objects for each individual "folder" (which would require a separate API 
@@ -73,7 +73,7 @@ folder0003/
 folder9999/
 ```
 
-Instead of making thousands of API calls (one for each "folder"), `ListObjectsAsync`
+Instead of making thousands of API calls (one for each "folder"), `S3BucketObjects`
 with `max_folders=10` parameter will group them into just ten prefix groups:
 
 ```
@@ -87,7 +87,7 @@ This significantly reduces the number of API calls required, resulting in faster
 times for "folders" with big number of "subfolders".
 
 By combining asynchronous operations, recursive traversal utilizing the "Delimiter" parameter, 
-depth control, and intelligent prefix grouping, `ListObjectsAsync` can improve the
+depth control, and intelligent prefix grouping, `S3BucketObjects` can improve the
 performance tenfold.
 
 ## Usage
