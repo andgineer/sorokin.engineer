@@ -106,7 +106,7 @@ folder9
 для удобных экспериментов с вашими S3 Bucket.
 
 ```bash
-as3 du s3://my-bucket/my-key -d 1 -f 20 -r 3
+as3 du s3://my-bucket/my-key -l 1 -f 20 -r 3
 ```
 
 Эта команда показывает размер и количество объектов в `s3://my-bucket/my-key`, ограничивая 

@@ -100,11 +100,11 @@ The `async-s3` package also includes [a command-line utility](https://andgineer.
 for convenient experiments with your S3 buckets.
 
 ```bash
-as3 du s3://my-bucket/my-key -d 1 -f 20 -r 3
+as3 du s3://my-bucket/my-key -l 1 -f 20 -r 3
 ```
 
 This command shows the size and number of objects in `s3://my-bucket/my-key`, limiting the 
-recursion depth to `1`. 
+recursion level to `1`. 
 
 If there are more than `20` folders at one level, it tries to group them by prefixes. 
 
