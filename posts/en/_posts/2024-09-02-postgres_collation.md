@@ -14,7 +14,7 @@ What should have been a quick half-point story turned into a full story point ta
 
 ## The Unexpected Sorting Surprise
 
-After pushing a new sorting feature to production, I noticed something odd. 
+After pushing a new sorting feature to the CI server, I noticed something odd. 
 This was a Django application, and at first, the behavior was really mysterious.
 
 But after some time I found that the problem was in how `ORDER BY` worked
@@ -79,7 +79,7 @@ SELECT * FROM users ORDER BY LOWER(name);
 ```
 
 This method achieves case-insensitive sorting.
-It's non-deterministic, but it works for my use case.
+It's [non-deterministic](https://www.postgresql.org/docs/12/collation.html#COLLATION-NONDETERMINISTIC), but it works for my use case.
 
 An additional benefit is that we don't have to alter the table structure.
 
