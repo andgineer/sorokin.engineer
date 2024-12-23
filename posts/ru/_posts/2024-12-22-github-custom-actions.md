@@ -14,7 +14,7 @@ tags: [github actions, Python]
 Создание собственных GitHub Actions может выглядеть сложным - нужно разбираться с переменными окружения, 
 входными/выходными параметрами, обработкой ошибок и многим другим. Но это может быть намного проще.
 
-Библиотека [github-custom-actions](https://github.com/andgineer/github-custom-actions) избавляет от всей рутины и предоставляет:
+Библиотека [github-custom-actions](https://andgineer.github.io/github-custom-actions/ru/) избавляет от всей рутины и предоставляет:
 - Типизацию переменных GitHub с автодополнением в IDE
 - Удобный доступ ко всему контексту GitHub (репозиторий, workflow, runner и т.д.)
 - Встроенные Jinja шаблоны для красивых отчетов

@@ -14,7 +14,7 @@ tags: [github actions, Python]
 Creating custom GitHub Actions can seem daunting - you need to handle environment variables, inputs/outputs, 
 error reporting, and more. But it doesn't have to be complicated.
 
-The [github-custom-actions](https://github.com/andgineer/github-custom-actions) library eliminates all the boilerplate and provides:
+The [github-custom-actions](https://andgineer.github.io/github-custom-actions/) library eliminates all the boilerplate and provides:
 - Type hints for GitHub variables with autocompletion in your IDE
 - Easy access to all GitHub context (repository, workflow, runner, etc.)
 - Built-in Jinja templating for nice reports
