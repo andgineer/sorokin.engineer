@@ -4,7 +4,7 @@ lang: en
 ref: s3_chunks_async
 title: "aioS3: Efficient File Handling in Asyncio with aiobotocore"
 comments: true
-tags: [aws s3 async python]
+tags: [aws, s3, async, python]
 ---
 
 ![](/images/s3aio.png){:.post-title}

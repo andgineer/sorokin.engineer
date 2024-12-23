@@ -4,7 +4,7 @@ lang: ru
 ref: s3_chunks_async
 title: "aioS3: Асинхронная загрузка файлов из AWS S3 по частям"
 comments: true
-tags: [aws s3 async python]
+tags: [aws, s3, async, python]
 ---
 
 ![](/images/s3aio.png){:.post-title}

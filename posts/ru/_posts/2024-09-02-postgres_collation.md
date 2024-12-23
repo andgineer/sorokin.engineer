@@ -4,7 +4,7 @@ lang: ru
 ref: postgres_collation
 title: "Загадка сортировки PostgreSQL: Сказка об алфавитной анархии"
 comments: true
-tags: [aws postgres collation]
+tags: [aws, postgres, collation]
 ---
 
 ![](/images/postgres-collation.png){:.post-title}

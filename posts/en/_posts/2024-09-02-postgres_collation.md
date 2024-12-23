@@ -4,7 +4,7 @@ lang: en
 ref: postgres_collation
 title: "The Great PostgreSQL Collation Conundrum: A Tale of Alphabetical Anarchy"
 comments: true
-tags: [aws postgres collation]
+tags: [aws, postgres, collation]
 ---
 
 ![](/images/postgres-collation.png){:.post-title}
