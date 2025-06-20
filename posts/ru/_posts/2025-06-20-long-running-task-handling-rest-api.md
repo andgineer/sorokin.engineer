@@ -2,14 +2,14 @@
 layout: post
 lang: ru
 ref: async_task_handling_rest
-title: "Асинхронная Обработка Задач в REST API с FastAPI и Celery"
+title: "Длительные фоновые задачи в REST API с FastAPI и Celery"
 date: 2025-06-20
 comments: true
 tags: [fastapi, celery, http, status-codes, async]
 ---
 ![](/images/async_rest.png){:.post-title}
 
-При создании API, которые обрабатывают долгоработающие задачи с Celery, RESTful интерфейс должен предоставлять 
+При создании API, которые обрабатывают длительные фоновые задачи с Celery, RESTful интерфейс должен предоставлять 
 асинхронный API для задач.
 
 Вы не можете держать HTTP соединения открытыми бесконечно, ожидая результатов.

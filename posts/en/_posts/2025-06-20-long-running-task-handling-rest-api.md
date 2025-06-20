@@ -2,14 +2,14 @@
 layout: post
 lang: en
 ref: async_task_handling_rest
-title: "Long running Tasks Handling in REST APIs with FastAPI and Celery"
+title: "Long running Background Tasks Handling in REST APIs with FastAPI and Celery"
 date: 2025-06-20
 comments: true
 tags: [fastapi, celery, http, status-codes, async]
 ---
 ![](/images/async_rest.png){:.post-title}
 
-When building APIs that handle long-running tasks with Celery, a RESTful interface should provide an async API for the tasks. 
+When building APIs that handle long-running background tasks with Celery, a RESTful interface should provide an async API for the tasks. 
 
 You can't keep HTTP connections open indefinitely waiting for results. 
 
