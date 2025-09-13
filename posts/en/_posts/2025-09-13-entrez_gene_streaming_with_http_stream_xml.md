@@ -81,7 +81,7 @@ The caching system is smart about partial results—if a previous request didn't
 
 ### 3. Robust Error Handling
 
-Government APIs can be unreliable. The implementation includes:
+Public research database servers can be unreliable. The implementation includes:
 
 ```python
 @lru_cache(maxsize=100)
