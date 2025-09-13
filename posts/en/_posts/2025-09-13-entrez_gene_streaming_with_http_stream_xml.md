@@ -2,7 +2,7 @@
 layout: post
 lang: en
 ref: entrez_gene_streaming
-title: "Building a Smart Gene Information API with NCBI Entrez Streaming"
+title: "Fast Gene Information extraction from NCBI Entrez"
 comments: true
 tags: [Python, NCBI, Entrez, PubMed, bioinformatics, API, caching]
 ---
@@ -10,7 +10,10 @@ tags: [Python, NCBI, Entrez, PubMed, bioinformatics, API, caching]
 ![](/images/dna-helix-streaming.png){:.post-title}
 
 Working with biological data often means dealing with NCBI's Entrez API, a powerful but slow gateway to vast databases like PubMed. 
-The challenge? Entrez responses can be massive (several megabytes), while you often need just a few fields from the beginning 
+
+The challenge? 
+
+Entrez responses can be massive (several megabytes), while you often need just a few fields from the beginning 
 of the XML response.
 
 I previously wrote about [streaming XML parsing for HTTP responses](https://sorokin.engineer/posts/en/xml_streaming_chunks_load.html), showing how to extract data without waiting for complete 
@@ -22,7 +25,8 @@ Today, let's dive deeper into a real-world application: building a smart gene in
 ## The Entrez Challenge
 
 When you request gene information from NCBI Entrez, you get detailed XML responses that can easily exceed 2MB. 
-But here's the key insight: the essential gene information—summary, description, synonyms, and locus—appears within 
+
+But here's the key insight: the essential gene information (summary, description, synonyms, and locus) appears within 
 the first 5-10KB of the response.
 
 Traditional approaches force you to:
@@ -163,13 +167,6 @@ genes = Genes(
     fields=[GeneFields.summary]    # Customize extracted fields
 )
 ```
-
-## Key Design Insights
-
-1. **Fail Fast**: Stop processing as soon as you have what you need
-2. **Cache Wisely**: Store results but validate completeness
-3. **Handle Failures**: Government APIs are unreliable by nature
-4. **Stay Flexible**: Support both simple and advanced use cases
 
 ## Conclusion
 
