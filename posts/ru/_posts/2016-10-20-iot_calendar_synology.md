@@ -23,7 +23,7 @@ redirect_from: "/posts/ru/iot_calendar_synology/"
 ## Настройки
 
 Помимо настройки кнопок в `settings.json` и `buttons.json`, описанной в 
-[Установка на Synology умной wi-fi кнопки](/posts/ru/amazon_dash_button_hack_install.html),
+[Установка на Synology умной wi-fi кнопки](/posts/ru/amazon_dash_button_hack_install.html#google-sheets-%D0%B8-google-calendar-google-drive),
 вам необходимо настроить параметры отображения событий.
 
 Это делается в разделе `dashboards`. Настраивается картинка для дней, в которых не было событий `empty_image` (т.е.

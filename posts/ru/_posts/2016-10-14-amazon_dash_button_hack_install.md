@@ -158,11 +158,13 @@ MAC-адрес кнопки надо добавить в файл `buttons.json`
 Самая сложная часть настройки - в нечеловеческом интерфейсе google дать моему
 приложению права работать с нужными Google API.
 
-Я не буду даже пытаться описать этот экзистенциальный опыт, отправляю вас в 
-
+Включите нужные API:
 
 * [права для Google Sheet API](https://console.developers.google.com/start/api?id=sheets.googleapis.com)
 * [права для Google Calendar API](https://console.developers.google.com/start/api?id=calendar) 
+
+В [IAM -> Service accounts](https://console.cloud.google.com/iam-admin/serviceaccounts)
+создайте или используйте существующий service account и на его владке `Keys` выполните `Add key -> create new key -> JSON`.
 
 В итоге вы получите json-файл с секретами для работы приложения. 
 

@@ -152,11 +152,13 @@ In [Maker Webhook applet](https://ifttt.com/services/maker_webhooks/settings) ge
 
 Challenging part - to get google credentials for my app to work with Google API.
 
-I am too weak to describe it so just give you the links:
-
+Enable API:
 
 - [Google Sheet API](https://console.developers.google.com/start/api?id=sheets.googleapis.com)
 - [Google Calendar API](https://console.developers.google.com/start/api?id=calendar) 
+
+In [IAM -> Service accounts](https://console.cloud.google.com/iam-admin/serviceaccounts)
+create or select existed service account and in tab `Keys` do `Add key -> create new key -> JSON`.
 
 As result you get json-file with credentials for my app. 
 

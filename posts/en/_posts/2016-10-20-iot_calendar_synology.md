@@ -24,7 +24,7 @@ Kindle works for weeks on one charge.
 ## Set up
 
 Set up `settings.json` and `buttons.json`, as described in 
-[Smart wifi button install](/posts/en/amazon_dash_button_hack_install.html).
+[Smart wifi button install](/posts/en/amazon_dash_button_hack_install.html#google-sheets-and-google-calendar-google-drive).
 
 In `dashboards` describe your dashboard. This is image `empty_image` for days without event (i.e.
 mooch days). Also you can have absenties in your calendar (events described in
